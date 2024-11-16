@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Hello World English -->
     <string name="hello_world">Hello World</string>
-    <!-- App Name English -->
     <string name="app_name">Welsh Roots</string>
-
-    <!-- Login English -->
     <string name="login">Login</string>
+    <string name="register">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dontHaveAccount">Don\'t have an account? Sign up</string>
+    <string name="haveAccount">Already have an account? Log In</string>
 </resources>

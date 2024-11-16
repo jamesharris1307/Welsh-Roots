@@ -3,7 +3,19 @@
     <style name="Base.Theme.WelshRoots" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!--<item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/button_color</item>
+
+        <!-- Apply a custom button style -->
+        <item name="materialButtonStyle">@style/CustomMaterialButtonStyle</item>
     </style>
 
     <style name="Theme.WelshRoots" parent="Base.Theme.WelshRoots" />
+
+    <!-- Define the custom button style -->
+    <style name="CustomMaterialButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/button_color</item> <!-- Button background color -->
+        <item name="android:textColor">@android:color/white</item> <!-- Button text color -->
+    </style>
+
 </resources>
+
