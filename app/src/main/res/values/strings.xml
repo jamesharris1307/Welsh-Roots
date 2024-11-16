@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hello World English -->
+    <string name="hello_world">Hello World</string>
+    <!-- App Name English -->
+    <string name="app_name">Welsh Roots</string>
+
+    <!-- Login English -->
+    <string name="login">Login</string>
+</resources>

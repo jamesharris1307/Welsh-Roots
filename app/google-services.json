@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "72149109107",
+    "project_id": "welshroots-69da9",
+    "storage_bucket": "welshroots-69da9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72149109107:android:b64d21c4e6211e66865d06",
+        "android_client_info": {
+          "package_name": "com.example.welshroots"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Vb5b31TuJoLqLNk5qiMHrA-k19Y8mgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

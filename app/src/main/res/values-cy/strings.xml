@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hello World Welsh -->
+    <string name="hello_world">Helo byd</string>
+    <!-- App Name Welsh -->
+    <string name="app_name">Gwreiddiau Cymreig</string>
+
+    <!-- Login Welsh -->
+    <string name="login">Mewngofnod</string>
+</resources>
