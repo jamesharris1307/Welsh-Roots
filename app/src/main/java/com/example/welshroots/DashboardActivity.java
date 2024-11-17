@@ -1,17 +1,22 @@
 package com.example.welshroots;
 
 import android.os.Bundle;
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
+import com.example.welshroots.fragments.AboutFragment;
+import com.example.welshroots.fragments.ExploreFragment;
+import com.example.welshroots.fragments.HomeFragment;
+import com.example.welshroots.fragments.MapsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class HomeActivity extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_dashboard);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
@@ -27,6 +32,8 @@ public class HomeActivity extends AppCompatActivity {
                 selectedFragment = new ExploreFragment();
             } else if (item.getItemId() == R.id.nav_maps) {
                 selectedFragment = new MapsFragment();
+            } else if (item.getItemId() == R.id.nav_about) {
+                selectedFragment = new AboutFragment();
             }
 
             if (selectedFragment != null) {
