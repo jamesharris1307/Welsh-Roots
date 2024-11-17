@@ -61,8 +61,8 @@ public class LoginActivity extends AppCompatActivity {
                         .addOnCompleteListener(LoginActivity.this, task -> {
                             if (task.isSuccessful()) {
                                 Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                                // Redirect to the main screen or dashboard of your app
-                                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                                // Redirect to HomePageActivity after successful login
+                                startActivity(new Intent(LoginActivity.this, HomeActivity.class));
                                 finish();
                             } else {
                                 Toast.makeText(LoginActivity.this, "Error: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
@@ -78,4 +78,5 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 }
+
 

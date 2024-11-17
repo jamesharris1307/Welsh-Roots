@@ -27,11 +27,16 @@
             </intent-filter>
         </activity>
 
-        <!-- Login Activity - Declare it for navigation -->
         <activity android:name=".LoginActivity" />
 
-        <!-- Sign-Up Activity - Declare it for navigation -->
         <activity android:name=".SignUpActivity" />
+
+        <activity android:name=".HomeActivity" />
+
+        <activity android:name=".ExploreActivity" />
+
+        <activity android:name=".MapsActivity" />
+
 
     </application>
 

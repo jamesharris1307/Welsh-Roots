@@ -1,58 +1,39 @@
 package com.example.welshroots;
 
-import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import com.example.welshroots.fragments.HomeFragment;
-import com.example.welshroots.fragments.ExploreFragment;
-import com.example.welshroots.fragments.MapsFragment;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.example.welshroots.R;
 
 public class HomeActivity extends AppCompatActivity {
 
-    @SuppressLint("NonConstantResourceId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-
-        // Set the default fragment
-        loadFragment(new HomeFragment());
-
-        // Handle navigation item clicks
-        bottomNavigationView.setOnItemSelectedListener(item -> {
-            Fragment selectedFragment = null;
-
-            switch (item.getItemId()) {
-                case R.id.nav_home:
-                    selectedFragment = new HomeFragment();
-                    break;
-                case R.id.nav_explore:
-                    selectedFragment = new ExploreFragment();
-                    break;
-                case R.id.nav_maps:
-                    selectedFragment = new MapsFragment();
-                    break;
+        // Setup for Explore Button
+        Button buttonExplore = findViewById(R.id.buttonExplore);
+        buttonExplore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to LoginActivity
+                Intent intent = new Intent(HomeActivity.this, ExploreActivity.class);
+                startActivity(intent);
             }
+        });
 
-            // Load the selected fragment
-            if (selectedFragment != null) {
-                loadFragment(selectedFragment);
+        // Setup for Explore Button
+        Button buttonMaps = findViewById(R.id.buttonMaps);
+        buttonMaps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to LoginActivity
+                Intent intent = new Intent(HomeActivity.this, MapsActivity.class);
+                startActivity(intent);
             }
-            return true;
         });
     }
-
-    private void loadFragment(Fragment fragment) {
-        // Replace the current fragment in the single container
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.fragment_container, fragment)
-                .commit();
-    }
 }
-
-
