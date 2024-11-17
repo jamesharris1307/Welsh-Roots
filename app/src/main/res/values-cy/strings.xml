@@ -10,4 +10,7 @@
     <string name="haveAccount">Oes gennych chi gyfrif eisoes? Mewngofnodi</string>
     <string name="loginOrSignUp">Mewngofnodi neu gofrestru</string>
     <string name="submit">Cynnig</string>
+    <string name="home">Cartref</string>
+    <string name="explore">Archwilio</string>
+    <string name="maps">Mapiau</string>
 </resources>

@@ -10,4 +10,7 @@
     <string name="haveAccount">Already have an account? Log In</string>
     <string name="loginOrSignUp">Login or Sign Up</string>
     <string name="submit">Submit</string>
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="maps">Maps</string>
 </resources>
