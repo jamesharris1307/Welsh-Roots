@@ -5,21 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Your fragment container to load pages -->
+    <!-- Your fragment container -->
     <FrameLayout
         android:id="@+id/nav_host_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <!-- Bottom Navigation View -->
+    <!-- Banner and navigation bar that stay on all pages -->
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welsh Roots Banner"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="@color/button_color"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Bottom Navigation -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
-    android:id="@+id/bottom_navigation"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="bottom"
-    app:menu="@menu/bottom_nav_menu" />
-
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_nav_menu" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-
 

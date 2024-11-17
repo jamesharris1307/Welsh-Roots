@@ -4,16 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:gravity="center">
 
-    <!-- Home page content -->
     <TextView
-        android:id="@+id/homePageText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to the Home Page!"
-        android:textSize="24sp"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="32dp"
-        android:gravity="center"/>
+        android:text="@string/about"
+        android:textSize="18sp"
+        android:textColor="#000" />
 </LinearLayout>

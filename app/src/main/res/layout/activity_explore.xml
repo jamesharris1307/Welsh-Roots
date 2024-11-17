@@ -15,7 +15,7 @@
             android:id="@+id/textViewHomePage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Explore Page"
+            android:text="@string/explore"
             android:textSize="24sp"
             android:layout_centerInParent="true"/>
     </RelativeLayout>

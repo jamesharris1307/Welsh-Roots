@@ -35,10 +35,9 @@ public class HomeActivity extends AppCompatActivity {
 
             return true;
         });
-
     }
 
-    private void loadFragment(Fragment fragment) {
+    public void loadFragment(Fragment fragment) {
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.nav_host_fragment, fragment)
