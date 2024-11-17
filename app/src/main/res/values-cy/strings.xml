@@ -8,4 +8,6 @@
     <string name="password">Cyfrinair</string>
     <string name="dontHaveAccount">Ddim yn cael cyfrif? Ymuno</string>
     <string name="haveAccount">Oes gennych chi gyfrif eisoes? Mewngofnodi</string>
+    <string name="loginOrSignUp">Mewngofnodi neu gofrestru</string>
+    <string name="submit">Cynnig</string>
 </resources>

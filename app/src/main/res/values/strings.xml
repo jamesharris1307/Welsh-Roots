@@ -8,4 +8,6 @@
     <string name="password">Password</string>
     <string name="dontHaveAccount">Don\'t have an account? Sign up</string>
     <string name="haveAccount">Already have an account? Log In</string>
+    <string name="loginOrSignUp">Login or Sign Up</string>
+    <string name="submit">Submit</string>
 </resources>
