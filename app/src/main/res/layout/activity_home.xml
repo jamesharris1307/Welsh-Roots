@@ -6,40 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <!-- Main content of your Home Activity -->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/textViewHomePage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Home Page"
-            android:textSize="24sp"
-            android:layout_centerInParent="true"/>
-
-    </RelativeLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/buttonExplore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Explore"
-            android:gravity="center"/>
+            android:layout_gravity="bottom"
+            android:text="@string/explore"/>
 
         <Button
             android:id="@+id/buttonMaps"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Maps"/>
+            android:layout_gravity="bottom"
+            android:text="@string/maps" />
 
     </LinearLayout>
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
