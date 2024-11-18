@@ -1,18 +1,11 @@
-package com.example.welshroots.fragments;
+package com.example.welshroots;
+
+import androidx.fragment.app.FragmentActivity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import com.example.welshroots.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -21,28 +14,24 @@ import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.example.welshroots.databinding.ActivityMapsBinding;
 
-public class MapsFragment extends Fragment implements OnMapReadyCallback {
+public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        // Inflate the fragment_maps.xml layout
-        return inflater.inflate(R.layout.fragment_maps, container, false);
-    }
+    private ActivityMapsBinding binding;
 
     @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
-        // Set up the map fragment
-        SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager()
+        binding = ActivityMapsBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
-        if (mapFragment != null) {
-            mapFragment.getMapAsync(this);
-        }
+        mapFragment.getMapAsync(this);
     }
 
     @Override
@@ -74,7 +63,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
     }
 
     private BitmapDescriptor bitmapDescriptorFromVector(int vectorResId) {
-        // Convert drawable resource to BitmapDescriptor for custom markers
+        // Load a bitmap from the drawable resource
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), vectorResId);
         return BitmapDescriptorFactory.fromBitmap(bitmap);
     }

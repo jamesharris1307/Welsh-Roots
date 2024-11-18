@@ -14,4 +14,5 @@
     <string name="explore">Explore</string>
     <string name="maps">Maps</string>
     <string name="about">About</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
