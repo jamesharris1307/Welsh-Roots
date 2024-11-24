@@ -3,7 +3,7 @@
     <string name="hello_world">Helo byd</string>
     <string name="app_name">Gwreiddiau Cymreig</string>
     <string name="login">Mewngofnod</string>
-    <string name="register">Cofrestr</string>
+    <string name="signUp">Cofrestr</string>
     <string name="email">Ebost</string>
     <string name="password">Cyfrinair</string>
     <string name="dontHaveAccount">Ddim yn cael cyfrif? Ymuno</string>
@@ -14,4 +14,5 @@
     <string name="explore">Archwilio</string>
     <string name="maps">Mapiau</string>
     <string name="about">Ynghylch</string>
+    <string name="continueGuest">Parhau fel gwestai?</string>
 </resources>

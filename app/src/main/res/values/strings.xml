@@ -3,7 +3,7 @@
     <string name="hello_world">Hello World</string>
     <string name="app_name">Welsh Roots</string>
     <string name="login">Login</string>
-    <string name="register">Sign Up</string>
+    <string name="signUp">Sign Up</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="dontHaveAccount">Don\'t have an account? Sign up</string>
@@ -14,4 +14,5 @@
     <string name="explore">Explore</string>
     <string name="maps">Maps</string>
     <string name="about">About</string>
+    <string name="continueGuest">Continue as guest?</string>
 </resources>

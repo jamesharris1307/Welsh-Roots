@@ -3,40 +3,20 @@
 
     <!--Both Modes-->
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FFB0BEC5</color>
     <color name="black">#FF000000</color>
 
     <!--Light Mode-->
     <!--Status Bar-->
-    <color name="greenStatusBar">#FF21A44A</color>
+    <color name="statusBar">#E6121212</color>
     <!--Banner-->
-    <color name="greenBannerBackground">#FF21A44A</color>
-    <!--Button-->
-    <color name="greenButtonBackground">#FF21A44A</color>
-    <!--Nav Bar-->
-    <color name="greenNavBarBackground">#FF21A44A</color>
-    <!--App Background-->
-    <color name="appBackground">#FFD0F0C0</color>
-
-    <!--Button Text-->
-    <color name="buttonText">#FF21A44A</color>
-
-    <!--Icon Colours-->
-    <color name="nav_icon_selected">#FF000000</color> <!-- Light green for selected icons -->
-    <color name="nav_icon_unselected">#FFFFFFFF</color> <!-- Dark grey for unselected icons -->
-    <color name="nav_text_selected">#FF000000</color> <!-- Light green for selected text -->
-    <color name="nav_text_unselected">#FFFFFFFF</color> <!-- Dark grey for unselected text -->
-
-    <!--Dark Mode-->
-    <!--Status Bar-->
-    <color name="greenStatusBarDark">#FF006F2D</color>
-    <!--Banner-->
-    <color name="greenBannerBackgroundDark">#FF006F2D</color>
+    <color name="bannerBackground">#80121212</color>
     <!--Buttons-->
-    <color name="greenButtonBackgroundDark">#FF006F2D</color>
+    <color name="buttonBackground">#FF007A33</color>
     <!--Nav Bar-->
-    <color name="greenNavBarBackgroundDark">#FF006F2D</color>
+    <color name="navBarBackground">#25121212</color>
     <!--App Background-->
-    <color name="appBackgroundDark">#FF006400</color>
+    <color name="appBackground">#E6121212</color>
 
 
 </resources>

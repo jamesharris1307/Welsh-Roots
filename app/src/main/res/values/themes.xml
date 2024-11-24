@@ -4,27 +4,21 @@
 
         <!--Background Colour-->
         <!-- Status Bar -->
-        <item name="android:statusBarColor">@color/greenStatusBar</item>
+        <item name="android:statusBarColor">@color/statusBar</item>
         <!-- App Background -->
         <item name="appBackground">@color/appBackground</item>
         <!-- Button -->
-        <item name="buttonBackground">@color/greenButtonBackground</item>
+        <item name="buttonBackground">@color/buttonBackground</item>
         <!-- Banner -->
-        <item name="bannerBackground">@color/greenBannerBackground</item>
+        <item name="bannerBackground">@color/bannerBackground</item>
         <!-- Nav Bar -->
-        <item name="navBarBackground">@color/greenBannerBackground</item>
+        <item name="navBarBackground">@color/bannerBackground</item>
 
         <!--Text Colour-->
         <!--Button Text-->
         <item name="buttonText">@color/white</item>
         <!--Banner Text-->
         <item name="bannerText">@color/white</item>
-
-        <!--Icons-->
-        <item name="navIconSelected">@color/nav_icon_selected</item>
-        <item name="navIconUnSelected">@color/nav_icon_unselected</item>
-        <item name="navTextSelected">@color/nav_text_selected</item>
-        <item name="navTextUnSelected">@color/nav_text_unselected</item>
 
     </style>
 

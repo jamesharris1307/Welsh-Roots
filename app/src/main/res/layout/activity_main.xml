@@ -5,60 +5,50 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="top|center_horizontal"
-    android:background="?attr/appBackground">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:layout_marginBottom="40dp"
-        android:background="?attr/buttonBackground"
-        android:gravity="center"
-        android:orientation="horizontal"
-        tools:ignore="UseCompoundDrawables">
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginEnd="10dp"
-            android:contentDescription="@string/app_name"
-            android:src="@mipmap/ic_launcher"
-            android:layout_marginBottom="1dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/app_name"
-            android:textColor="@color/black"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="1dp"/>
-    </LinearLayout>
+    android:background="?attr/appBackground"
+    >
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/loginOrSignUp"
+        android:text="@string/app_name"
         android:gravity="center"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textStyle="bold"
-        android:layout_marginBottom="60dp"
-        android:layout_marginTop="200dp"/>
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="45dp"
         android:text="@string/login"
-        android:backgroundTint="?attr/buttonBackground"/>
+        android:backgroundTint="?attr/buttonBackground"
+        android:elevation="8dp"
+        android:translationZ="8dp"/>
 
     <Button
         android:id="@+id/buttonSignUp"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/register"
-        android:backgroundTint="?attr/buttonBackground"/>
+        android:layout_marginHorizontal="45dp"
+        android:text="@string/signUp"
+        android:backgroundTint="?attr/buttonBackground"
+        android:elevation="8dp"
+        android:translationZ="8dp"/>
+
+    <TextView
+        android:id="@+id/continueGuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continueGuest"
+        android:layout_marginHorizontal="45dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/grey"/>
 
 </LinearLayout>

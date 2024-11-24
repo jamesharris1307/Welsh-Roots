@@ -12,7 +12,7 @@
         android:id="@+id/homePageText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to the Home Page!"
+        android:text="@string/home"
         android:textSize="24sp"
         android:textColor="@color/black"
         android:layout_marginTop="32dp"
