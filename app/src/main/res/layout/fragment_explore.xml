@@ -1,26 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:background="?attr/appBackground">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/homePageText"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to the Explore Page!"
-        android:textSize="24sp"
-        android:textColor="@color/black"
-        android:layout_marginTop="32dp"
-        android:gravity="center"/>
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="?attr/appBackground">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/explore"
-        android:textSize="18sp"
-        android:textColor="@color/black" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/homePageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explore"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="35dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explore"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@null"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@null"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"
+            android:text="@string/explore"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@null"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@null"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"
+            android:text="@string/explore"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@null"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"/>
+    </LinearLayout>
+
+</ScrollView>
