@@ -10,7 +10,8 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?attr/appBackground">
 
         <TextView
             android:id="@+id/textView"
@@ -19,7 +20,7 @@
             android:text="@string/login"
             android:gravity="center"
             android:textSize="30sp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp" />
 
         <EditText
             android:id="@+id/editTextEmail"
@@ -46,7 +47,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/submit"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:backgroundTint="?attr/buttonBackground"/>
 
         <TextView
             android:id="@+id/textViewSignUp"

@@ -1,21 +1,32 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.WelshRoots" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!--<item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="android:statusBarColor">@color/button_color</item>
 
-        <!-- Apply a custom button style -->
-        <item name="materialButtonStyle">@style/CustomMaterialButtonStyle</item>
+        <!--Background Colour-->
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/greenStatusBar</item>
+        <!-- App Background -->
+        <item name="appBackground">@color/appBackground</item>
+        <!-- Button -->
+        <item name="buttonBackground">@color/greenButtonBackground</item>
+        <!-- Banner -->
+        <item name="bannerBackground">@color/greenBannerBackground</item>
+        <!-- Nav Bar -->
+        <item name="navBarBackground">@color/greenBannerBackground</item>
+
+        <!--Text Colour-->
+        <!--Button Text-->
+        <item name="buttonText">@color/white</item>
+        <!--Banner Text-->
+        <item name="bannerText">@color/white</item>
+
+        <!--Icons-->
+        <item name="navIconSelected">@color/nav_icon_selected</item>
+        <item name="navIconUnSelected">@color/nav_icon_unselected</item>
+        <item name="navTextSelected">@color/nav_text_selected</item>
+        <item name="navTextUnSelected">@color/nav_text_unselected</item>
+
     </style>
 
     <style name="Theme.WelshRoots" parent="Base.Theme.WelshRoots" />
-
-    <!-- Define the custom button style -->
-    <style name="CustomMaterialButtonStyle" parent="Widget.Material3.Button">
-        <item name="android:backgroundTint">@color/button_color</item> <!-- Button background color -->
-        <item name="android:textColor">@android:color/white</item> <!-- Button text color -->
-    </style>
-
 </resources>
-

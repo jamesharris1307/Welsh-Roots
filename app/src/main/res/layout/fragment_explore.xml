@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="?attr/appBackground">
 
     <TextView
         android:id="@+id/homePageText"
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Welcome to the Explore Page!"
         android:textSize="24sp"
-        android:textColor="@android:color/black"
+        android:textColor="@color/black"
         android:layout_marginTop="32dp"
         android:gravity="center"/>
 
@@ -21,5 +22,5 @@
         android:layout_height="wrap_content"
         android:text="@string/explore"
         android:textSize="18sp"
-        android:textColor="#000" />
+        android:textColor="@color/black" />
 </LinearLayout>

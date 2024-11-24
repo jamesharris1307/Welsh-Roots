@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="?attr/appBackground">
 
     <!-- Home page content -->
     <TextView
@@ -13,13 +14,13 @@
         android:layout_height="wrap_content"
         android:text="Welcome to the Home Page!"
         android:textSize="24sp"
-        android:textColor="@android:color/black"
+        android:textColor="@color/black"
         android:layout_marginTop="32dp"
         android:gravity="center"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="didjsifd"/>
+            android:text="@string/home"/>
 
 </LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomAttributes">
+        <attr name="buttonBackground" format="color"/>
+        <attr name="bannerBackground" format="color"/>
+        <attr name="navBarBackground" format="color"/>
+        <attr name="appBackground" format="color"/>
+        <attr name="buttonText" format="color"/>
+        <attr name="bannerText" format="color"/>
+
+        <attr name="navIconSelected" format="color"/>
+        <attr name="navIconUnSelected" format="color"/>
+        <attr name="navTextSelected" format="color"/>
+        <attr name="navTextUnSelected" format="color"/>
+
+    </declare-styleable>
+</resources>
