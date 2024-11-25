@@ -56,10 +56,10 @@ public class DashboardActivity extends AppCompatActivity {
             return true;
         });
 
-        // Set up the settings icon
+        // Set up the Settings/Account
         ImageButton accountIcon = findViewById(R.id.accountIcon);
         accountIcon.setOnClickListener(v -> {
-            // Open the SettingsFragment when settings icon is clicked
+            // Open Settings/Account
             loadFragment(new SettingsFragment());
         });
     }

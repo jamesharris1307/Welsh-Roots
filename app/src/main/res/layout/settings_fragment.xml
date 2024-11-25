@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp">
+    android:gravity="start"
+    android:padding="16dp"
+    android:layout_marginHorizontal="60dp"
+    android:layout_marginVertical="60dp">
 
     <Switch
         android:id="@+id/modeChoice"
@@ -16,8 +18,17 @@
         tools:ignore="UseSwitchCompatOrMaterialXml"
         android:thumbTint="@color/greenLight"
         android:trackTint="@color/greenDark"
+        />
 
-
+    <Switch
+        android:id="@+id/modeHighContrast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable High Contrast Mode"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:thumbTint="@color/greenLight"
+        android:trackTint="@color/greenDark"
+        android:layout_marginTop="10dp"
         />
 
 </LinearLayout>
