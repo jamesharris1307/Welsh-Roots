@@ -22,7 +22,7 @@
             android:textSize="40sp"
             android:textStyle="bold"
             android:layout_marginBottom="40dp"
-            android:textColor="@color/white"/>
+            android:textColor="?attr/paraText"/>
 
         <EditText
             android:id="@+id/editTextEmail"
@@ -53,6 +53,7 @@
             android:layout_marginHorizontal="45dp"
             android:padding="12dp"
             android:text="@string/signUp"
+            android:textColor="@color/white"
             android:backgroundTint="?attr/buttonBackground"
             app:cornerRadius="8dp"/>
 

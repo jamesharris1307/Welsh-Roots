@@ -5,7 +5,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#6A7276</color>
     <color name="black">#FF000000</color>
-    <color name="green">#FF007A33</color>
+    <color name="greenLight">#FF007A33</color>
+    <color name="greenDark">#FF007A33</color>
 
     <!--Light Mode-->
     <!--Status Bar-->
@@ -17,7 +18,7 @@
     <!--Nav Bar-->
     <color name="navBarBackground">#FFFFFFFF</color>
     <!--App Background-->
-    <color name="appBackground">#FFFFFFFF</color>
+    <color name="appBackground">#26A5FB9C</color>
 
     <!--Text-->
     <color name="paraText">#FF000000</color>
@@ -45,7 +46,7 @@
 
     <!--Icons-->
     <color name="iconsDark">#FFFFFFFF</color>
-    <color name="navIconBackgroundDark">#FF000000</color>
+    <color name="navIconBackgroundDark">#121212</color>
 
 
 </resources>

@@ -25,7 +25,7 @@
         <item name="iconText">@color/iconTextDark</item>
 
         <!-- Edge Effect -->
-        <item name="android:colorEdgeEffect">@color/green</item>
+        <item name="android:colorEdgeEffect">@color/greenLight</item>
 
         <!--Icons-->
         <item name="icons">@color/iconsDark</item>
