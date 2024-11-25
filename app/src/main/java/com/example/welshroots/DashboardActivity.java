@@ -56,7 +56,7 @@ public class DashboardActivity extends AppCompatActivity {
             return true;
         });
 
-        // Set up the Settings/Account
+        // Set up the Settings/Accounts
         ImageButton accountIcon = findViewById(R.id.accountIcon);
         accountIcon.setOnClickListener(v -> {
             // Open Settings/Account
