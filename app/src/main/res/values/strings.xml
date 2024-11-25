@@ -14,5 +14,5 @@
     <string name="explore">Explore</string>
     <string name="maps">Maps</string>
     <string name="about">About</string>
-    <string name="continueGuest">Continue as guest?</string>
+    <string name="continueGuest">Don\'t have an account?\n Continue as guest?</string>
 </resources>

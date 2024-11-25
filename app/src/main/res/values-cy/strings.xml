@@ -14,5 +14,5 @@
     <string name="explore">Archwilio</string>
     <string name="maps">Mapiau</string>
     <string name="about">Ynghylch</string>
-    <string name="continueGuest">Parhau fel gwestai?</string>
+    <string name="continueGuest">Ddim yn cael cyfrif?\n Parhau fel gwestai?</string>
 </resources>
