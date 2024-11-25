@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="top|center_horizontal"
-    android:background="?attr/appBackground"
-    >
+    android:background="?attr/appBackground">
 
     <TextView
         android:id="@+id/textView"
@@ -29,7 +29,8 @@
         android:text="@string/login"
         android:backgroundTint="?attr/buttonBackground"
         android:elevation="8dp"
-        android:translationZ="8dp"/>
+        android:translationZ="8dp"
+        app:cornerRadius="8dp"/>
 
     <Button
         android:id="@+id/buttonSignUp"
@@ -39,7 +40,8 @@
         android:text="@string/signUp"
         android:backgroundTint="?attr/buttonBackground"
         android:elevation="8dp"
-        android:translationZ="8dp"/>
+        android:translationZ="8dp"
+        app:cornerRadius="8dp"/>
 
     <TextView
         android:id="@+id/continueGuest"

@@ -32,7 +32,8 @@
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="12dp"
-            android:textColor="@color/grey"/>
+            android:textColor="@color/white"
+            />
 
         <EditText
             android:id="@+id/editTextPassword"
@@ -43,7 +44,7 @@
             android:hint="@string/password"
             android:padding="12dp"
             android:inputType="textPassword"
-            android:textColor="@color/grey"/>
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/buttonLogin"
@@ -53,7 +54,8 @@
             android:text="@string/login"
             android:layout_marginHorizontal="45dp"
             android:padding="12dp"
-            android:backgroundTint="?attr/buttonBackground"/>
+            android:backgroundTint="?attr/buttonBackground"
+            app:cornerRadius="8dp"/>
 
         <TextView
             android:id="@+id/textViewSignUp"

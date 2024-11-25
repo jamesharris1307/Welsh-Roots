@@ -53,7 +53,8 @@
             android:layout_marginHorizontal="45dp"
             android:padding="12dp"
             android:text="@string/signUp"
-            android:backgroundTint="?attr/buttonBackground"/>
+            android:backgroundTint="?attr/buttonBackground"
+            app:cornerRadius="8dp"/>
 
         <TextView
             android:id="@+id/textViewLogin"

@@ -50,8 +50,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="35dp"
-            android:layout_marginVertical="35dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="15dp"
             android:text="@string/explore"
             android:gravity="center"/>
 
@@ -88,7 +88,6 @@
             android:background="@color/white"
             android:contentDescription="@string/explore"
             android:layout_marginHorizontal="35dp"
-            android:layout_marginVertical="35dp"
             android:layout_marginBottom="100dp"/>
     </LinearLayout>
 
