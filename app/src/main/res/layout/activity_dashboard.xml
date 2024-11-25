@@ -55,6 +55,8 @@
         android:layout_gravity="bottom"
         app:menu="@menu/bottom_nav_menu"
         android:background="?attr/navBarBackground"
-        app:itemTextColor="@color/white"/>
+        app:itemTextColor="?attr/iconText"
+        app:itemRippleColor="@color/white"
+        app:itemActiveIndicatorStyle="?attr/navIconBackground"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

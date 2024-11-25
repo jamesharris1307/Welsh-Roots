@@ -9,15 +9,43 @@
 
     <!--Light Mode-->
     <!--Status Bar-->
-    <color name="statusBar">#121212</color>
+    <color name="statusBar">#FFFFFFFF</color>
     <!--Banner-->
-    <color name="bannerBackground">#121212</color>
+    <color name="bannerBackground">#FFFFFFFF</color>
     <!--Buttons-->
     <color name="buttonBackground">#FF007A33</color>
     <!--Nav Bar-->
-    <color name="navBarBackground">#121212</color>
+    <color name="navBarBackground">#FFFFFFFF</color>
     <!--App Background-->
-    <color name="appBackground">#1D1D1D</color>
+    <color name="appBackground">#FFFFFFFF</color>
+
+    <!--Text-->
+    <color name="paraText">#FF000000</color>
+    <color name="iconText">#FF000000</color>
+
+    <!--Icons-->
+    <color name="icons">#FF000000</color>
+    <color name="navIconBackground">#FFFFFFFF</color>
+
+    <!--Dark Mode-->
+    <!--Status Bar-->
+    <color name="statusBarDark">#121212</color>
+    <!--Banner-->
+    <color name="bannerBackgroundDark">#121212</color>
+    <!--Buttons-->
+    <color name="buttonBackgroundDark">#FF007A33</color>
+    <!--Nav Bar-->
+    <color name="navBarBackgroundDark">#121212</color>
+    <!--App Background-->
+    <color name="appBackgroundDark">#1D1D1D</color>
+
+    <!--Text-->
+    <color name="paraTextDark">#FFFFFFFF</color>
+    <color name="iconTextDark">#FFFFFFFF</color>
+
+    <!--Icons-->
+    <color name="iconsDark">#FFFFFFFF</color>
+    <color name="navIconBackgroundDark">#FF000000</color>
 
 
 </resources>

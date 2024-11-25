@@ -10,6 +10,11 @@
         <!--Texts-->
         <attr name="buttonText" format="color"/>
         <attr name="bannerText" format="color"/>
+        <attr name="paraText" format="color"/>
+        <attr name="iconText" format="color"/>
 
+        <!--Icons-->
+        <attr name="icons" format="color"/>
+        <attr name="navIconBackground" format="color"/>
     </declare-styleable>
 </resources>
