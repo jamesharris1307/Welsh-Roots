@@ -11,7 +11,5 @@
         <attr name="buttonText" format="color"/>
         <attr name="bannerText" format="color"/>
 
-        <!---->
-
     </declare-styleable>
 </resources>

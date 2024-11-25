@@ -15,11 +15,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WelshRoots"
+
         tools:targetApi="31">
 
         <!-- Main Activity - the entry point of your app -->
         <activity
             android:name=".MainActivity"
+            android:theme="@style/Theme.WelshRoots"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

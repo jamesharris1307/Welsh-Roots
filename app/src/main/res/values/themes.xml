@@ -12,7 +12,7 @@
         <!-- Banner -->
         <item name="bannerBackground">@color/bannerBackground</item>
         <!-- Nav Bar -->
-        <item name="navBarBackground">@color/bannerBackground</item>
+        <item name="navBarBackground">@color/navBarBackground</item>
 
         <!--Text Colour-->
         <!--Button Text-->
@@ -20,7 +20,11 @@
         <!--Banner Text-->
         <item name="bannerText">@color/white</item>
 
+        <!-- Edge Effect -->
+        <item name="android:colorEdgeEffect">@color/green</item> <!-- Green overscroll effect -->
+
     </style>
 
     <style name="Theme.WelshRoots" parent="Base.Theme.WelshRoots" />
+
 </resources>

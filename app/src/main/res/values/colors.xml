@@ -5,18 +5,19 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#FFB0BEC5</color>
     <color name="black">#FF000000</color>
+    <color name="green">#FF007A33</color>
 
     <!--Light Mode-->
     <!--Status Bar-->
-    <color name="statusBar">#E6121212</color>
+    <color name="statusBar">#121212</color>
     <!--Banner-->
-    <color name="bannerBackground">#80121212</color>
+    <color name="bannerBackground">#121212</color>
     <!--Buttons-->
     <color name="buttonBackground">#FF007A33</color>
     <!--Nav Bar-->
-    <color name="navBarBackground">#25121212</color>
+    <color name="navBarBackground">#121212</color>
     <!--App Background-->
-    <color name="appBackground">#E6121212</color>
+    <color name="appBackground">#1D1D1D</color>
 
 
 </resources>
