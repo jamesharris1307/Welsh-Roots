@@ -26,7 +26,7 @@
         android:textColor="@color/grey" />
 
     <ImageButton
-        android:id="@+id/imageButtonMusuemVirtualTour1"
+        android:id="@+id/imageButtonMuseumVirtualTour1"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="@color/white"
@@ -43,7 +43,7 @@
         android:gravity="center"/>
 
     <ImageButton
-        android:id="@+id/imageButtonMusuemVirtualTour2"
+        android:id="@+id/imageButtonMuseumVirtualTour2"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="@color/white"
