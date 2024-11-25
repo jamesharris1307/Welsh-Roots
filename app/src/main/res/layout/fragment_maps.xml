@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Welcome to the Maps Page!"
         android:textSize="24sp"
-        android:textColor="@color/black"
+        android:textColor="?attr/paraText"
         android:layout_marginTop="32dp"
         android:gravity="center"/>
 
@@ -22,6 +22,6 @@
         android:layout_height="wrap_content"
         android:text="@string/maps"
         android:textSize="18sp"
-        android:textColor="#000" />
+        android:textColor="?attr/paraText" />
 
 </LinearLayout>

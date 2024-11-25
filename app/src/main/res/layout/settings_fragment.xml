@@ -3,12 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="start"
     android:padding="16dp"
-    android:layout_marginHorizontal="60dp"
-    android:layout_marginVertical="60dp">
+    android:background="?attr/appBackground">
 
     <Switch
         android:id="@+id/modeChoice"
@@ -18,6 +16,8 @@
         tools:ignore="UseSwitchCompatOrMaterialXml"
         android:thumbTint="@color/greenLight"
         android:trackTint="@color/greenDark"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
         />
 
     <Switch
@@ -29,6 +29,7 @@
         android:thumbTint="@color/greenLight"
         android:trackTint="@color/greenDark"
         android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
         />
 
 </LinearLayout>
