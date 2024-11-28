@@ -15,4 +15,8 @@
     <string name="maps">Maps</string>
     <string name="about">About</string>
     <string name="continueGuest">Don\'t have an account?\n Continue as guest?</string>
+    <string name="welshPhrase">Welsh Phrase</string>
+    <string name="settings">Settings</string>
+    <string name="darkMode">Enable Dark Mode</string>
+    <string name="highContrast">Enable High Contrast Mode</string>
 </resources>

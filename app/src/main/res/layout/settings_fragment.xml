@@ -3,33 +3,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:gravity="start"
     android:padding="16dp"
     android:background="?attr/appBackground">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"/>
+
     <Switch
         android:id="@+id/modeChoice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enable Dark Mode"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:text="@string/darkMode"
         tools:ignore="UseSwitchCompatOrMaterialXml"
         android:thumbTint="@color/greenLight"
         android:trackTint="@color/greenDark"
-        android:layout_marginTop="60dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_background"
+        android:paddingStart="25dp"
+        android:paddingEnd="10dp"
         />
 
     <Switch
         android:id="@+id/modeHighContrast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enable High Contrast Mode"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:text="@string/highContrast"
         tools:ignore="UseSwitchCompatOrMaterialXml"
         android:thumbTint="@color/greenLight"
         android:trackTint="@color/greenDark"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_background"
+        android:paddingStart="25dp"
+        android:paddingEnd="10dp"
         />
 
 </LinearLayout>

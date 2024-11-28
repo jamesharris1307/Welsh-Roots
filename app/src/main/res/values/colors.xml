@@ -18,7 +18,9 @@
     <!--Nav Bar-->
     <color name="navBarBackground">#FFFFFFFF</color>
     <!--App Background-->
-    <color name="appBackground">#26A5FB9C</color>
+    <color name="appBackground">#4DF0FFF0</color>
+    <!--Settings Buttons-->
+    <color name="settingsButton">#1A6A7276</color>
 
     <!--Text-->
     <color name="paraText">#FF000000</color>

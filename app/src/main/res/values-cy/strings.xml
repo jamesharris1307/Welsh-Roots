@@ -15,4 +15,9 @@
     <string name="maps">Mapiau</string>
     <string name="about">Ynghylch</string>
     <string name="continueGuest">Ddim yn cael cyfrif?\n Parhau fel gwestai?</string>
+    <string name="welshPhrase">Welsh Phrase</string>
+    <string name="settings">gosodiadau</string>
+    <string name="darkMode">Galluogi Modd Tywyll</string>
+    <string name="highContrast">galluogi modd cyferbyniad uchel</string>
+
 </resources>
