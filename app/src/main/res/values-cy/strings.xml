@@ -19,5 +19,7 @@
     <string name="settings">gosodiadau</string>
     <string name="darkMode">Galluogi Modd Tywyll</string>
     <string name="highContrast">galluogi modd cyferbyniad uchel</string>
+    <string name="googleStreetView">Google Golygfa Stryd</string>
+    <string name="googleMapsView">Google Mapiau View</string>
 
 </resources>

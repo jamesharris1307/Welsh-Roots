@@ -29,9 +29,7 @@
 
         <activity android:name=".SignUpActivity" />
 
-        <activity android:name=".DashboardActivity" />
-
-        <activity android:name=".content.WelshHistory"/>
+        <activity android:name=".DashboardActivity"/>
 
     </application>
 
