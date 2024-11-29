@@ -15,7 +15,7 @@ public class Tools {
             // Load the SVG from resources
             SVG svg = SVG.getFromResource(context, svgResId);
 
-            // Convert SVG to PictureDrawable
+            // /Convert SVG to PictureDrawable
             PictureDrawable pictureDrawable = new PictureDrawable(svg.renderToPicture());
 
             // Create a Bitmap and draw the PictureDrawable onto it
