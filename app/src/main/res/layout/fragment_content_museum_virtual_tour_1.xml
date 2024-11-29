@@ -4,14 +4,29 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="?attr/appBackground">
+    android:background="?attr/appBackground"
+    android:padding="16dp">
 
-    <!-- Welsh History Content -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Museum Virtual Tour 1"
+        android:text="St Fagans Virtual Tour"
         android:textSize="24sp"
-        android:gravity="center" />
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
 
+    <WebView
+        android:id="@+id/youtubeWebView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="St Fagans Virtual Tour"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
 </LinearLayout>
