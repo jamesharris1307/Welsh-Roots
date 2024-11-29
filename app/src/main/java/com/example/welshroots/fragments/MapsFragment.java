@@ -9,8 +9,6 @@ import android.widget.ImageButton;
 import androidx.fragment.app.Fragment;
 
 import com.example.welshroots.R;
-import com.example.welshroots.content.MuseumVirtualTour1;
-import com.example.welshroots.content.MuseumVirtualTour2;
 import com.example.welshroots.maps.MapsView;
 import com.example.welshroots.maps.StreetView;
 
@@ -18,32 +16,32 @@ public class MapsFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View rootView = inflater.inflate(R.layout.fragment_maps, container, false);
 
-        // ImageButton to replace the entire parent fragment with WelshHistoryFragment
-        ImageButton imageButtonMuseumVirtualTour1 = rootView.findViewById(R.id.googleStreetViewButton);
-        imageButtonMuseumVirtualTour1.setOnClickListener(new View.OnClickListener() {
+
+        ImageButton imageButtonGoogleStreetView = rootView.findViewById(R.id.googleStreetView);
+        imageButtonGoogleStreetView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Replace ExploreFragment with WelshHistoryFragment
                 getParentFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.nav_host_fragment, new StreetView()) // Replace parent fragment
-                        .addToBackStack(null)  // Add to back stack to enable back navigation
+                        .replace(R.id.nav_host_fragment, new StreetView())
+                        .addToBackStack(null)
                         .commit();
             }
         });
-        // Button to replace with MuseumExhibit1Fragment
-        ImageButton imageButtonMuseumVirtualTour2 = rootView.findViewById(R.id.googleMapsButton);
-        imageButtonMuseumVirtualTour2.setOnClickListener(new View.OnClickListener() {
+
+        ImageButton imageButtonGoogleMapsView = rootView.findViewById(R.id.googleMapsButton);
+        imageButtonGoogleMapsView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Replace ExploreFragment with MuseumExhibit1Fragment
                 getParentFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.nav_host_fragment, new MapsView()) // Replace with MuseumExhibit1Fragment
-                        .addToBackStack(null)  // Add to back stack
+                        .replace(R.id.nav_host_fragment, new MapsView())
+                        .addToBackStack(null)
                         .commit();
             }
         });

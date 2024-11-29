@@ -7,10 +7,10 @@
     android:gravity="center"
     android:background="?attr/appBackground">
 
-    <TextView
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="Street View"
-        android:gravity="center"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>

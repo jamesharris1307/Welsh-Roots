@@ -31,7 +31,7 @@
         android:layout_marginHorizontal="40dp">
 
         <ImageButton
-            android:id="@+id/googleStreetViewButton"
+            android:id="@+id/googleMapsButton"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="@drawable/map_view"
@@ -55,7 +55,7 @@
         android:layout_marginHorizontal="40dp">
 
         <ImageButton
-            android:id="@+id/googleMapsButton"
+            android:id="@+id/googleStreetView"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="@drawable/street_view"/>
