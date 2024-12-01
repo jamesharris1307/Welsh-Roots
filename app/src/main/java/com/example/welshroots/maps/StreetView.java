@@ -16,7 +16,7 @@ import com.example.welshroots.R;
 
 public class StreetView extends Fragment {
 
-    // Define the location for the Street View (example: Cardiff, Wales)
+
     private static final LatLng CARDIFF = new LatLng(51.4816, -3.1791);
 
     @Override
