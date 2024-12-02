@@ -26,8 +26,10 @@ public class MuseumVirtualTour1 extends Fragment {
 
     private static final String StFagansVideoID = "621oB889Tns";
     private static final String ExhibitOneVideoID = "8h1Hm-werRs";
+    private static final String ExhibitTwoVideoID = "vwIEHin9KSE";
     private static final LatLng StFagansLocation = new LatLng(51.4871873597198, -3.272341703519731);
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -47,7 +49,12 @@ public class MuseumVirtualTour1 extends Fragment {
         exhibitOneYoutube.setWebViewClient(new WebViewClient());
         exhibitOneYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + ExhibitOneVideoID);
 
-
+        // Configure WebView for YouTube
+        WebView exhibitTwoYoutube = view.findViewById(R.id.exhibitTwoYoutube);
+        WebSettings webSettingsExhibitTwoVideo = exhibitTwoYoutube.getSettings();
+        webSettingsExhibitTwoVideo.setJavaScriptEnabled(true);
+        exhibitTwoYoutube.setWebViewClient(new WebViewClient());
+        exhibitTwoYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + ExhibitTwoVideoID);
 
         // Add Street View Fragment
         SupportStreetViewPanoramaFragment streetViewFragment = new SupportStreetViewPanoramaFragment();

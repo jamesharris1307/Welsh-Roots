@@ -16,5 +16,6 @@
         <!--Icons-->
         <attr name="icons" format="color"/>
         <attr name="navIconBackground" format="color"/>
+        <attr name="headingText" format="color"/>
     </declare-styleable>
 </resources>

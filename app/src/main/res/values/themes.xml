@@ -23,6 +23,8 @@
         <item name="paraText">@color/paraText</item>
         <!--Icon Text-->
         <item name="iconText">@color/iconText</item>
+        <!--Heading Text-->
+        <item name="headingText">@color/headingText</item>
 
         <!-- Edge Effect -->
         <item name="android:colorEdgeEffect">@color/greenLight</item>

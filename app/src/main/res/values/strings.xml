@@ -32,15 +32,30 @@
     <!--Welsh Phrases-->
     <string name="welshPhrase">Welsh Phrase</string>
 
-    <!--Exhibit One - Wales is Talking about Empire-->
-    <string name="titlePage">St.Fagans National\nMuseum of History</string>
-    <string name="titleExhibitOne">Wales is... talking about empire</string>
-    <string name="exhibitOneParagraph">Cost: Free\nDate: From 4 May 2024\n\nDiscover how colonial history has shaped Wales and its representation through an engaging exhibition that explores themes of empire, power, and marginalised voices. This educational experience, led by artist Nasia Sarwar-Skuse and arts organisation Ways of Working, invites visitors to reflect on history and its continued impact today.\n\nThis exhibition is part of the Perspectives project, a collaboration with the Arts Council of Wales and Amgueddfa Cymru. It seeks to promote cultural and ethnic diversity in Welsh heritage and aligns with the Anti-racist Wales Action Plan, fostering awareness of the legacies of colonialism and encouraging dialogue about representation in modern Wales. By exploring these installations, visitors can gain insights into how history is told, whose voices are amplified, and how Wales continues to evolve its understanding of its colonial past.</string>
+    <!--St. Fagans Museum Showcase-->
+    <string name="titlePageOne">St.Fagans National\nMuseum of History</string>
     <string name="musuemOneLocation">St Fagans National Museum of History, St Fagans,\n Cardiff, CF5 6DU, Wales</string>
+
+    <!--Exhibit One (Wales is Talking about Empire)-->
+    <string name="titleExhibitOne">Wales is... talking about empire</string>
+    <string name="exhibitOneParagraph">Cost: Free\nDate: From 4th May 2024\n\nDiscover how colonial history has shaped Wales and its representation through an engaging exhibition that explores themes of empire, power, and marginalised voices. This educational experience, led by artist Nasia Sarwar-Skuse and arts organisation Ways of Working, invites visitors to reflect on history and its continued impact today.\n\nThis exhibition is part of the Perspectives project, a collaboration with the Arts Council of Wales and Amgueddfa Cymru. It seeks to promote cultural and ethnic diversity in Welsh heritage and aligns with the Anti-racist Wales Action Plan, fostering awareness of the legacies of colonialism and encouraging dialogue about representation in modern Wales. By exploring these installations, visitors can gain insights into how history is told, whose voices are amplified, and how Wales continues to evolve its understanding of its colonial past.</string>
+    <string name="linkToWebsiteExhibitOne">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/</string>
+    <!--Exhibit Two (A Bespoke Welsh Woollen Coat)-->
+    <string name="titleExhibitTwo">A Bespoke Welsh Woollen Coat</string>
+    <string name="exhibitTwoParagraph">Cost: Free\nDate: From 16th November 2024 to 27th April 2025\n\nThis exhibition, presented by Teilwr Bach in collaboration with Oasis Cardiff and supported by The National Lottery Heritage Fund, highlights the heritage and artistry of Welsh wool and traditional tailoring. Featuring bespoke coats, jackets, and shirts made from Welsh woven fabrics and vintage carthen blankets, the garments showcase the craftsmanship of Catherine Davies (Teilwr Bach), with one coat designed by Clare Johns Label. Each piece is enriched with a unique screen-printed lining pattern, crafted by local artists and inspired by Welsh mills, the weaving process, and the natural surroundings. Printed at The Printhaus Cardiff, these linings bring a deeper story to each garment. The project also has a significant community impact: refugees and asylum seekers from Oasis Cardiff learned sewing skills and repurposed fabric offcuts into practical items such as slippers and bags. These items are available for purchase at the Museum shop, with all profits supporting Oasis Cardiff’s community work. The exhibition is a celebration of slow fashion, connecting tradition, modern art, and social empowerment.</string>
+    <string name="linkToWebsiteExhibitTwo">https://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/</string>
+
+    <!--TitleTransport-->
     <string name="byCarTitle">Car</string>
     <string name="byTrainTitle">Train</string>
     <string name="byBusTitle">Bus</string>
-    <string name="byBikeTitle">Bicycle</string>
+    <string name="byBikeTitle">Cycle</string>
+    <!--DescriptionTransport-->
+    <string name="byCarDesc">St Fagans National Museum of History is located 4 miles west of Cardiff City Centre, just off the A4232.\n\nIf you are arriving by car you will need to pay on arrival. £7 per day. £30 yearly ticket. FREE for disabled blue badge holders and motorbikes. This charge is for parking only as entry to the Museum remains free.</string>
+    <string name="byTrainDesc">The nearest rail station is Waun-gron Park, located 2 miles from St Fagans. Services are operated by Transport for Wales.</string>
+    <string name="byBusDesc">Cardiff Bus 32 service. Stops in the museum car park.\nFirst Cymru 320 service. Stops in St Fagans village.</string>
+    <string name="byBikeDesc">The main cycle route to the Museum from Cardiff city centre is via the Ely Trail. The signposted section between Fairwater and the Museum is traffic-free and follows a pleasant riverside route. Why not cycle to the Museum from Waun-gron Park railway station along a two-mile section of the Ely Trail?</string>
 
-
+    <string name="creditsTitle">Information Sourced From:</string>
+    <string name="creditsStFagans">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/\nhttps://www.youtube.com/watch?v=8h1Hm-werRs\nhttps://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/\nhttps://www.youtube.com/watch?v=vwIEHin9KSE\nhttps://museum.wales/stfagans/visit/location/</string>
 </resources>

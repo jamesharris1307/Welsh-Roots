@@ -25,6 +25,7 @@
     <!--Text-->
     <color name="paraText">#FF000000</color>
     <color name="iconText">#FF000000</color>
+    <color name="headingText">#FF000000</color>
 
     <!--Icons-->
     <color name="icons">#FF000000</color>
@@ -45,6 +46,7 @@
     <!--Text-->
     <color name="paraTextDark">#FFFFFFFF</color>
     <color name="iconTextDark">#FFFFFFFF</color>
+    <color name="headingTextDark">#FF00FF6A</color>
 
     <!--Icons-->
     <color name="iconsDark">#FFFFFFFF</color>
