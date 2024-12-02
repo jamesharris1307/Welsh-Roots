@@ -1,28 +1,30 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:layout_marginBottom="100dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Title TextView -->
+        <!--Title of Page-->
         <TextView
             android:id="@+id/titleText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="St.Fagans National Museum of History"
+            android:text="@string/titlePage"
+            android:textStyle="bold"
             android:textColor="?attr/paraText"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:gravity="center"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="75dp" />
 
-        <!-- Description TextView -->
+        <!--Description of Page-->
         <TextView
             android:id="@+id/descriptionText"
             android:layout_width="0dp"
@@ -36,7 +38,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="12dp" />
 
-        <!-- St. Fagans YouTube WebView -->
+        <!--Youtube Container (St.Fagans Video)-->
         <WebView
             android:id="@+id/stFagansYoutube"
             android:layout_width="0dp"
@@ -46,12 +48,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!-- "Wales is... talking about empire" TextView -->
+        <!--Exhibit One (Wales is... Talking About Empire) -->
         <TextView
             android:id="@+id/empireText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Wales is... talking about empire"
+            android:textStyle="bold"
             android:textColor="?attr/paraText"
             android:textSize="30sp"
             android:gravity="center"
@@ -60,28 +63,36 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <ImageView
-            android:id="@+id/stFagansImageOne"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="@drawable/st_fagans_image_one"
+
+        <!--Description of Exhibit One (Wales is... Talking About Empire)-->
+        <TextView
+            android:id="@+id/descriptionExhibitOneText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/exhibitOneParagraph"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
             app:layout_constraintTop_toBottomOf="@id/empireText"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp"
-            />
+            android:layout_marginHorizontal="10dp"/>
 
-        <!-- Exhibit One YouTube WebView -->
+
+        <!--Youtube Container (Exhibit One Video)-->
         <WebView
             android:id="@+id/exhibitOneYoutube"
             android:layout_width="0dp"
             android:layout_height="300dp"
-            app:layout_constraintTop_toBottomOf="@id/stFagansImageOne"
+            app:layout_constraintTop_toBottomOf="@id/descriptionExhibitOneText"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!-- Street View Container -->
+        <!--Street View Container (St.Fagans)-->
         <FrameLayout
             android:id="@+id/streetViewContainer"
             android:layout_width="0dp"
@@ -91,12 +102,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!-- Details TextView -->
+        <!--Location of St.Fagans-->
         <TextView
             android:id="@+id/detailsText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="{{ Add Details of St Fagans Location }}"
+            android:text="@string/musuemOneLocation"
             android:textColor="?attr/paraText"
             android:textSize="15sp"
             android:gravity="center"
@@ -105,7 +116,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!-- Map Container -->
+        <!---->
         <FrameLayout
             android:id="@+id/mapContainer"
             android:layout_width="0dp"
@@ -114,6 +125,37 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="15dp" />
+
+        <!---->
+        <TextView
+            android:id="@+id/byCarTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/byCarTitle"
+            android:textColor="?attr/paraText"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/mapContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!---->
+        <TextView
+            android:id="@+id/byCarDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="{{ transport }}"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byCarTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

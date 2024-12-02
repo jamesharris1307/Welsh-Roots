@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello_world">Hello World</string>
+    <!--App Details-->
     <string name="app_name">Welsh Roots</string>
+    <string name="loginOrSignUp">Login or Sign Up</string>
+    <string name="submit">Submit</string>
+    <string name="continueGuest">Don\'t have an account?\n Continue as guest?</string>
+    <!--Login-->
     <string name="login">Login</string>
-    <string name="signUp">Sign Up</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="dontHaveAccount">Don\'t have an account? Sign up</string>
+    <!--Sign Up-->
+    <string name="signUp">Sign Up</string>
     <string name="haveAccount">Already have an account? Log In</string>
-    <string name="loginOrSignUp">Login or Sign Up</string>
-    <string name="submit">Submit</string>
+
+    <!--Home Page-->
     <string name="home">Home</string>
+    <!--Explore Page-->
     <string name="explore">Explore</string>
+    <!--Maps Page-->
     <string name="maps">Maps</string>
+    <string name="googleStreetView">Google Street View</string>
+    <string name="googleMapsView">Google Maps View</string>
+    <!--About Page-->
     <string name="about">About</string>
-    <string name="continueGuest">Don\'t have an account?\n Continue as guest?</string>
-    <string name="welshPhrase">Welsh Phrase</string>
+    <!--Settings Page-->
     <string name="settings">Settings</string>
     <string name="darkMode">Enable Dark Mode</string>
     <string name="highContrast">Enable High Contrast Mode</string>
-    <string name="googleStreetView">Google Street View</string>
-    <string name="googleMapsView">Google Maps View</string>
+
+    <!--Welsh Phrases-->
+    <string name="welshPhrase">Welsh Phrase</string>
+
+    <!--Exhibit One - Wales is Talking about Empire-->
+    <string name="titlePage">St.Fagans National\nMuseum of History</string>
+    <string name="titleExhibitOne">Wales is... talking about empire</string>
+    <string name="exhibitOneParagraph">Cost: Free\nDate: From 4 May 2024\n\nDiscover how colonial history has shaped Wales and its representation through an engaging exhibition that explores themes of empire, power, and marginalised voices. This educational experience, led by artist Nasia Sarwar-Skuse and arts organisation Ways of Working, invites visitors to reflect on history and its continued impact today.\n\nThis exhibition is part of the Perspectives project, a collaboration with the Arts Council of Wales and Amgueddfa Cymru. It seeks to promote cultural and ethnic diversity in Welsh heritage and aligns with the Anti-racist Wales Action Plan, fostering awareness of the legacies of colonialism and encouraging dialogue about representation in modern Wales. By exploring these installations, visitors can gain insights into how history is told, whose voices are amplified, and how Wales continues to evolve its understanding of its colonial past.</string>
+    <string name="musuemOneLocation">St Fagans National Museum of History, St Fagans,\n Cardiff, CF5 6DU, Wales</string>
+    <string name="byCarTitle">Car</string>
+    <string name="byTrainTitle">Train</string>
+    <string name="byBusTitle">Bus</string>
+    <string name="byBikeTitle">Bicycle</string>
+
+
 </resources>
