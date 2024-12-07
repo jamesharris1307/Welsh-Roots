@@ -40,12 +40,12 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
 
         List<MarkerData> markerDataList = new ArrayList<>();
-        markerDataList.add(new MarkerData(new LatLng(51.480243346629436, -3.177351003155592), "St Fagans National Museum of History", R.drawable.ic_museum));
-        markerDataList.add(new MarkerData(new LatLng(51.485706738816766, -3.1768579362347222), "Big Pit National Coal Museum", R.drawable.ic_museum));
-        markerDataList.add(new MarkerData(new LatLng(51.485706738816766, -3.1768579362347222), "National Museum Cardiff", R.drawable.ic_museum));
-        markerDataList.add(new MarkerData(new LatLng(51.485706738816766, -3.1768579362347222), "National Waterfront Museum", R.drawable.ic_museum));
+        markerDataList.add(new MarkerData(new LatLng(51.48722473313164, -3.2723620534115585), "St Fagans National Museum of History", R.drawable.ic_museum));
+        markerDataList.add(new MarkerData(new LatLng(51.77256387585435, -3.1045690206749548), "Big Pit National Coal Museum", R.drawable.ic_museum));
+        markerDataList.add(new MarkerData(new LatLng(51.485772068873864, -3.176852611411994), "National Museum Cardiff", R.drawable.ic_museum));
+        markerDataList.add(new MarkerData(new LatLng(51.616701290235795, -3.9391617532728214), "National Waterfront Museum", R.drawable.ic_museum));
 
-
+        // Custom Icons look bad
         for (MarkerData markerData : markerDataList) {
             //BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(markerData.iconResId);
             googleMap.addMarker(new MarkerOptions()
