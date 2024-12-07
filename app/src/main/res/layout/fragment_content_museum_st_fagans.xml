@@ -1,0 +1,388 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:layout_marginBottom="100dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Title of Page-->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansTitlePageOne"
+            android:textStyle="bold"
+            android:textColor="?attr/paraText"
+            android:textSize="40sp"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="75dp" />
+
+        <!--Description of Page-->
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="{{ Explain this page }}"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/titleText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp" />
+
+        <!--Youtube Container (St.Fagans Video)-->
+        <WebView
+            android:id="@+id/stFagansYoutube"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/descriptionText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <!--Exhibit One (Wales is... Talking About Empire) -->
+        <TextView
+            android:id="@+id/exhibitOneTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansTitleExhibitOne"
+            android:textStyle="bold"
+            android:textColor="?attr/paraText"
+            android:textSize="30sp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/stFagansYoutube"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+
+        <!--Description of Exhibit One (Wales is... Talking About Empire)-->
+        <TextView
+            android:id="@+id/descriptionExhibitOneText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansExhibitOneParagraph"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/exhibitOneTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
+
+
+        <!--Youtube Container (Exhibit One Video)-->
+        <WebView
+            android:id="@+id/exhibitOneYoutube"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/descriptionExhibitOneText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <!--Web Link Title-->
+        <TextView
+            android:id="@+id/webLinkTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Link to Exhibit"
+            android:textColor="?attr/headingText"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/exhibitOneYoutube"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Web Link for Exhibit One-->
+        <TextView
+            android:id="@+id/webLinkExhibitOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansLinkToWebsiteExhibitOne"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/webLinkTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Street View Container (St.Fagans)-->
+        <FrameLayout
+            android:id="@+id/streetViewContainer"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/webLinkExhibitOne"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <!--Exhibit Two (A Bespoke Welsh Woollen Coat)-->
+        <TextView
+            android:id="@+id/exhibitTwoTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansTitleExhibitTwo"
+            android:textStyle="bold"
+            android:textColor="?attr/paraText"
+            android:textSize="30sp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/streetViewContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <!--Description of Exhibit Two (A Bespoke Welsh Woollen Coat)-->
+        <TextView
+            android:id="@+id/descriptionExhibitTwoText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansExhibitTwoParagraph"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/exhibitTwoTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Youtube Container (Exhibit Two Video)-->
+        <WebView
+            android:id="@+id/exhibitTwoYoutube"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/descriptionExhibitTwoText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <!--Web Link Title-->
+        <TextView
+            android:id="@+id/webLinkTitleTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Link to Exhibit"
+            android:textColor="?attr/headingText"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/exhibitTwoYoutube"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Web Link for Exhibit Two-->
+        <TextView
+            android:id="@+id/webLinkExhibitTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansLinkToWebsiteExhibitTwo"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/webLinkTitleTwo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Maps View-->
+        <FrameLayout
+            android:id="@+id/mapContainer"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            app:layout_constraintTop_toBottomOf="@id/webLinkExhibitTwo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="15dp" />
+
+        <!--Location of St.Fagans-->
+        <TextView
+            android:id="@+id/detailsText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansMusuemOneLocation"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/mapContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!--Transport Title (Bike)-->
+        <TextView
+            android:id="@+id/byBikeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bikeTitle"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/detailsText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Transport Description (Bike)-->
+        <TextView
+            android:id="@+id/byBikeDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansByBikeDesc"
+            android:justificationMode="inter_word"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byBikeTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Transport Title (Car)-->
+        <TextView
+            android:id="@+id/byCarTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/carTitle"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byBikeDesc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Transport Description (Car)-->
+        <TextView
+            android:id="@+id/byCarDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansByCarDesc"
+            android:justificationMode="inter_word"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byCarTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Transport Title (Bus)-->
+        <TextView
+            android:id="@+id/byBusTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/busTitle"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byCarDesc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Transport Description (Bus)-->
+        <TextView
+            android:id="@+id/byBusDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansByBusDesc"
+            android:justificationMode="inter_word"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byBusTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Transport Title (Train)-->
+        <TextView
+            android:id="@+id/byTrainTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/trainTitle"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byBusDesc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Transport Description (Train)-->
+        <TextView
+            android:id="@+id/byTrainDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansByTrainDesc"
+            android:justificationMode="inter_word"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byTrainTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Credits and References (Title)-->
+        <TextView
+            android:id="@+id/creditsStFagansTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansCreditsTitle"
+            android:textColor="@color/grey"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/byTrainDesc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="10dp"/>
+
+        <!--Credits and References (Description)-->
+        <TextView
+            android:id="@+id/creditsStFagansDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stFagansCreditsBody"
+            android:textColor="@color/grey"
+            android:textStyle="italic"
+            android:textSize="11sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/creditsStFagansTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="10dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

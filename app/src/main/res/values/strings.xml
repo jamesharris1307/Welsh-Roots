@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!--App Details-->
     <string name="app_name">Welsh Roots</string>
     <string name="loginOrSignUp">Login or Sign Up</string>
@@ -32,30 +32,78 @@
     <!--Welsh Phrases-->
     <string name="welshPhrase">Welsh Phrase</string>
 
-    <!--St. Fagans Museum Showcase-->
-    <string name="titlePageOne">St.Fagans National\nMuseum of History</string>
-    <string name="musuemOneLocation">St Fagans National Museum of History, St Fagans,\n Cardiff, CF5 6DU, Wales</string>
-
-    <!--Exhibit One (Wales is Talking about Empire)-->
-    <string name="titleExhibitOne">Wales is... talking about empire</string>
-    <string name="exhibitOneParagraph">Cost: Free\nDate: From 4th May 2024\n\nDiscover how colonial history has shaped Wales and its representation through an engaging exhibition that explores themes of empire, power, and marginalised voices. This educational experience, led by artist Nasia Sarwar-Skuse and arts organisation Ways of Working, invites visitors to reflect on history and its continued impact today.\n\nThis exhibition is part of the Perspectives project, a collaboration with the Arts Council of Wales and Amgueddfa Cymru. It seeks to promote cultural and ethnic diversity in Welsh heritage and aligns with the Anti-racist Wales Action Plan, fostering awareness of the legacies of colonialism and encouraging dialogue about representation in modern Wales. By exploring these installations, visitors can gain insights into how history is told, whose voices are amplified, and how Wales continues to evolve its understanding of its colonial past.</string>
-    <string name="linkToWebsiteExhibitOne">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/</string>
-    <!--Exhibit Two (A Bespoke Welsh Woollen Coat)-->
-    <string name="titleExhibitTwo">A Bespoke Welsh Woollen Coat</string>
-    <string name="exhibitTwoParagraph">Cost: Free\nDate: From 16th November 2024 to 27th April 2025\n\nThis exhibition, presented by Teilwr Bach in collaboration with Oasis Cardiff and supported by The National Lottery Heritage Fund, highlights the heritage and artistry of Welsh wool and traditional tailoring. Featuring bespoke coats, jackets, and shirts made from Welsh woven fabrics and vintage carthen blankets, the garments showcase the craftsmanship of Catherine Davies (Teilwr Bach), with one coat designed by Clare Johns Label. Each piece is enriched with a unique screen-printed lining pattern, crafted by local artists and inspired by Welsh mills, the weaving process, and the natural surroundings. Printed at The Printhaus Cardiff, these linings bring a deeper story to each garment. The project also has a significant community impact: refugees and asylum seekers from Oasis Cardiff learned sewing skills and repurposed fabric offcuts into practical items such as slippers and bags. These items are available for purchase at the Museum shop, with all profits supporting Oasis Cardiff’s community work. The exhibition is a celebration of slow fashion, connecting tradition, modern art, and social empowerment.</string>
-    <string name="linkToWebsiteExhibitTwo">https://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/</string>
-
     <!--TitleTransport-->
-    <string name="byCarTitle">Car</string>
-    <string name="byTrainTitle">Train</string>
-    <string name="byBusTitle">Bus</string>
-    <string name="byBikeTitle">Cycle</string>
-    <!--DescriptionTransport-->
-    <string name="byCarDesc">St Fagans National Museum of History is located 4 miles west of Cardiff City Centre, just off the A4232.\n\nIf you are arriving by car you will need to pay on arrival. £7 per day. £30 yearly ticket. FREE for disabled blue badge holders and motorbikes. This charge is for parking only as entry to the Museum remains free.</string>
-    <string name="byTrainDesc">The nearest rail station is Waun-gron Park, located 2 miles from St Fagans. Services are operated by Transport for Wales.</string>
-    <string name="byBusDesc">Cardiff Bus 32 service. Stops in the museum car park.\nFirst Cymru 320 service. Stops in St Fagans village.</string>
-    <string name="byBikeDesc">The main cycle route to the Museum from Cardiff city centre is via the Ely Trail. The signposted section between Fairwater and the Museum is traffic-free and follows a pleasant riverside route. Why not cycle to the Museum from Waun-gron Park railway station along a two-mile section of the Ely Trail?</string>
+    <string name="carTitle">Car</string>
+    <string name="trainTitle">Train</string>
+    <string name="busTitle">Bus</string>
+    <string name="bikeTitle">Cycle</string>
 
-    <string name="creditsTitle">Information Sourced From:</string>
-    <string name="creditsStFagans">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/\nhttps://www.youtube.com/watch?v=8h1Hm-werRs\nhttps://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/\nhttps://www.youtube.com/watch?v=vwIEHin9KSE\nhttps://museum.wales/stfagans/visit/location/</string>
+    <!--St. Fagans Museum Showcase-->
+    <string name="stFagansTitlePageOne">St.Fagans National\nMuseum of History</string>
+    <string name="stFagansMusuemOneLocation">St Fagans National Museum of History, St Fagans,\nCardiff, CF5 6DU, Wales</string>
+    <!--Exhibit One (Wales is Talking about Empire)-->
+    <string name="stFagansTitleExhibitOne" tools:ignore="TypographyEllipsis">Wales is... talking about empire</string>
+    <string name="stFagansExhibitOneParagraph">Cost: Free\nDate: From 4th May 2024\n\nDiscover how colonial history has shaped Wales and its representation through an engaging exhibition that explores themes of empire, power, and marginalised voices. This educational experience, led by artist Nasia Sarwar-Skuse and arts organisation Ways of Working, invites visitors to reflect on history and its continued impact today.\n\nThis exhibition is part of the Perspectives project, a collaboration with the Arts Council of Wales and Amgueddfa Cymru. It seeks to promote cultural and ethnic diversity in Welsh heritage and aligns with the Anti-racist Wales Action Plan, fostering awareness of the legacies of colonialism and encouraging dialogue about representation in modern Wales. By exploring these installations, visitors can gain insights into how history is told, whose voices are amplified, and how Wales continues to evolve its understanding of its colonial past.</string>
+    <string name="stFagansLinkToWebsiteExhibitOne">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/</string>
+    <!--Exhibit Two (A Bespoke Welsh Woollen Coat)-->
+    <string name="stFagansTitleExhibitTwo">A Bespoke Welsh Woollen Coat</string>
+    <string name="stFagansExhibitTwoParagraph">Cost: Free\nDate: From 16th November 2024 to 27th April 2025\n\nThis exhibition, presented by Teilwr Bach in collaboration with Oasis Cardiff and supported by The National Lottery Heritage Fund, highlights the heritage and artistry of Welsh wool and traditional tailoring. Featuring bespoke coats, jackets, and shirts made from Welsh woven fabrics and vintage carthen blankets, the garments showcase the craftsmanship of Catherine Davies (Teilwr Bach), with one coat designed by Clare Johns Label. Each piece is enriched with a unique screen-printed lining pattern, crafted by local artists and inspired by Welsh mills, the weaving process, and the natural surroundings. Printed at The Printhaus Cardiff, these linings bring a deeper story to each garment. The project also has a significant community impact: refugees and asylum seekers from Oasis Cardiff learned sewing skills and repurposed fabric offcuts into practical items such as slippers and bags. These items are available for purchase at the Museum shop, with all profits supporting Oasis Cardiff’s community work. The exhibition is a celebration of slow fashion, connecting tradition, modern art, and social empowerment.</string>
+    <string name="stFagansLinkToWebsiteExhibitTwo">https://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/</string>
+    <!--DescriptionTransport-->
+    <string name="stFagansByCarDesc">St Fagans National Museum of History is located 4 miles west of Cardiff City Centre, just off the A4232.\n\nIf you are arriving by car you will need to pay on arrival. £7 per day. £30 yearly ticket. FREE for disabled blue badge holders and motorbikes. This charge is for parking only as entry to the Museum remains free.</string>
+    <string name="stFagansByTrainDesc">The nearest rail station is Waun-gron Park, located 2 miles from St Fagans. Services are operated by Transport for Wales.</string>
+    <string name="stFagansByBusDesc">Cardiff Bus 32 service. Stops in the museum car park.\nFirst Cymru 320 service. Stops in St Fagans village.</string>
+    <string name="stFagansByBikeDesc">The main cycle route to the Museum from Cardiff city centre is via the Ely Trail. The signposted section between Fairwater and the Museum is traffic-free and follows a pleasant riverside route. Why not cycle to the Museum from Waun-gron Park railway station along a two-mile section of the Ely Trail?</string>
+    <string name="stFagansCreditsTitle">Information Sourced From:</string>
+    <string name="stFagansCreditsBody">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/\nhttps://www.youtube.com/watch?v=8h1Hm-werRs\nhttps://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/\nhttps://www.youtube.com/watch?v=vwIEHin9KSE\nhttps://museum.wales/stfagans/visit/location/</string>
+
+    <!--Big Pit Showcase-->
+    <string name="bigPitTitle">Big Pit National\nCoal Museum</string>
+    <string name="bigPitLocation">Big Pit National Coal Museum\nPontypool NP4 9XP</string>
+    <!--Exhibit One (STREIC! 1984–1985 STRIKE!)-->
+    <string name="bigPitTitleExhibitOne">STREIC! 1984–1985 STRIKE!</string>
+    <string name="bigPitExhibitOneParagraph">Cost: Free\nDate: From 1st March 2024 to 1st March 2025\n\nHosted at the Big Pit National Coal Museum, this event marks the anniversary of a pivotal moment in Welsh history. On March 1, 1984, the National Coal Board announced plans to close 20 mines, potentially affecting 20,000 jobs. The year–long miners’ strike that followed had a profound impact on Wales, shaping its political, economic, and social landscape.To commemorate this historical event, Amgueddfa Cymru presents STREIC! 1984–1985 Strike!, featuring exhibitions at both the Big Pit National Coal Museum in Blaenafon and the National Museum Cardiff. Visitors can explore personal stories and perspectives from striking miners, their families, managers, politicians, and law enforcement.</string>
+    <string name="bigPitLinkToWebsiteExhibitOne">https://museum.wales/bigpit/whatson/12213/STREIC–1984–1985-STRIKE/</string>
+    <!--Exhibit Two (Story Time with Santa)-->
+    <string name="bigPitTitleExhibitTwo">Story Time with Santa</string>
+    <string name="bigPitExhibitTwoParagraph">Cost: £10 per Child\nDate: From 14th December 2024 to 15th December 2024\n\nExperience the magic of Christmas at the Big Pit National Coal Museum! Santa and his elves are ready to welcome you to their festive cottage for a heartwarming story session. Children will enjoy listening to a story from Santa himself, receive a special gift, and take part in fun Christmas crafts. Families are encouraged to capture the moment with photos, creating cherished holiday memories.</string>
+    <string name="bigPitLinkToWebsiteExhibitTwo">https://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
+    <!--DescriptionTransport-->
+    <string name="bigPitByCarDesc">If you are arriving by car you will need to pay on arrival. £5 per day. FREE for disabled badge holders and motorbikes. This charge is for parking only – entry to the Museum remains free.</string>
+    <string name="bigPitCreditsBody">https://museum.wales/bigpit/whatson/12213/STREIC-1984-1985-STRIKE/\nhttps://www.youtube.com/watch?v=Nt7sPVKs9co\nhttps://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
+
+    <!--National Museum Cardiff Showcase-->
+    <string name="nationalMuseumCardiffTitle">National Museum Cardiff</string>
+    <string name="nationalMuseumCardiffLocation">National Museum Cardiff\nCardiff CF10 3NP</string>
+    <!--Exhibit One (Art of the Selfie)-->
+    <string name="nationalMuseumCardiffTitleExhibitOne">Art of the Selfie</string>
+    <string name="nationalMuseumCardiffExhibitOneParagraph">Cost: Free\nDate: From 16th March 2024 to 26th January 2025\n\nExplore the evolution of self-representation in art at the National Museum Cardiff’s exhibition Art of the Selfie. This thought-provoking display examines whether self-portraits can be considered the original selfies and delves into how artists from Rembrandt and Van Gogh to modern creators like Bedwyr Williams and Anya Paintsil portray themselves. The exhibition showcases iconic works, including Van Gogh’s Portrait of the Artist (1887) on loan from Musée d’Orsay, Paris, alongside pieces from renowned artists such as Rembrandt, Brenda Chamberlain, Francis Bacon, Bedwyr Williams, Anya Paintsil. This diverse collection highlights various artistic approaches to self-portraits, paralleling how selfies today reflect individuality and self-expression. Visitors are encouraged to reflect on the question: How do you see yourself?</string>
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitOne">https://museum.wales/cardiff/whatson/12181/Art-of-the-Selfie/</string>
+    <!--Exhibit Two (The Valleys)-->
+    <string name="nationalMuseumCardiffTitleExhibitTwo">The Valleys</string>
+    <string name="nationalMuseumCardiffExhibitTwoParagraph">Cost: Free\nDate: From 25th May 2024 to 5th January 2025\n\nExplore the stories and rich cultural history of south Wales in The Valleys, an exhibition celebrating the art and legacy of this remarkable region. From Ammanford to Pontypool, the south Wales Valleys have inspired artists since the 18th century, capturing their transformation through iron and coal and their significant contribution to the modern world. This exhibition features over 200 works in diverse media, including painting, photography, film, and applied arts. It profiles the unique lives and landscapes of the Valleys, presenting a vivid depiction of working-class experiences through the eyes of over 60 artists. Highlights include works by, Tina Carr and Annemarie Schöne, Robert Frank, Josef Herman, Ernest Zobole, Additionally, the exhibition introduces collier artists like Nicholas Evans, Harry Rodgers, and Illtyd David, alongside newly acquired photography pieces supported by the Art Fund. Several previously unseen works will also be displayed.</string>
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitTwo">https://museum.wales/cardiff/whatson/12263/The-Valleys/</string>
+    <!--Exhibit Three (The Fossil Swamp)-->
+    <string name="nationalMuseumCardiffTitleExhibitThree">The Fossil Swamp</string>
+    <string name="nationalMuseumCardiffExhibitThreeParagraph">Cost: Free\nDate: From 18th May 2019 to 2nd March 2025\n\nStep back 300 million years into a prehistoric tropical world in The Fossil Swamp. This immersive exhibition offers a glimpse into a time before dinosaurs or humans, when Wales was part of a vast, lush swamp teeming with life. Explore fossils that reveal how giant plants, strange creatures, and severe weather shaped these ancient wetlands. Highlights include Stigmaria, a stunning 3D fossil centerpiece from Brymbo in northeast Wales, showcasing the unique preservation of enormous prehistoric plants. Fossils that depict life millions of years before flowers and fruits evolved. Prehistoric animals vastly different from today’s wildlife. Learn about the scientists who unraveled the mysteries of these ecosystems and discover how the fossil swamp connects to today’s climate and fossil fuel challenges. The exhibition is brought to you in partnership with Brymbo Heritage Trust, Wrexham County Borough Museum, and others.</string>
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitThree">https://museum.wales/cardiff/whatson/10676/The-Fossil-Swamp/</string>
+    <!--DescriptionTransport-->
+    <string name="nationalMuseumCardiffByCarDesc">A Visitor Car Park is situated behind the Museum, off Museum Avenue. Visitors parking here will receive a ticket at the point of entry and need to pay £6.50 for the day at a pay-station located at the rear of the car park. Please note that the pay-stations only accept card payments – no cash payments are accepted. Visitors can use any credit/debit cards (except for American Express), or Apple or Android Pay. Parking is free to blue badge holders. Please use the intercom at the exit barrier to verify your blue badge permit. Disabled parking is also available at the front of the Museum, on Gorsedd Gardens Road.</string>
+    <string name="nationalMuseumCardiffCreditsBody">https://museum.wales/cardiff/whatson/12181/Art-of-the-Selfie/\nhttps://museum.wales/cardiff/whatson/12263/The-Valleys/\nhttps://museum.wales/cardiff/whatson/10676/The-Fossil-Swamp/</string>
+
+    <!--National Waterfront Museum Showcase-->
+    <string name="nationalWaterfrontTitle">National Waterfront Museum</string>
+    <string name="nationalWaterfrontLocation">National Waterfront Museum, Oystermouth Rd\nMaritime Quarter, Swansea SA1 3RD</string>
+    <!--Exhibit One (Ours To Tell)-->
+    <string name="nationalWaterfrontTitleExhibitOne">Ours To Tell</string>
+    <string name="nationalWaterfrontExhibitOneParagraph">Cost: Free\nDate: From 16th March 2024 to 21st January 2025\n\n"Ours to Tell" is a significant project focused on documenting and amplifying LGBTQ+ lives and experiences in Wales. Members of Amgueddfa Cymru\'s Youth Collective collaborated with museum staff to identify gaps in the museum\'s collections. Together, they collected life stories and objects from the LGBTQ+ community in Wales. These contributions offer a snapshot of LGBTQ+ experiences and serve as a lasting legacy, preserving these stories and artifacts for future generations. The exhibition showcases the diversity of these narratives and objects, highlighting their importance in representing this community.</string>
+    <string name="nationalWaterfrontLinkToWebsiteExhibitOne">https://museum.wales/swansea/whatson/12185/Ours-To-Tell/</string>
+    <!--Exhibit Two (Making Waves – RNLI Cymru 200)-->
+    <string name="nationalWaterfrontTitleExhibitTwo">Making Waves – RNLI Cymru 200</string>
+    <string name="nationalWaterfrontExhibitTwoParagraph">Cost: Free\nDate: From 22nd June 2024 to 1st June 2025\n\nThe "Making Waves – RNLI Cymru 200" exhibition celebrates the 200th anniversary of the Royal National Lifeboat Institution (RNLI) and its vital role in ensuring safety along Wales\' coastline. Over the years, the RNLI has saved countless lives, with rescue operations evolving significantly—from responding to large-scale shipping disasters to aiding stranded holidaymakers. This exhibition showcases the transformation of rescue techniques and the innovative equipment used, including the pioneering lifeboat designed and built at Wales\' Atlantic College. Visitors will also hear the remarkable stories of the people who utilized these life-saving tools. The event is part of a dual exhibition in Wales marking this historic milestone. The collaboration between Oriel y Parc, the RNLI, and the Pembrokeshire Coast National Park Authority features complementary displays at Oriel y Parc, National Park Discovery Centre in St Davids.</string>
+    <string name="nationalWaterfrontLinkToWebsiteExhibitTwo">https://museum.wales/swansea/whatson/12202/Making-Waves—RNLI-Cymru-200/</string>
+    <!--DescriptionTransport-->
+    <string name="nationalWaterfrontByCarDesc">The National Waterfront Museum does not have a dedicated car park.</string>
+    <string name="nationalWaterfrontCreditsBody">https://museum.wales/swansea/whatson/12185/Ours-To-Tell/\nhttps://museum.wales/swansea/whatson/12202/Making-Waves—RNLI-Cymru-200/</string>
+
 </resources>

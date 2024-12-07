@@ -22,24 +22,23 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MuseumVirtualTour1 extends Fragment {
+public class MuseumNationalCardiff extends Fragment {
 
-    private static final String StFagansVideoID = "621oB889Tns";
-    private static final String ExhibitOneVideoID = "8h1Hm-werRs";
-    private static final String ExhibitTwoVideoID = "vwIEHin9KSE";
-    private static final LatLng StFagansLocation = new LatLng(51.4871873597198, -3.272341703519731);
+    private static final String NationalMuseumCardiffVideoID = "XQw2r6jJ6sE";
+    private static final String ExhibitOneVideoID = "7NqxprOsWcc";
+    private static final LatLng NationalMuseumCardiffLocation = new LatLng(51.485759959665586, -3.17685395480321);
 
     @SuppressLint("SetJavaScriptEnabled")
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_content_museum_virtual_tour_1, container, false);
+        View view = inflater.inflate(R.layout.fragment_content_museum_national_cardiff, container, false);
 
         // Configure WebView for YouTube
-        WebView stFagansYoutube = view.findViewById(R.id.stFagansYoutube);
+        WebView stFagansYoutube = view.findViewById(R.id.NationalMuseumCardiffYoutube);
         WebSettings webSettingsStFagansVideo = stFagansYoutube.getSettings();
         webSettingsStFagansVideo.setJavaScriptEnabled(true);
-        stFagansYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + StFagansVideoID);
+        stFagansYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + NationalMuseumCardiffVideoID);
         stFagansYoutube.setWebViewClient(new WebViewClient());
 
         // Configure WebView for YouTube
@@ -48,13 +47,6 @@ public class MuseumVirtualTour1 extends Fragment {
         webSettingsExhibitOneVideo.setJavaScriptEnabled(true);
         exhibitOneYoutube.setWebViewClient(new WebViewClient());
         exhibitOneYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + ExhibitOneVideoID);
-
-        // Configure WebView for YouTube
-        WebView exhibitTwoYoutube = view.findViewById(R.id.exhibitTwoYoutube);
-        WebSettings webSettingsExhibitTwoVideo = exhibitTwoYoutube.getSettings();
-        webSettingsExhibitTwoVideo.setJavaScriptEnabled(true);
-        exhibitTwoYoutube.setWebViewClient(new WebViewClient());
-        exhibitTwoYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + ExhibitTwoVideoID);
 
         // Add Street View Fragment
         SupportStreetViewPanoramaFragment streetViewFragment = new SupportStreetViewPanoramaFragment();
@@ -65,7 +57,7 @@ public class MuseumVirtualTour1 extends Fragment {
         streetViewFragment.getStreetViewPanoramaAsync(new OnStreetViewPanoramaReadyCallback() {
             @Override
             public void onStreetViewPanoramaReady(StreetViewPanorama panorama) {
-                panorama.setPosition(StFagansLocation);
+                panorama.setPosition(NationalMuseumCardiffLocation);
             }
         });
 
@@ -77,8 +69,8 @@ public class MuseumVirtualTour1 extends Fragment {
 
         mapFragment.getMapAsync(googleMap -> {
             // Add Marker
-            LatLng StFagansLocation = new LatLng(51.4871873597198, -3.272341703519731);
-            googleMap.addMarker(new MarkerOptions().position(StFagansLocation).title("St.Fagans National Museum of History"));
+            LatLng StFagansLocation = new LatLng(51.48576664060906, -3.1768754124607455);
+            googleMap.addMarker(new MarkerOptions().position(StFagansLocation).title("National Museum Cardiff"));
 
             googleMap.moveCamera(com.google.android.gms.maps.CameraUpdateFactory.newLatLngZoom(StFagansLocation, 15));
         });
