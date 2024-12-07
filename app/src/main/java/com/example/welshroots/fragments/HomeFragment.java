@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
+import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
@@ -21,59 +21,58 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
-        // Image Button to St Fagans
-        ImageButton imageButtonMuseumVirtualTour1 = rootView.findViewById(R.id.imageButtonMuseumVirtualTour1);
-        imageButtonMuseumVirtualTour1.setOnClickListener(new View.OnClickListener() {
+        // Button to St Fagans
+        Button buttonMuseumStFagans = rootView.findViewById(R.id.buttonMuseumStFagans);
+        buttonMuseumStFagans.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Replace ExploreFragment with WelshHistoryFragment
                 getParentFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.nav_host_fragment, new MuseumStFagans()) // Replace parent fragment
-                        .addToBackStack(null)  // Add to back stack to enable back navigation
+                        .replace(R.id.nav_host_fragment, new MuseumStFagans())
+                        .addToBackStack(null)
                         .commit();
             }
         });
-        // Image Button to Big Pit
-        ImageButton imageButtonMuseumVirtualTour2 = rootView.findViewById(R.id.imageButtonMuseumVirtualTour2);
-        imageButtonMuseumVirtualTour2.setOnClickListener(new View.OnClickListener() {
+
+        // Button to Big Pit
+        Button buttonMuseumBigPit = rootView.findViewById(R.id.buttonMuseumBigPit);
+        buttonMuseumBigPit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Replace ExploreFragment with MuseumExhibit1Fragment
                 getParentFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.nav_host_fragment, new MuseumBigPit()) // Replace with MuseumExhibit1Fragment
-                        .addToBackStack(null)  // Add to back stack
+                        .replace(R.id.nav_host_fragment, new MuseumBigPit())
+                        .addToBackStack(null)
                         .commit();
             }
         });
-        // Image Button to National Museum Cardiff
-        ImageButton imageButtonMuseumVirtualTour3 = rootView.findViewById(R.id.imageButtonMuseumVirtualTour3);
-        imageButtonMuseumVirtualTour3.setOnClickListener(new View.OnClickListener() {
+
+        // Button to National Museum Cardiff
+        Button buttonMuseumNationalCardiff = rootView.findViewById(R.id.buttonMuseumNationalCardiff);
+        buttonMuseumNationalCardiff.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Replace ExploreFragment with MuseumExhibit1Fragment
                 getParentFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.nav_host_fragment, new MuseumNationalCardiff()) // Replace with MuseumExhibit1Fragment
-                        .addToBackStack(null)  // Add to back stack
+                        .replace(R.id.nav_host_fragment, new MuseumNationalCardiff())
+                        .addToBackStack(null)
                         .commit();
             }
         });
-        // Image Button to Waterfront Museum
-        ImageButton imageButtonMuseumVirtualTour4 = rootView.findViewById(R.id.imageButtonMuseumVirtualTour4);
-        imageButtonMuseumVirtualTour4.setOnClickListener(new View.OnClickListener() {
+
+        // Button to Waterfront Museum
+        Button buttonMuseumWaterfront = rootView.findViewById(R.id.buttonMuseumWaterfront);
+        buttonMuseumWaterfront.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Replace ExploreFragment with MuseumExhibit1Fragment
                 getParentFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.nav_host_fragment, new MuseumWaterfront()) // Replace with MuseumExhibit1Fragment
-                        .addToBackStack(null)  // Add to back stack
+                        .replace(R.id.nav_host_fragment, new MuseumWaterfront())
+                        .addToBackStack(null)
                         .commit();
             }
         });
+
         return rootView;
     }
 }
-

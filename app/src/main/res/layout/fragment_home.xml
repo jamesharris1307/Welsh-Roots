@@ -3,87 +3,103 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="true"
-    android:layout_marginBottom="100dp"
-    >
+    android:layout_marginBottom="100dp">
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:background="?attr/appBackground">
-
-    <TextView
-        android:id="@+id/homePageText"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/home"
-        android:textSize="24sp"
-        android:layout_marginTop="100dp"
+        android:orientation="vertical"
         android:gravity="center"
-        android:textColor="?attr/paraText"/>
+        android:background="?attr/appBackground">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/home"
-        android:textSize="18sp"
-        android:textColor="@color/grey" />
+        <TextView
+            android:id="@+id/homePageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textSize="24sp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textColor="?attr/paraText" />
 
-    <ImageButton
-        android:id="@+id/imageButtonMuseumVirtualTour1"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/white"
-        android:contentDescription="@string/explore"
-        android:layout_marginHorizontal="35dp"
-        android:layout_marginVertical="35dp"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textSize="18sp"
+            android:textColor="@color/grey" />
 
-    <ImageButton
-        android:id="@+id/imageButtonMuseumVirtualTour2"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/white"
-        android:contentDescription="@string/explore"
-        android:layout_marginHorizontal="35dp"
-        android:layout_marginVertical="35dp"/>
+        <Button
+            android:id="@+id/buttonMuseumStFagans"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"
+            android:text="@string/stFagansTitlePageOne"
+            android:backgroundTint="@color/greenLight"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="15dp"
-        android:layout_marginVertical="15dp"
-        android:text="@string/welshPhrase"
-        android:gravity="center"/>
+        <Button
+            android:id="@+id/buttonMuseumBigPit"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"
+            android:text="@string/bigPitTitle"
+            android:backgroundTint="@color/greenLight"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
 
-    <ImageButton
-        android:id="@+id/imageButtonMuseumVirtualTour3"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/white"
-        android:contentDescription="@string/explore"
-        android:layout_marginHorizontal="35dp"
-        android:layout_marginVertical="35dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="15dp"
+            android:text="@string/welshPhrase"
+            android:gravity="center" />
 
-    <ImageButton
-        android:id="@+id/imageButtonMuseumVirtualTour4"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/white"
-        android:contentDescription="@string/explore"
-        android:layout_marginHorizontal="35dp"
-        android:layout_marginVertical="35dp"/>
+        <Button
+            android:id="@+id/buttonMuseumNationalCardiff"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"
+            android:text="@string/nationalMuseumCardiffTitle"
+            android:backgroundTint="@color/greenLight"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="15dp"
-        android:layout_marginVertical="15dp"
-        android:text="@string/welshPhrase"
-        android:gravity="center"/>
+        <Button
+            android:id="@+id/buttonMuseumWaterfront"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@string/explore"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"
+            android:text="@string/nationalWaterfrontTitle"
+            android:backgroundTint="@color/greenLight"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="15dp"
+            android:text="@string/welshPhrase"
+            android:gravity="center" />
 
-</LinearLayout>
+    </LinearLayout>
 </ScrollView>

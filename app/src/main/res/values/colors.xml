@@ -5,7 +5,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#6A7276</color>
     <color name="black">#FF000000</color>
-    <color name="greenLight">#FF007A33</color>
+    <color name="greenLight">#FF00FF6A</color>
     <color name="greenDark">#FF007A33</color>
 
     <!--Light Mode-->
