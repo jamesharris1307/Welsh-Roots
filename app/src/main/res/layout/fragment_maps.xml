@@ -7,71 +7,10 @@
     android:gravity="center"
     android:background="?attr/appBackground">
 
-    <TextView
-        android:id="@+id/homePageText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/maps"
-        android:textSize="24sp"
-        android:textColor="?attr/paraText"
-        android:layout_marginTop="32dp"
-        android:gravity="center"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/maps"
-        android:textSize="18sp"
-        android:textColor="?attr/paraText"
-        android:layout_marginBottom="40dp"/>
-
-    <FrameLayout
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="40dp">
-
-        <ImageButton
-            android:id="@+id/googleMapsButton"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@drawable/map_view"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/googleMapsView"
-            android:textColor="@color/white"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:background="#40000000"/>
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginHorizontal="40dp">
-
-        <ImageButton
-            android:id="@+id/googleStreetView"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@drawable/street_view"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/googleStreetView"
-            android:textColor="@color/white"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:background="#66000000"
-            />
-    </FrameLayout>
-
-
+        android:layout_height="match_parent" />
 
 </LinearLayout>

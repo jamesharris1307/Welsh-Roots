@@ -16,9 +16,6 @@ import com.example.welshroots.fragments.SettingsFragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-
-
-
 public class DashboardActivity extends AppCompatActivity {
 
     @Override
