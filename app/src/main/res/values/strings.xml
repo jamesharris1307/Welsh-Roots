@@ -18,6 +18,7 @@
     <string name="home">Home</string>
     <!--Explore Page-->
     <string name="explore">Explore</string>
+    <string name="exploreDesc">Explore Welsh Culture and Heritage through this Content Library of Articles, Video Links and Upcoming Events</string>
     <!--Maps Page-->
     <string name="maps">Maps</string>
     <string name="googleStreetView">Google Street View</string>

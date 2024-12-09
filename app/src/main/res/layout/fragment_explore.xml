@@ -1,13 +1,15 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="?attr/appBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="?attr/appBackground">
+        android:layout_marginHorizontal="20dp">
+
 
         <TextView
             android:id="@+id/homePageText"
@@ -22,9 +24,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/explore"
+            android:text="@string/exploreDesc"
+            android:gravity="center"
+            android:justificationMode="inter_word"
             android:textSize="18sp"
             android:textColor="@color/grey" />
+
+        <!-- Search bar -->
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Search content"
+            android:layout_marginTop="20dp" />
 
         <Button
             android:id="@+id/buttonWelshHistoryContent"
@@ -76,7 +88,7 @@
             android:layout_marginHorizontal="35dp"
             android:layout_marginTop="35dp"
             android:layout_marginBottom="100dp"
-            android:text="Welsh News"
+            android:text="Welsh News and Upcoming Events"
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
