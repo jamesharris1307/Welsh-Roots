@@ -1,25 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="hello_world">Helo byd</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--App Details-->
     <string name="app_name">Gwreiddiau Cymreig</string>
-    <string name="login">Mewngofnod</string>
-    <string name="signUp">Cofrestr</string>
-    <string name="email">Ebost</string>
-    <string name="password">Cyfrinair</string>
-    <string name="dontHaveAccount">Ddim yn cael cyfrif? Ymuno</string>
-    <string name="haveAccount">Oes gennych chi gyfrif eisoes? Mewngofnodi</string>
     <string name="loginOrSignUp">Mewngofnodi neu gofrestru</string>
     <string name="submit">Cynnig</string>
+    <string name="continueGuest">Peidiwch â chael cyfrif?\n Parhau fel gwestai?</string>
+    <!--Login-->
+    <string name="login">Mewngofnod</string>
+    <string name="email">E-bost</string>
+    <string name="password">Cyfrinair</string>
+    <string name="dontHaveAccount">Ddim yn cael cyfrif? Ymuno</string>
+    <!--Sign Up-->
+    <string name="signUp">Ymuno</string>
+    <string name="haveAccount">Oes gennych chi gyfrif eisoes? Mewngofnodi</string>
+
+    <!--Home Page-->
     <string name="home">Cartref</string>
+    <!--Explore Page-->
     <string name="explore">Archwilio</string>
+    <!--Maps Page-->
     <string name="maps">Mapiau</string>
+    <string name="googleStreetView">Google Stryd Golwg</string>
+    <string name="googleMapsView">Google Mapiau Golwg</string>
+    <!--About Page-->
     <string name="about">Ynghylch</string>
-    <string name="continueGuest">Ddim yn cael cyfrif?\n Parhau fel gwestai?</string>
-    <string name="welshPhrase">Welsh Phrase</string>
-    <string name="settings">gosodiadau</string>
+    <!--Settings Page-->
+    <string name="settings">Gosodiadau</string>
     <string name="darkMode">Galluogi Modd Tywyll</string>
-    <string name="highContrast">galluogi modd cyferbyniad uchel</string>
-    <string name="googleStreetView">Google Golygfa Stryd</string>
-    <string name="googleMapsView">Google Mapiau View</string>
+    <string name="highContrast">Galluogi Modd Cyferbyniad Uchel</string>
+
+    <!--Welsh Phrases-->
+    <string name="welshPhrase">Ymadrodd Cymraeg</string>
+
+    <!--TitleTransport-->
+    <string name="carTitle">Car</string>
+    <string name="trainTitle">Trên</string>
+    <string name="busTitle">Bws</string>
+    <string name="bikeTitle">Beic</string>
+
+    <!--St. Fagans Museum Showcase-->
+    <string name="stFagansTitlePageOne">Sain Ffagan Cenedlaethol\nAmgueddfa Werin</string>
+    <string name="stFagansMusuemOneLocation">Sain Ffagan Amgueddfa Werin Cymru, Sain Ffagan,\nCardiff, CF5 6DU, Cymru</string>
+    <!--Exhibit One (Wales is Talking about Empire)-->
+    <string name="stFagansTitleExhibitOne" tools:ignore="TypographyEllipsis">Mae Cymru yn... Siarad am Ymerodraeth</string>
+    <string name="stFagansExhibitOneParagraph">Cost: Am ddim\nDate: O 4 Mai 2024\n\nDarganfod sut mae hanes trefedigaethol wedi siapio Cymru a\'i chynrychiolaeth drwy arddangosfa ddeniadol sy\'n archwilio themâu ymerodraeth, pŵer, a lleisiau ymylol. Mae\'r profiad addysgol hwn, dan arweiniad yr artist Nasia Sarwar-Skuse a\'r sefydliad celfyddydol Ways of Working, yn gwahodd ymwelwyr i fyfyrio ar hanes a\'i effaith barhaus heddiw.\n\n\nMae\'r arddangosfa hon yn rhan o\'r prosiect Perspectives sy\'n gydweithrediad â Chyngor Celfyddydau Cymru ac Amgueddfa Cymru. Mae'n ceisio hyrwyddo amrywiaeth ddiwylliannol ac ethnig mewn treftadaeth Gymreig ac yn cyd-fynd â Chynllun Gweithredu Cymru Gwrth-hiliol, meithrin ymwybyddiaeth o etifeddiaeth gwladychiaeth ac annog deialog am gynrychiolaeth yn y Gymru fodern. Trwy archwilio'r gosodiadau hyn, gall ymwelwyr gael cipolwg ar sut y dywedir wrth hanes, y mae ei lleisiau'n cael eu chwyddo, a sut mae Cymru'n parhau i ddatblygu ei dealltwriaeth o'i gorffennol trefedigaethol.</string>
+    <string name="stFagansLinkToWebsiteExhibitOne">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/</string>
+    <!--Exhibit Two (A Bespoke Welsh Woollen Coat)-->
+    <string name="stFagansTitleExhibitTwo">Côt wlân Gymreig bwrpasol</string>
+    <string name="stFagansExhibitTwoParagraph">Cost: Am ddim\nDate: Rhwng 16 Tachwedd 2024 a 27 Ebrill 2025\n\n\nMae\'r arddangosfa hon, a gyflwynwyd gan Teilwr Bach mewn cydweithrediad ag Oasis Caerdydd ac a gefnogir gan Gronfa Dreftadaeth y Loteri Genedlaethol, yn amlygu treftadaeth a chelfyddiaeth gwlân a theilwra traddodiadol Cymru. Yn cynnwys cotiau, siacedi a chrysau pwrpasol wedi\'u gwneud o ffabrigau gwehyddu Cymreig a blancedi certhen vintage, mae\'r dillad yn arddangos crefftwaith Catherine Davies (Teilwr Bach), gydag un got wedi\'i dylunio gan Clare Johns Label. Mae pob darn wedi\'i gyfoethogi â phatrwm leinin unigryw wedi\'i argraffu ar y sgrin, wedi\'i grefftio gan artistiaid lleol ac wedi'i ysbrydoli gan felinau Cymru, y broses wehyddu, a'r amgylchedd naturiol. Wedi'i argraffu yn The Printhaus Caerdydd, mae'r leininau hyn yn dod â stori ddyfnach i bob dilledyn. Mae'r prosiect hefyd yn cael effaith sylweddol ar y gymuned: dysgodd ffoaduriaid a cheiswyr lloches o Oasis Caerdydd sgiliau gwnïo a gwrthdoriadau ffabrig wedi'u hailbwrpasu i eitemau ymarferol fel sliperi a bagiau. Mae'r eitemau hyn ar gael i'w prynu yn siop yr Amgueddfa, gyda'r holl elw'n cefnogi gwaith cymunedol Oasis Caerdydd. Mae'r arddangosfa yn ddathliad o ffasiwn araf, cysylltu traddodiad, celf fodern, a grymuso cymdeithasol.</string>
+    <string name="stFagansLinkToWebsiteExhibitTwo">https://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/</string>
+    <!--DescriptionTransport-->
+    <string name="stFagansByCarDesc">Mae Sain Ffagan Amgueddfa Werin Cymru 4 milltir i\'r gorllewin o ganol dinas Caerdydd, oddi ar yr A4232.\n\n\nOs ydych yn cyrraedd mewn car bydd angen i chi dalu wrth gyrraedd. £7 y dydd. Tocyn £30 y flwyddyn. AM DDIM i ddeiliaid bathodynnau glas anabl a beiciau modur. Mae'r tâl hwn am barcio dim ond gan fod mynediad i'r Amgueddfa yn parhau i fod yn rhad ac am ddim</string>
+    <string name="stFagansByTrainDesc">Yr orsaf reilffordd agosaf yw Parc Waun-gron, sydd wedi\'i leoli 2 filltir o Sain Ffagan. Mae gwasanaethau yn cael eu gweithredu gan Trafnidiaeth Cymru.</string>
+    <string name="stFagansByBusDesc">Gwasanaeth Bws 32 Caerdydd. Arosfannau ym maes parcio\'r amgueddfa.\nFirst Cymru 320 gwasanaeth. Stopiau ym mhentref Sain Ffagan.</string>
+    <string name="stFagansByBikeDesc">Y prif lwybr beicio i\'r Amgueddfa o ganol dinas Caerdydd yw trwy Lwybr Trelái. Mae\'r rhan sydd wedi\'i harwyddo rhwng y Tyllgoed a\'r Amgueddfa yn ddi-draffig ac yn dilyn llwybr dymunol ar lan yr afon. Beth am feicio i'r Amgueddfa o orsaf reilffordd Parc Waun-gron ar hyd rhan dwy filltir o Lwybr Trelái?</string>
+    <string name="stFagansCreditsTitle">Gwybodaeth gan:</string>
+    <string name="stFagansCreditsBody">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/\nhttps://www.youtube.com/watch?v=8h1Hm-werRs\nhttps://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/\nhttps://www.youtube.com/watch?v=vwIEHin9KSE\nhttps://museum.wales/stfagans/visit/location/</string>
+
+    <!--Big Pit Showcase-->
+    <string name="bigPitTitle">Big Pit Amgueddfa Genedlaethol\nCoal</string>
+    <string name="bigPitLocation">Big Pit Amgueddfa Genedlaethol\nCoal\nPontypool NP4 9XP</string>
+    <!--Exhibit One (STREIC! 1984–1985 STRIKE!)-->
+    <string name="bigPitTitleExhibitOne">STREIC! 1984–1985 STRIKE!</string>
+    <string name="bigPitExhibitOneParagraph">Cost: Am ddim\nDate: O 1 Mawrth 2024 i 1 Mawrth 2025\n\nWedi\'i gynnal yn Big Pit Amgueddfa Lofaol Cymru, mae\'r digwyddiad hwn yn nodi pen-blwydd eiliad ganolog yn hanes Cymru. Ar 1 Mawrth 1984, cyhoeddodd y Bwrdd Glo Cenedlaethol gynlluniau i gau 20 o byllau, gan effeithio ar 20,000 o swyddi o bosibl. Cafodd streic y glowyr blwyddyn o hyd a ddilynodd effaith ddofn ar Gymru, gan lunio ei thirwedd wleidyddol, economaidd a chymdeithasol. I goffáu\'r digwyddiad hanesyddol hwn, mae Amgueddfa Cymru yn cyflwyno STREIC! Streic 1984–1985!, yn cynnwys arddangosfeydd yn Amgueddfa Lofaol Cymru Big Pit ym Mlaenafon ac Amgueddfa Genedlaethol Caerdydd. Gall ymwelwyr archwilio straeon personol a safbwyntiau gan lowyr trawiadol, eu teuluoedd, rheolwyr, gwleidyddion a gorfodi'r gyfraith.</string>
+    <string name="bigPitLinkToWebsiteExhibitOne">https://museum.wales/bigpit/whatson/12213/STREIC–1984–1985-STRIKE/</string>
+    <!--Exhibit Two (Story Time with Santa)-->
+    <string name="bigPitTitleExhibitTwo">Amser Stori gyda Santa</string>
+    <string name="bigPitExhibitTwoParagraph">Cost: £10 y Plentyn Dyddiad: O 14 Rhagfyr 2024 i 15 Rhagfyr 2024\n\n\nProfwch hud y Nadolig yn Big Pit Amgueddfa Lofaol Cymru! Mae Siôn Corn a\'i elves yn barod i\'ch croesawu i\'w bwthyn Nadoligaidd ar gyfer sesiwn stori galonogol iawn. Bydd plant yn mwynhau gwrando ar stori gan Siôn Corn ei hun, yn derbyn anrheg arbennig, ac yn cymryd rhan mewn crefftau Nadolig hwyliog. Mae teuluoedd yn cael eu hannog i ddal y foment gyda lluniau, gan greu atgofion gwyliau annwyl. </string>
+    <string name="bigPitLinkToWebsiteExhibitTwo">https://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
+    <!--DescriptionTransport-->
+    <string name="bigPitByCarDesc">Os ydych yn cyrraedd mewn car, bydd angen i chi dalu wrth gyrraedd. £5 y dydd. AM DDIM i ddeiliaid bathodynnau anabl a beiciau modur. Mae\'r tâl yma am barcio yn unig - mae mynediad i'r Amgueddfa yn parhau am ddim.</string>
+    <string name="bigPitCreditsBody">https://museum.wales/bigpit/whatson/12213/STREIC–1984–1985-STRIKE/\nhttps://www.youtube.com/watch?v=Nt7sPVKs9co\nhttps://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
+
+    <!--National Museum Cardiff Showcase-->
+    <string name="nationalMuseumCardiffTitle">Amgueddfa Genedlaethol Caerdydd</string>
+    <string name="nationalMuseumCardiffLocation">Amgueddfa Genedlaethol Caerdydd\nCardiff CF10 3NP</string>
+    <!--Exhibit One (Art of the Selfie)-->
+    <string name="nationalMuseumCardiffTitleExhibitOne">Celfyddyd yr Hunlun</string>
+    <string name="nationalMuseumCardiffExhibitOneParagraph">Cost: Am ddim\nDate: Rhwng 16 Mawrth 2024 a 26 Ionawr 2025\n\nExplore the evolution of self-representation in art at the National Museum Cardiff exhibition Art of the Selfie. Mae\'r arddangosfa hon sy\'n ysgogi\'r meddwl yn archwilio a ellir ystyried hunanbortreadau yn hunluniau gwreiddiol ac yn ymchwilio i\'r ffordd y mae artistiaid o Rembrandt a Van Gogh i grewyr modern fel Bedwyr Williams ac Anya Paintsil yn portreadu eu hunain. Mae\'r arddangosfa\'n arddangos gweithiau eiconig, gan gynnwys Portrait of the Artist gan Van Gogh (1887) ar fenthyg gan Musée d'Orsay, Paris, ochr yn ochr â darnau gan artistiaid enwog fel Rembrandt, Brenda Chamberlain, Francis Bacon, Bedwyr Williams, Anya Paintsil. Mae'r casgliad amrywiol hwn yn tynnu sylw at wahanol ddulliau artistig o hunanbortreadau, gan gyfochri â sut mae hunluniau heddiw yn adlewyrchu unigoliaeth a hunanfynegiant. Anogir ymwelwyr i ystyried y cwestiwn: Sut ydych chi'n gweld eich hun?</string>
+
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitOne">https://museum.wales/cardiff/whatson/12181/Art-of-the-Selfie/</string>
+    <!--Exhibit Two (The Valleys)-->
+    <string name="nationalMuseumCardiffTitleExhibitTwo">Y Cymoedd</string>
+    <string name="nationalMuseumCardiffExhibitTwoParagraph">Cost: Am ddim\nDate: Rhwng 25 Mai 2024 a 5 Ionawr 2025\n\nExplore the stories and rich cultural history of south Wales in The Valleys, arddangosfa sy\'n dathlu celf ac etifeddiaeth y rhanbarth rhyfeddol hwn. O Rydaman i Bont-y-pŵl, mae Cymoedd y De wedi ysbrydoli artistiaid ers y 18fed ganrif, gan ddal eu trawsnewidiad trwy haearn a glo a\'u cyfraniad sylweddol i\'r byd modern. Mae\'r arddangosfa hon yn cynnwys dros 200 o weithiau mewn cyfryngau amrywiol, gan gynnwys paentio, ffotograffiaeth, ffilm a chelfyddydau cymhwysol. Mae\'n proffilio bywydau a thirweddau unigryw y Cymoedd, gan gyflwyno darlun byw o brofiadau dosbarth gweithiol trwy lygaid dros 60 o artistiaid. Ymhlith yr uchafbwyntiau mae gweithiau gan Tina Carr ac Annemarie Schöne, Robert Frank, Josef Herman, Ernest Zobole, Yn ogystal, mae'r arddangosfa'n cyflwyno artistiaid glöwr fel Nicholas Evans, Harry Rodgers ac Illtyd David, ochr yn ochr â darnau ffotograffiaeth newydd eu caffael a gefnogir gan y Gronfa Gelf. Bydd nifer o weithiau nas gwelwyd o'r blaen hefyd yn cael eu harddangos.</string>
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitTwo">https://museum.wales/cardiff/whatson/12263/The-Valleys/</string>
+    <!--Exhibit Three (The Fossil Swamp)-->
+    <string name="nationalMuseumCardiffTitleExhibitThree">Y Ffosil Swamp</string>
+    <string name="nationalMuseumCardiffExhibitThreeParagraph">Cost: Am ddim \ nDate: Rhwng 18 Mai 2019 a 2 Mawrth 2025\n\nStep yn ôl 300 miliwn o flynyddoedd i fyd trofannol cynhanesyddol yn The Fossil Swamp. Mae\'r arddangosfa drochol hon yn cynnig cipolwg ar amser cyn deinosoriaid neu fodau dynol, pan oedd Cymru\'n rhan o gors helaeth a ffrwythlon yn llawn bywyd. Archwiliwch ffosilau sy\'n datgelu sut mae planhigion anferth, creaduriaid rhyfedd, a thywydd garw wedi siapio\'r gwlyptiroedd hynafol hyn. Ymhlith yr uchafbwyntiau mae Stigmaria, canolbwynt ffosil 3D syfrdanol o Brymbo yng ngogledd-ddwyrain Cymru, sy\'n arddangos cadwraeth unigryw planhigion cynhanesyddol enfawr. ffosilau sy'n darlunio bywyd miliynau o flynyddoedd cyn i flodau a ffrwythau esblygu. Mae anifeiliaid cynhanesyddol yn wahanol iawn i fywyd gwyllt heddiw. Dysgwch am y gwyddonwyr a gododd ddirgelion yr ecosystemau hyn a darganfod sut mae'r cors ffosil yn cysylltu â heriau hinsawdd a thanwydd ffosil heddiw. Daw'r arddangosfa atoch mewn partneriaeth ag Ymddiriedolaeth Treftadaeth Brymbo, Amgueddfa Bwrdeistref Sirol Wrecsam, ac eraill.</string>
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitThree">https://museum.wales/cardiff/whatson/10676/The-Fossil-Swamp/</string>
+    <!--DescriptionTransport-->
+    <string name="nationalMuseumCardiffByCarDesc">Mae Maes Parcio Ymwelwyr y tu ôl i\'r Amgueddfa, oddi ar Rodfa\'r Amgueddfa. Bydd ymwelwyr sy\'n parcio yma yn derbyn tocyn ar y pwynt mynediad ac mae angen iddynt dalu £6.50 am y diwrnod mewn gorsaf dalu yng nghefn y maes parcio. Nodwch fod y gorsafoedd talu ond yn derbyn taliadau cardiau - ni dderbynnir unrhyw daliadau arian parod. Gall ymwelwyr ddefnyddio unrhyw gardiau credyd / debyd (ac eithrio American Express), neu Apple neu Android Pay. Mae parcio am ddim i ddeiliaid bathodynnau glas. Defnyddiwch y intercom yn y rhwystr ymadael i wirio eich trwydded bathodyn glas. Mae parcio anabl hefyd ar gael ym mlaen yr Amgueddfa, ar Heol Gerddi'r Orsedd.</string>
+    <string name="nationalMuseumCardiffCreditsBody">https://museum.wales/cardiff/whatson/12181/Art-of-the-Selfie/\nhttps://museum.wales/cardiff/whatson/12263/The-Valleys/\nhttps://museum.wales/cardiff/whatson/10676/The-Fossil-Swamp/</string>
+
+    <!--National Waterfront Museum Showcase-->
+    <string name="nationalWaterfrontTitle">Amgueddfa Genedlaethol y Glannau</string>
+    <string name="nationalWaterfrontLocation">Amgueddfa Genedlaethol y Glannau, Oystermouth Rd\nMaritime Quarter, Swansea SA1 3RD</string>
+    <!--Exhibit One (Ours To Tell)-->
+    <string name="nationalWaterfrontTitleExhibitOne">Ours I Ddweud</string>
+    <string name="nationalWaterfrontExhibitOneParagraph">Cost: Free \nDate: Rhwng 16 Mawrth 2024 a 21 Ionawr 2025, mae "Ours to Tell" yn brosiect arwyddocaol sy\'n canolbwyntio ar ddogfennu ac ehangu bywydau a phrofiadau LGBTQ+ yng Nghymru. Bu aelodau o Gydweithfa Ieuenctid Amgueddfa Cymru yn cydweithio gyda staff yr amgueddfa i nodi bylchau yng nghasgliadau\'r amgueddfa. Gyda\'i gilydd, fe wnaethon nhw gasglu straeon bywyd a gwrthrychau o\'r gymuned LGBTQ+ yng Nghymru. Mae'r cyfraniadau hyn yn cynnig cipolwg ar brofiadau LGBTQ+ ac yn etifeddiaeth barhaol, gan gadw'r straeon a'r arteffactau hyn ar gyfer cenedlaethau'r dyfodol. Mae'r arddangosfa'n arddangos amrywiaeth y naratifau a'r gwrthrychau hyn, gan dynnu sylw at eu pwysigrwydd wrth gynrychioli'r gymuned hon.</string>
+    <string name="nationalWaterfrontLinkToWebsiteExhibitOne">https://museum.wales/swansea/whatson/12185/Ours-To-Tell/</string>
+    <!--Exhibit Two (Making Waves – RNLI Cymru 200)-->
+    <string name="nationalWaterfrontTitleExhibitTwo">Gwneud Tonnau – RNLI Cymru 200</string>
+    <string name="nationalWaterfrontExhibitTwoParagraph">Cost: Am ddim\nDate: Rhwng 22 Mehefin 2024 a 1 Mehefin 2025\n\nMae\'r arddangosfa "Gwneud Tonnau – RNLI Cymru 200" yn dathlu 200 mlynedd ers sefydlu\'r Sefydliad Bad Achub Cenedlaethol Brenhinol (RNLI) a\'i rôl hanfodol wrth sicrhau diogelwch ar hyd arfordir Cymru. Dros y blynyddoedd, mae\'r RNLI wedi achub bywydau di-ri, gyda gweithrediadau achub yn esblygu\'n sylweddol - o ymateb i drychinebau llongau ar raddfa fawr i gynorthwyo pobl sy\'n mynd ar eu gwyliau yn gaeth. Mae\'r arddangosfa hon yn arddangos trawsnewid technegau achub a\'r offer arloesol a ddefnyddir, gan gynnwys y bad achub arloesol a ddyluniwyd ac a adeiladwyd yng Ngholeg Iwerydd Cymru. Bydd ymwelwyr hefyd yn clywed straeon rhyfeddol y bobl a ddefnyddiodd yr offer achub bywyd hyn. Mae'r digwyddiad yn rhan o arddangosfa ddeuol yng Nghymru sy'n nodi'r garreg filltir hanesyddol hon. Mae'r cydweithio rhwng Oriel y Parc, yr RNLI, ac Awdurdod Parc Cenedlaethol Arfordir Penfro yn cynnwys arddangosfeydd cyflenwol yn Oriel y Parc, Canolfan Ddarganfod y Parc Cenedlaethol yn Nhyddewi.</string>
+    <string name="nationalWaterfrontLinkToWebsiteExhibitTwo">https://museum.wales/swansea/whatson/12202/Making-Waves—RNLI-Cymru-200/</string>
+    <!--DescriptionTransport-->
+    <string name="nationalWaterfrontByCarDesc">Nid oes gan Amgueddfa Genedlaethol y Glannau faes parcio pwrpasol.</string>
+    <string name="nationalWaterfrontCreditsBody">https://museum.wales/swansea/whatson/12185/Ours-To-Tell/\nhttps://museum.wales/swansea/whatson/12202/Making-Waves—RNLI-Cymru-200/</string>
 
 </resources>

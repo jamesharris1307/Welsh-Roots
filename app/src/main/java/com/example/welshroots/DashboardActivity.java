@@ -8,11 +8,11 @@ import androidx.appcompat.app.AppCompatDelegate;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.welshroots.fragments.AboutFragment;
-import com.example.welshroots.fragments.ExploreFragment;
-import com.example.welshroots.fragments.HomeFragment;
-import com.example.welshroots.fragments.MapsFragment;
-import com.example.welshroots.fragments.SettingsFragment;
+import com.example.welshroots.main_fragments.AboutFragment;
+import com.example.welshroots.main_fragments.ExploreFragment;
+import com.example.welshroots.main_fragments.HomeFragment;
+import com.example.welshroots.main_fragments.MapsFragment;
+import com.example.welshroots.main_fragments.SettingsFragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 

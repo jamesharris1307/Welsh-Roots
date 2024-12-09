@@ -1,4 +1,4 @@
-package com.example.welshroots.fragments;
+package com.example.welshroots.main_fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

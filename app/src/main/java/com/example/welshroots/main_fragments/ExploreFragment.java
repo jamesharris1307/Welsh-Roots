@@ -1,4 +1,4 @@
-package com.example.welshroots.fragments;
+package com.example.welshroots.main_fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,8 +9,6 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 
 import com.example.welshroots.R;
-import com.example.welshroots.content.MuseumExhibit1Fragment;
-import com.example.welshroots.content.MuseumExhibit2Fragment;
 import com.example.welshroots.content.WelshHistoryFragment;
 import com.example.welshroots.content.WelshNews;
 import com.example.welshroots.content.WelshUrbanLegends;
