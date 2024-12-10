@@ -107,4 +107,8 @@
     <string name="nationalWaterfrontByCarDesc">The National Waterfront Museum does not have a dedicated car park.</string>
     <string name="nationalWaterfrontCreditsBody">https://museum.wales/swansea/whatson/12185/Ours-To-Tell/\nhttps://museum.wales/swansea/whatson/12202/Making-Waves—RNLI-Cymru-200/</string>
 
+    <!--Welsh Urban Legends Fragment-->
+    <string name="urbanLegendsTitle">Welsh Urban\nLegends</string>
+    <string name="urbanLegendsDesc">{{ Explain this Page }}</string>
+    <string name="urbanLegendsCounter1">#1 Devil's Bridge</string>
 </resources>
