@@ -110,5 +110,37 @@
     <!--Welsh Urban Legends Fragment-->
     <string name="urbanLegendsTitle">Welsh Urban\nLegends</string>
     <string name="urbanLegendsDesc">{{ Explain this Page }}</string>
-    <string name="urbanLegendsCounter1">#1 Devil's Bridge</string>
+    <!--Counter-->
+    <string name="urbanLegendsCounter1">#1 Devil\'s Bridge</string>
+    <string name="urbanLegendsCounter2">#2 Angelystor</string>
+    <string name="urbanLegendsCounter3">#3 The Lady of the Lake</string>
+    <string name="urbanLegendsCounter4">#4 Merlin\'s Oak</string>
+    <string name="urbanLegendsCounter5">#5 Dinas Emrys</string>
+    <string name="urbanLegendsCounter6">#6 Gelert</string>
+    <string name="urbanLegendsCounter7">#7 The Afanc</string>
+    <string name="urbanLegendsCounter8">#8 St David</string>
+    <string name="urbanLegendsCounter9">#9 Cadair Idris</string>
+    <string name="urbanLegendsCounter10">#10 Old Magw the Witch</string>
+    <!--Image Description-->
+    <string name="urbanLegendsImageDesc1">This image is of the devil\'s bridge urban legend</string>
+    <string name="urbanLegendsImageDesc2">This image is of the Angelystor</string>
+    <string name="urbanLegendsImageDesc3">This image is of the Lady of the Lake</string>
+    <string name="urbanLegendsImageDesc4">This image is of the Merlin\'s Oak</string>
+    <string name="urbanLegendsImageDesc5">This image is of the Dinas Emrys</string>
+    <string name="urbanLegendsImageDesc6">This image is of the Gelert</string>
+    <string name="urbanLegendsImageDesc7">This image is of the Afanc</string>
+    <string name="urbanLegendsImageDesc8">This image is of the St David</string>
+    <string name="urbanLegendsImageDesc9">This image is of the Cadair Idris</string>
+    <string name="urbanLegendsImageDesc10">This image is of the Old Magw the Witch</string>
+    <!--Paragraphs-->
+    <string name="urbanLegendsParagraph1"></string>
+    <string name="urbanLegendsParagraph2"></string>
+    <string name="urbanLegendsParagraph3"></string>
+    <string name="urbanLegendsParagraph4"></string>
+    <string name="urbanLegendsParagraph5"></string>
+    <string name="urbanLegendsParagraph6"></string>
+    <string name="urbanLegendsParagraph7"></string>
+    <string name="urbanLegendsParagraph8"></string>
+    <string name="urbanLegendsParagraph9"></string>
+    <string name="urbanLegendsParagraph10"></string>
 </resources>
