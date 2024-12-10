@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/login"
-            android:textColor="@color/white"
+            android:textColor="?attr/buttonText"
             android:layout_marginHorizontal="45dp"
             android:padding="12dp"
             android:backgroundTint="?attr/buttonBackground"
