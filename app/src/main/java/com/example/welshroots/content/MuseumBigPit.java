@@ -30,7 +30,7 @@ public class MuseumBigPit extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_content_museum_big_pit, container, false);
+        View view = inflater.inflate(R.layout.content_fragment_museum_big_pit, container, false);
 
         // Configure WebView for YouTube
         WebView bigPitYoutube = view.findViewById(R.id.bigPitYoutube);

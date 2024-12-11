@@ -19,7 +19,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:contentDescription="@string/about"
-            app:srcCompat="@drawable/icon_welsh_roots"
+            app:srcCompat="@drawable/ic_welsh_roots"
             android:layout_marginTop="250dp"/>
 
         <TextView

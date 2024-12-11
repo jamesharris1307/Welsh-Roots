@@ -30,7 +30,7 @@ public class MuseumNationalCardiff extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_content_museum_national_cardiff, container, false);
+        View view = inflater.inflate(R.layout.content_fragment_museum_national_cardiff, container, false);
 
         // Configure WebView for YouTube
         WebView nationalCardiffYoutube = view.findViewById(R.id.NationalMuseumCardiffYoutube);
