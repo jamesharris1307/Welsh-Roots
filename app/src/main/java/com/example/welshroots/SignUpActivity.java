@@ -30,25 +30,27 @@ public class SignUpActivity extends AppCompatActivity {
         Button buttonSignUp = findViewById(R.id.buttonSignUp);
         TextView textViewLogin = findViewById(R.id.textViewLogin);
 
+        // Sign Up Button
         buttonSignUp.setOnClickListener(v -> {
             String email = editTextEmail.getText().toString().trim();
             String password = editTextPassword.getText().toString().trim();
-
+            // Validate Email
             if (TextUtils.isEmpty(email)) {
                 editTextEmail.setError("Email is required");
                 return;
             }
-
+            // Validate Password
             if (TextUtils.isEmpty(password)) {
                 editTextPassword.setError("Password is required");
                 return;
             }
-
+            // Validate Password Length
             if (password.length() < 6) {
                 editTextPassword.setError("Password must be at least 6 characters");
                 return;
             }
 
+            // Create User with Firebase Authentication
             firebaseAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener(SignUpActivity.this, task -> {
                         if (task.isSuccessful()) {
@@ -61,6 +63,7 @@ public class SignUpActivity extends AppCompatActivity {
                     });
         });
 
+        // Login Button
         textViewLogin.setOnClickListener(v -> {
             startActivity(new Intent(SignUpActivity.this, LoginActivity.class));
             finish();

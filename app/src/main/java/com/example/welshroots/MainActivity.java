@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Login Button
         Button buttonLogin = findViewById(R.id.buttonLogin);
         buttonLogin.setOnClickListener(v -> {
             // Navigate to LoginActivity
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        // Sign Up Button
         Button buttonSignUp = findViewById(R.id.buttonSignUp);
         buttonSignUp.setOnClickListener(v -> {
             // Navigate to SignUpActivity
@@ -28,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        // Guest Button
         TextView continueGuest = findViewById(R.id.continueGuest);
-
         continueGuest.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, DashboardActivity.class));
             finish();
