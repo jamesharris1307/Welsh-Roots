@@ -1,13 +1,12 @@
 package com.example.welshroots.main_fragments;
 
+// Imports
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
 import androidx.fragment.app.Fragment;
-
 import com.example.welshroots.R;
 import com.example.welshroots.content.MuseumNationalCardiff;
 import com.example.welshroots.content.MuseumStFagans;

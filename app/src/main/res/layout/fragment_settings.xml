@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="?attr/appBackground">
+    android:background="?attr/appBackground"
+    android:gravity="center_horizontal">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/settings"
         android:textSize="24sp"
-        android:gravity="center_horizontal" />
+ />
 
     <Switch
         android:id="@+id/modeChoice"

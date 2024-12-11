@@ -1,5 +1,6 @@
 package com.example.welshroots.main_fragments;
 
+// Imports
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,14 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Switch;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 import java.util.Locale;
-
-
 import com.example.welshroots.R;
 
 public class SettingsFragment extends Fragment{
@@ -60,7 +58,6 @@ public class SettingsFragment extends Fragment{
 
             requireActivity().recreate();
         });
-
         return view;
     }
 

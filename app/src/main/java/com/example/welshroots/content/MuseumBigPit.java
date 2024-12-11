@@ -1,5 +1,6 @@
 package com.example.welshroots.content;
 
+// Imports
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,13 +8,11 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebSettings;
 import android.webkit.WebViewClient;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.annotation.SuppressLint;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
 import com.example.welshroots.R;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -22,6 +21,7 @@ import com.google.android.gms.maps.SupportStreetViewPanoramaFragment;
 
 public class MuseumBigPit extends Fragment {
 
+    // Declare Variables
     private static final String BigPitVideoID = "NgigITMSLIg";
     private static final String ExhibitOneVideoID = "Nt7sPVKs9co";
     private static final LatLng BigPitLocation = new LatLng(51.77259753456756, -3.1045423622336243);
@@ -46,13 +46,11 @@ public class MuseumBigPit extends Fragment {
         exhibitOneYoutube.setWebViewClient(new WebViewClient());
         exhibitOneYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + ExhibitOneVideoID);
 
-
         // Big Pit Street View
         SupportStreetViewPanoramaFragment streetViewFragment = new SupportStreetViewPanoramaFragment();
         FragmentTransaction streetViewTransaction = getChildFragmentManager().beginTransaction();
         streetViewTransaction.replace(R.id.streetViewContainer, streetViewFragment);
         streetViewTransaction.commit();
-
         streetViewFragment.getStreetViewPanoramaAsync(panorama ->
                 panorama.setPosition(BigPitLocation)
         );
@@ -62,13 +60,11 @@ public class MuseumBigPit extends Fragment {
         FragmentTransaction mapTransaction = getChildFragmentManager().beginTransaction();
         mapTransaction.replace(R.id.mapContainer, mapFragment);
         mapTransaction.commit();
-
         mapFragment.getMapAsync(googleMap -> {
             LatLng bigPitLocation = new LatLng(51.7732414968518, -3.105647432357649);
             googleMap.addMarker(new MarkerOptions().position(bigPitLocation).title("Big Pit National Coal Museum"));
             googleMap.moveCamera(com.google.android.gms.maps.CameraUpdateFactory.newLatLngZoom(bigPitLocation, 15));
         });
-
         return view;
     }
 }

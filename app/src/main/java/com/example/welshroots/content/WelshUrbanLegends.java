@@ -1,20 +1,20 @@
 package com.example.welshroots.content;
 
-import android.annotation.SuppressLint;
+// Imports
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
+import android.webkit.WebView;
 import android.view.ViewGroup;
 import android.webkit.WebSettings;
-import android.webkit.WebView;
+import android.view.LayoutInflater;
 import android.webkit.WebViewClient;
-
+import android.annotation.SuppressLint;
 import androidx.fragment.app.Fragment;
-
 import com.example.welshroots.R;
 
 public class WelshUrbanLegends extends Fragment {
 
+    // Declare Variables
     private static final String welshUrbanLegendsVideoID = "0W38hBtjJD8";
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -28,7 +28,6 @@ public class WelshUrbanLegends extends Fragment {
         webSettingsWelshUrbanLegendsVideo1.setJavaScriptEnabled(true);
         welshUrbanLegendsYoutube1.loadUrl("https://www.youtube-nocookie.com/embed/" + welshUrbanLegendsVideoID);
         welshUrbanLegendsYoutube1.setWebViewClient(new WebViewClient());
-
         return view;
     }
 }

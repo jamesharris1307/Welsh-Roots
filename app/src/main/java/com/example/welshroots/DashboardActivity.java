@@ -1,19 +1,17 @@
 package com.example.welshroots;
 
+// Imports
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
-
 import androidx.fragment.app.Fragment;
-
 import com.example.welshroots.main_fragments.AboutFragment;
 import com.example.welshroots.main_fragments.ExploreFragment;
 import com.example.welshroots.main_fragments.HomeFragment;
 import com.example.welshroots.main_fragments.MapsFragment;
 import com.example.welshroots.main_fragments.SettingsFragment;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class DashboardActivity extends AppCompatActivity {
