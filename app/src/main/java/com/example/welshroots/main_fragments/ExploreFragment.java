@@ -28,6 +28,7 @@ public class ExploreFragment extends Fragment {
         buttonWelshUrbanLegends = rootView.findViewById(R.id.buttonWelshUrbanLegends);
         buttonWelshNews = rootView.findViewById(R.id.buttonWelshNews);
 
+        // Welsh History Button
         buttonWelshHistory.setOnClickListener(v ->
             getParentFragmentManager()
                     .beginTransaction()
@@ -36,7 +37,7 @@ public class ExploreFragment extends Fragment {
                     .commit()
         );
 
-
+        // Welsh Urban Legends Button
         buttonWelshUrbanLegends.setOnClickListener(v ->
             getParentFragmentManager()
                     .beginTransaction()
@@ -45,6 +46,7 @@ public class ExploreFragment extends Fragment {
                     .commit()
         );
 
+        // Welsh News Button
         buttonWelshNews.setOnClickListener(v ->
             getParentFragmentManager()
                     .beginTransaction()
@@ -53,6 +55,7 @@ public class ExploreFragment extends Fragment {
                     .commit()
         );
 
+        // Search Function
         SearchView searchView = rootView.findViewById(R.id.searchView);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -66,10 +69,10 @@ public class ExploreFragment extends Fragment {
                 return false;
             }
         });
-
         return rootView;
     }
 
+    // Method to Filter Buttons Based on Search Target
     private void filterContent(String query) {
         query = query.trim().toLowerCase();
 
@@ -84,6 +87,7 @@ public class ExploreFragment extends Fragment {
                 "welsh news"
         };
 
+        // Match Search Target to Button if Exist
         for (int i = 0; i < buttons.length; i++) {
             if (query.isEmpty() || query.equalsIgnoreCase(buttonLabels[i])) {
                 buttons[i].setVisibility(View.VISIBLE);

@@ -37,9 +37,11 @@ public class AboutFragment extends Fragment {
         // Load Reviews
         loadReviews();
 
+        // Submit Button
         submitReviewButton.setOnClickListener(v -> {
             String reviewText = reviewInput.getText().toString().trim();
 
+            // Check if Review is Empty
             if (TextUtils.isEmpty(reviewText)) {
                 Toast.makeText(getContext(), "No Review Submitted", Toast.LENGTH_SHORT).show();
             } else {
@@ -51,12 +53,14 @@ public class AboutFragment extends Fragment {
         return view;
     }
 
+    // Method to Load Saved Reviews
     private void loadReviews() {
         SharedPreferences prefs = requireContext().getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
         String allReviews = prefs.getString(KEY_REVIEWS, "No Reviews at the Moment");
         reviewDisplay.setText(allReviews);
     }
 
+    // Method to Save New Review
     private void saveReview(String reviewText) {
         SharedPreferences prefs = requireContext().getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();

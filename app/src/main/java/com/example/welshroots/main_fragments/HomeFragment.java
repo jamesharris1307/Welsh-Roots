@@ -19,6 +19,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
+        // Button for St Fagans Museum
         Button buttonMuseumStFagans = rootView.findViewById(R.id.buttonMuseumStFagans);
         buttonMuseumStFagans.setOnClickListener(v ->
                 getParentFragmentManager()
@@ -28,6 +29,7 @@ public class HomeFragment extends Fragment {
                         .commit()
         );
 
+        // Button for Big Pit Museum
         Button buttonMuseumBigPit = rootView.findViewById(R.id.buttonMuseumBigPit);
         buttonMuseumBigPit.setOnClickListener(v ->
                 getParentFragmentManager()
@@ -37,6 +39,7 @@ public class HomeFragment extends Fragment {
                         .commit()
         );
 
+        // Button for Cardiff National Museum
         Button buttonMuseumNationalCardiff = rootView.findViewById(R.id.buttonMuseumNationalCardiff);
         buttonMuseumNationalCardiff.setOnClickListener(v ->
                 getParentFragmentManager()
@@ -46,6 +49,7 @@ public class HomeFragment extends Fragment {
                         .commit()
         );
 
+        // Button for Waterfront Museum
         Button buttonMuseumWaterfront = rootView.findViewById(R.id.buttonMuseumWaterfront);
         buttonMuseumWaterfront.setOnClickListener(v ->
                 getParentFragmentManager()

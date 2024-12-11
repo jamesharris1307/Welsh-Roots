@@ -30,30 +30,32 @@ public class LoginActivity extends AppCompatActivity {
         Button buttonLogin = findViewById(R.id.buttonLogin);
         TextView textViewSignUp = findViewById(R.id.textViewSignUp);
 
+        // Login Button
         buttonLogin.setOnClickListener(v -> {
+            // Retrieve Input From EditText Field
             String email = editTextEmail.getText().toString().trim();
             String password = editTextPassword.getText().toString().trim();
-
+            // Validate Email Field
             if (TextUtils.isEmpty(email)) {
                 editTextEmail.setError("Email is required");
                 return;
             }
-
+            // Validate Password Field
             if (TextUtils.isEmpty(password)) {
                 editTextPassword.setError("Password is required");
                 return;
             }
-
+            // Password Length Validation
             if (password.length() < 6) {
                 editTextPassword.setError("Password must be at least 6 characters");
                 return;
             }
 
+            // Sign In Using Firebase Authentication
             firebaseAuth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(LoginActivity.this, task -> {
                         if (task.isSuccessful()) {
                             Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                            // Redirect to HomePageActivity after successful login
                             startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
                             finish();
                         } else {
@@ -62,6 +64,7 @@ public class LoginActivity extends AppCompatActivity {
                     });
         });
 
+        // Sign Up Button
         textViewSignUp.setOnClickListener(v -> {
             startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
             finish();

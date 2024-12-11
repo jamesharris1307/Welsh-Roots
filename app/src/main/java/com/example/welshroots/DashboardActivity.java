@@ -20,19 +20,21 @@ public class DashboardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Retrieve Current Theme Preferences
         SharedPreferences prefs = getSharedPreferences("ThemePrefs", MODE_PRIVATE);
         int currentMode = prefs.getInt("theme", AppCompatDelegate.MODE_NIGHT_NO);
         AppCompatDelegate.setDefaultNightMode(currentMode); // Apply the theme
-
+        // Set View
         setContentView(R.layout.activity_dashboard);
-
+        // Bottom Navigation Widget
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-
+        // Load Home By Default
         loadFragment(new HomeFragment());
 
         bottomNavigationView.setOnItemSelectedListener(item -> {
             Fragment selectedFragment = null;
 
+            // Load Selected Navigation Item
             if (item.getItemId() == R.id.nav_home) {
                 selectedFragment = new HomeFragment();
             } else if (item.getItemId() == R.id.nav_explore) {
@@ -49,8 +51,9 @@ public class DashboardActivity extends AppCompatActivity {
             return true;
         });
 
-        ImageButton accountIcon = findViewById(R.id.accountIcon);
-        accountIcon.setOnClickListener(v -> {
+        // Settings Button
+        ImageButton settingsIcon = findViewById(R.id.SettingsIcon);
+        settingsIcon.setOnClickListener(v -> {
             // Open Settings/Account
             loadFragment(new SettingsFragment());
         });

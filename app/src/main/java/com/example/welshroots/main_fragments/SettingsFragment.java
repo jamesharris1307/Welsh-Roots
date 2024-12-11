@@ -25,46 +25,51 @@ public class SettingsFragment extends Fragment{
 
         @SuppressLint("UseSwitchCompatOrMaterialCode") Switch themeSwitch = view.findViewById(R.id.modeChoice);
 
+        // Retrieve Current Theme
         SharedPreferences prefs = requireActivity().getSharedPreferences("ThemePrefs", Context.MODE_PRIVATE);
         int currentMode = prefs.getInt("theme", AppCompatDelegate.MODE_NIGHT_NO);
-
+        // Set Switch Position to Saved Theme
         themeSwitch.setChecked(currentMode == AppCompatDelegate.MODE_NIGHT_YES);
-
+        // Change Theme when Switch is Changed
         themeSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             SharedPreferences.Editor editor = prefs.edit();
             if (isChecked) {
+                // Dark Mode
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                 editor.putInt("theme", AppCompatDelegate.MODE_NIGHT_YES);
             } else {
+                // Light Mode
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
                 editor.putInt("theme", AppCompatDelegate.MODE_NIGHT_NO);
             }
+            // Save Selected Theme
             editor.apply();
         });
 
+        // Switch Language
         @SuppressLint("UseSwitchCompatOrMaterialCode") Switch languageSwitch = view.findViewById(R.id.modeLanguage);
+        // Retrieve Current Language
         SharedPreferences langPrefs = requireActivity().getSharedPreferences("LanguagePrefs", Context.MODE_PRIVATE);
         String currentLanguage = langPrefs.getString("language", "en");
-
+        // Set Switch Position to Saved Language
         languageSwitch.setChecked(currentLanguage.equals("cy"));
-
+        // Change Language when Switch is Changed
         languageSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             String newLanguage = isChecked ? "cy" : "en";
             setLocale(newLanguage);
-
+            // Save Selected Language
             SharedPreferences.Editor langEditor = langPrefs.edit();
             langEditor.putString("language", newLanguage);
             langEditor.apply();
-
             requireActivity().recreate();
         });
         return view;
     }
 
+    // Method to Change Language
     private void setLocale(String langCode) {
         Locale locale = new Locale(langCode);
         Locale.setDefault(locale);
-
         Context context = requireActivity();
         android.content.res.Resources resources = context.getResources();
         android.content.res.Configuration config = resources.getConfiguration();
