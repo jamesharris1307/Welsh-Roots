@@ -31,9 +31,9 @@
 
         <Button
             android:id="@+id/buttonMuseumStFagans"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="150dp"
-            android:contentDescription="@string/explore"
+            android:contentDescription="@string/stFagansTitlePageOne"
             android:layout_marginHorizontal="35dp"
             android:layout_marginVertical="35dp"
             android:text="@string/stFagansTitlePageOne"
@@ -45,9 +45,9 @@
 
         <Button
             android:id="@+id/buttonMuseumBigPit"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="150dp"
-            android:contentDescription="@string/explore"
+            android:contentDescription="@string/bigPitTitle"
             android:layout_marginHorizontal="35dp"
             android:layout_marginVertical="35dp"
             android:text="@string/bigPitTitle"
@@ -67,9 +67,9 @@
 
         <Button
             android:id="@+id/buttonMuseumNationalCardiff"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="150dp"
-            android:contentDescription="@string/explore"
+            android:contentDescription="@string/nationalMuseumCardiffTitle"
             android:layout_marginHorizontal="35dp"
             android:layout_marginVertical="35dp"
             android:text="@string/nationalMuseumCardiffTitle"
@@ -81,7 +81,7 @@
 
         <Button
             android:id="@+id/buttonMuseumWaterfront"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="150dp"
             android:contentDescription="@string/explore"
             android:layout_marginHorizontal="35dp"

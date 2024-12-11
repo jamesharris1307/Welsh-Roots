@@ -23,26 +23,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="75dp" />
 
-        <!--Description of Page-->
-        <TextView
-            android:id="@+id/descriptionText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="{{ Explain this page }}"
-            android:textColor="?attr/paraText"
-            android:textSize="15sp"
-            android:gravity="center"
-            app:layout_constraintTop_toBottomOf="@id/titleText"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="12dp" />
-
         <!--Youtube Container (Video)-->
         <WebView
             android:id="@+id/NationalMuseumCardiffYoutube"
             android:layout_width="0dp"
             android:layout_height="300dp"
-            app:layout_constraintTop_toBottomOf="@id/descriptionText"
+            app:layout_constraintTop_toBottomOf="@id/titleText"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
@@ -68,7 +54,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/nationalMuseumCardiffExhibitOneParagraph"
-            android:justificationMode="inter_word"
             android:lineSpacingExtra="2dp"
             android:textColor="?attr/paraText"
             android:textSize="15sp"
@@ -95,7 +80,7 @@
             android:id="@+id/webLinkTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Link to Exhibit"
+            android:text="@string/linkToExhibit"
             android:textColor="?attr/headingText"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -152,7 +137,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/nationalMuseumCardiffExhibitTwoParagraph"
-            android:justificationMode="inter_word"
             android:lineSpacingExtra="2dp"
             android:textColor="?attr/paraText"
             android:textSize="15sp"
@@ -168,7 +152,7 @@
             android:id="@+id/webLinkTitleTwo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Link to Exhibit"
+            android:text="@string/linkToExhibit"
             android:textColor="?attr/headingText"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -214,7 +198,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/nationalMuseumCardiffExhibitThreeParagraph"
-            android:justificationMode="inter_word"
             android:lineSpacingExtra="2dp"
             android:textColor="?attr/paraText"
             android:textSize="15sp"
@@ -230,7 +213,7 @@
             android:id="@+id/webLinkTitleThree"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Link to Exhibit"
+            android:text="@string/linkToExhibit"
             android:textColor="?attr/headingText"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -300,7 +283,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/nationalMuseumCardiffByCarDesc"
-            android:justificationMode="inter_word"
             android:textColor="?attr/paraText"
             android:textSize="15sp"
             android:gravity="start"

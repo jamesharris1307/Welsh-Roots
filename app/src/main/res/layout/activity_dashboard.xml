@@ -29,7 +29,7 @@
             android:id="@+id/accountIcon"
             android:layout_width="wrap_content"
             android:layout_height="65dp"
-            android:contentDescription="@string/app_name"
+            android:contentDescription="@string/settingsIcon"
             app:srcCompat="@drawable/ic_account"
             android:layout_marginEnd="40dp"
             android:layout_alignParentEnd="true"

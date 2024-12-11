@@ -26,7 +26,6 @@
             android:layout_height="wrap_content"
             android:text="@string/exploreDesc"
             android:gravity="center"
-            android:justificationMode="inter_word"
             android:textSize="18sp"
             android:textColor="@color/grey" />
 
@@ -41,12 +40,12 @@
 
         <Button
             android:id="@+id/buttonWelshHistoryContent"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="150dp"
-            android:contentDescription="@string/explore"
+            android:contentDescription="@string/welshHistoryTitle"
             android:layout_marginHorizontal="35dp"
             android:layout_marginVertical="35dp"
-            android:text="Welsh History Content"
+            android:text="@string/welshHistoryTitle"
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
@@ -62,12 +61,12 @@
 
         <Button
             android:id="@+id/buttonWelshUrbanLegends"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="150dp"
-            android:contentDescription="@string/explore"
+            android:contentDescription="@string/urbanLegendsTitle"
             android:layout_marginHorizontal="35dp"
             android:layout_marginVertical="35dp"
-            android:text="Welsh Urban Legends"
+            android:text="@string/urbanLegendsTitle"
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
@@ -83,13 +82,13 @@
 
         <Button
             android:id="@+id/buttonWelshNews"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="150dp"
-            android:contentDescription="@string/explore"
+            android:contentDescription="@string/welshNewsTitle"
             android:layout_marginHorizontal="35dp"
             android:layout_marginTop="35dp"
             android:layout_marginBottom="100dp"
-            android:text="Welsh News and Upcoming Events"
+            android:text="@string/welshNewsTitle"
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"

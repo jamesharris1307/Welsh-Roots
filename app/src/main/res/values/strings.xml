@@ -26,6 +26,7 @@
     <!--About Page-->
     <string name="about">About</string>
     <!--Settings Page-->
+    <string name="settingsIcon">Settings Icon</string>
     <string name="settings">Settings</string>
     <string name="darkMode">Enable Dark Mode</string>
     <string name="highContrast">Enable High Contrast Mode</string>
@@ -71,7 +72,7 @@
     <string name="bigPitLinkToWebsiteExhibitTwo">https://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
     <!--DescriptionTransport-->
     <string name="bigPitByCarDesc">If you are arriving by car you will need to pay on arrival. £5 per day. FREE for disabled badge holders and motorbikes. This charge is for parking only – entry to the Museum remains free.</string>
-    <string name="bigPitCreditsBody">https://museum.wales/bigpit/whatson/12213/STREIC-1984-1985-STRIKE/\nhttps://www.youtube.com/watch?v=Nt7sPVKs9co\nhttps://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
+    <string name="bigPitCreditsBody">https://museum.wales/bigpit/whatson/12213/STREIC–1984–1985-STRIKE/\nhttps://www.youtube.com/watch?v=Nt7sPVKs9co\nhttps://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
 
     <!--National Museum Cardiff Showcase-->
     <string name="nationalMuseumCardiffTitle">National Museum Cardiff</string>
@@ -173,5 +174,13 @@
 
     <!--Change Language in App-->
     <string name="changeLanguage">Change Language to Welsh</string>
+
+    <!--Other-->
+    <string name="linkToExhibit">Link to Exhibit</string>
+    <string name="displayReviews">No Reviews at the Moment</string>
+    <string name="reviewInput" tools:ignore="TypographyEllipsis">Write your review here...</string>
+    <string name="reviewSubmit">Submit Review</string>
+
+    <string name="welshNewsTitle">Welsh News and Upcoming Events</string>
 
 </resources>

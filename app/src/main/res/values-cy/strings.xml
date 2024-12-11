@@ -19,7 +19,6 @@
     <!--Explore Page-->
     <string name="explore">Archwilio</string>
     <string name="exploreDesc">Archwilio Diwylliant a Threftadaeth Cymru drwy\'r Llyfrgell Cynnwys hon o Erthyglau, Dolenni Fideo a Digwyddiadau i Ddod</string>
-
     <!--Maps Page-->
     <string name="maps">Mapiau</string>
     <string name="googleStreetView">Google Stryd Golwg</string>
@@ -27,6 +26,7 @@
     <!--About Page-->
     <string name="about">Ynghylch</string>
     <!--Settings Page-->
+    <string name="settingsIcon">Eicon Gosodiadau</string>
     <string name="settings">Gosodiadau</string>
     <string name="darkMode">Galluogi Modd Tywyll</string>
     <string name="highContrast">Galluogi Modd Cyferbyniad Uchel</string>
@@ -175,5 +175,13 @@
 
     <!--Change Language in App-->
     <string name="changeLanguage">Newid iaith i\'r Saesneg</string>
+
+    <!--Other-->
+    <string name="linkToExhibit">Dolen i Arddangosiad</string>
+    <string name="displayReviews">Dim adolygiadau ar hyn o bryd</string>
+    <string name="reviewInput" tools:ignore="TypographyEllipsis">Ysgrifennwch eich adroddiad yma...</string>
+    <string name="reviewSubmit">Cyflwyno Adolygiad</string>
+
+    <string name="welshNewsTitle">Newyddion a Digwyddiadau i Ddod</string>
 
 </resources>

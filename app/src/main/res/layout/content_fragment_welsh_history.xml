@@ -57,7 +57,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/welshHistoryParagraph"
-            android:justificationMode="inter_word"
             android:lineSpacingExtra="2dp"
             android:textColor="?attr/paraText"
             android:textSize="15sp"

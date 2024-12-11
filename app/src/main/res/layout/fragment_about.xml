@@ -33,9 +33,9 @@
 
         <!--Prompt User to leave a review about the app-->
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="420dp"
             android:layout_height="wrap_content"
-            android:text="Your Thoughts on this App"
+            android:text="@string/linkToExhibit"
             android:gravity="center"
             android:layout_marginTop="50dp"
             android:layout_marginStart="20dp"
@@ -44,9 +44,10 @@
         <!--Input field for user reviews-->
         <EditText
             android:id="@+id/reviewInput"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:hint="Write your review here..."
+            android:autofillHints=""
+            android:hint="@string/reviewInput"
             android:layout_marginTop="10dp"
             android:layout_marginHorizontal="20dp"
             android:padding="12dp"
@@ -57,10 +58,10 @@
         <!--Button to submit the review-->
         <Button
             android:id="@+id/submitReviewButton"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Submit Review"
+            android:text="@string/reviewSubmit"
             android:textColor="@color/white"
             android:layout_marginHorizontal="45dp"
             android:padding="12dp"
@@ -70,9 +71,9 @@
         <!--Display Reviews-->
         <TextView
             android:id="@+id/reviewDisplay"
-            android:layout_width="match_parent"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:text="No Reviews at the Moment"
+            android:text="@string/displayReviews"
             android:layout_marginTop="10dp"
             android:padding="12dp"
             android:background="@drawable/rounded_background"
