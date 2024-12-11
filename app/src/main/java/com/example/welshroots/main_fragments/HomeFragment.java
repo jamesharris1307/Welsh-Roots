@@ -18,10 +18,8 @@ public class HomeFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
-        // Button to St Fagans
         Button buttonMuseumStFagans = rootView.findViewById(R.id.buttonMuseumStFagans);
         buttonMuseumStFagans.setOnClickListener(v ->
                 getParentFragmentManager()
@@ -31,7 +29,6 @@ public class HomeFragment extends Fragment {
                         .commit()
         );
 
-        // Button to Big Pit
         Button buttonMuseumBigPit = rootView.findViewById(R.id.buttonMuseumBigPit);
         buttonMuseumBigPit.setOnClickListener(v ->
                 getParentFragmentManager()
@@ -41,7 +38,6 @@ public class HomeFragment extends Fragment {
                         .commit()
         );
 
-        // Button to National Museum Cardiff
         Button buttonMuseumNationalCardiff = rootView.findViewById(R.id.buttonMuseumNationalCardiff);
         buttonMuseumNationalCardiff.setOnClickListener(v ->
                 getParentFragmentManager()
@@ -51,7 +47,6 @@ public class HomeFragment extends Fragment {
                         .commit()
         );
 
-        // Button to Waterfront Museum
         Button buttonMuseumWaterfront = rootView.findViewById(R.id.buttonMuseumWaterfront);
         buttonMuseumWaterfront.setOnClickListener(v ->
                 getParentFragmentManager()
@@ -60,7 +55,6 @@ public class HomeFragment extends Fragment {
                         .addToBackStack(null)
                         .commit()
         );
-
         return rootView;
     }
 }

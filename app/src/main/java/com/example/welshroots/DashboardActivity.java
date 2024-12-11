@@ -22,7 +22,6 @@ public class DashboardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Apply theme from SharedPreferences
         SharedPreferences prefs = getSharedPreferences("ThemePrefs", MODE_PRIVATE);
         int currentMode = prefs.getInt("theme", AppCompatDelegate.MODE_NIGHT_NO);
         AppCompatDelegate.setDefaultNightMode(currentMode); // Apply the theme
@@ -31,7 +30,6 @@ public class DashboardActivity extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        // Set Home as Default Fragment
         loadFragment(new HomeFragment());
 
         bottomNavigationView.setOnItemSelectedListener(item -> {
@@ -53,7 +51,6 @@ public class DashboardActivity extends AppCompatActivity {
             return true;
         });
 
-        // Set up the Settings/Account
         ImageButton accountIcon = findViewById(R.id.accountIcon);
         accountIcon.setOnClickListener(v -> {
             // Open Settings/Account

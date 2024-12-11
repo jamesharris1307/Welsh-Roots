@@ -1,24 +1,24 @@
 package com.example.welshroots.content;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebSettings;
 import android.webkit.WebViewClient;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import android.annotation.SuppressLint;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.welshroots.R;
-import com.google.android.gms.maps.SupportStreetViewPanoramaFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.SupportStreetViewPanoramaFragment;
 
 public class MuseumNationalCardiff extends Fragment {
 
@@ -32,21 +32,21 @@ public class MuseumNationalCardiff extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.content_fragment_museum_national_cardiff, container, false);
 
-        // Configure WebView for YouTube
+        // National Museum Cardiff Youtube Video
         WebView nationalCardiffYoutube = view.findViewById(R.id.NationalMuseumCardiffYoutube);
         WebSettings webSettingsNationalCardiffVideo = nationalCardiffYoutube.getSettings();
         webSettingsNationalCardiffVideo.setJavaScriptEnabled(true);
         nationalCardiffYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + NationalMuseumCardiffVideoID);
         nationalCardiffYoutube.setWebViewClient(new WebViewClient());
 
-        // Configure WebView for YouTube
+        // National Museum Cardiff Exhibit One Youtube Video
         WebView exhibitOneYoutube = view.findViewById(R.id.exhibitOneYoutube);
         WebSettings webSettingsExhibitOneVideo = exhibitOneYoutube.getSettings();
         webSettingsExhibitOneVideo.setJavaScriptEnabled(true);
         exhibitOneYoutube.setWebViewClient(new WebViewClient());
         exhibitOneYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + ExhibitOneVideoID);
 
-        // Add Street View Fragment
+        // National Museum Cardiff Street View
         SupportStreetViewPanoramaFragment streetViewFragment = new SupportStreetViewPanoramaFragment();
         FragmentTransaction streetViewTransaction = getChildFragmentManager().beginTransaction();
         streetViewTransaction.replace(R.id.streetViewContainer, streetViewFragment);
@@ -56,17 +56,15 @@ public class MuseumNationalCardiff extends Fragment {
                 panorama.setPosition(NationalMuseumCardiffLocation)
         );
 
-        // Add Map Fragment
+        // National Museum Cardiff Map Location
         SupportMapFragment mapFragment = new SupportMapFragment();
         FragmentTransaction mapTransaction = getChildFragmentManager().beginTransaction();
         mapTransaction.replace(R.id.mapContainer, mapFragment);
         mapTransaction.commit();
 
         mapFragment.getMapAsync(googleMap -> {
-            // Add Marker
             LatLng NationalCardiffLocation = new LatLng(51.48576664060906, -3.1768754124607455);
             googleMap.addMarker(new MarkerOptions().position(NationalCardiffLocation).title("National Museum Cardiff"));
-
             googleMap.moveCamera(com.google.android.gms.maps.CameraUpdateFactory.newLatLngZoom(NationalCardiffLocation, 15));
         });
 

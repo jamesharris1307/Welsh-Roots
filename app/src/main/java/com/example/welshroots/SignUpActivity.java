@@ -24,16 +24,13 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        // Initialize Firebase Auth
         firebaseAuth = FirebaseAuth.getInstance();
 
-        // Link views
         editTextEmail = findViewById(R.id.editTextEmail);
         editTextPassword = findViewById(R.id.editTextPassword);
         Button buttonSignUp = findViewById(R.id.buttonSignUp);
         TextView textViewLogin = findViewById(R.id.textViewLogin);
 
-        // Sign-Up Button Click
         buttonSignUp.setOnClickListener(v -> {
             String email = editTextEmail.getText().toString().trim();
             String password = editTextPassword.getText().toString().trim();
@@ -53,7 +50,6 @@ public class SignUpActivity extends AppCompatActivity {
                 return;
             }
 
-            // Create User in Firebase
             firebaseAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener(SignUpActivity.this, task -> {
                         if (task.isSuccessful()) {
@@ -66,7 +62,6 @@ public class SignUpActivity extends AppCompatActivity {
                     });
         });
 
-        // Navigate to Login Screen
         textViewLogin.setOnClickListener(v -> {
             startActivity(new Intent(SignUpActivity.this, LoginActivity.class));
             finish();

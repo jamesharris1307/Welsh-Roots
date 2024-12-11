@@ -39,7 +39,6 @@ public class AboutFragment extends Fragment {
         // Load existing reviews
         loadReviews();
 
-        // Set up submit button listener
         submitReviewButton.setOnClickListener(v -> {
             String reviewText = reviewInput.getText().toString().trim();
 

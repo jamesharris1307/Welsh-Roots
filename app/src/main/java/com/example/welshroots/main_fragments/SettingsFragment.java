@@ -30,10 +30,8 @@ public class SettingsFragment extends Fragment{
         SharedPreferences prefs = requireActivity().getSharedPreferences("ThemePrefs", Context.MODE_PRIVATE);
         int currentMode = prefs.getInt("theme", AppCompatDelegate.MODE_NIGHT_NO);
 
-        // Mode Set on Current System Theme
         themeSwitch.setChecked(currentMode == AppCompatDelegate.MODE_NIGHT_YES);
 
-        // Change Mode
         themeSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             SharedPreferences.Editor editor = prefs.edit();
             if (isChecked) {
@@ -45,37 +43,31 @@ public class SettingsFragment extends Fragment{
             }
             editor.apply();
         });
-        // Language Switch
+
         @SuppressLint("UseSwitchCompatOrMaterialCode") Switch languageSwitch = view.findViewById(R.id.modeLanguage);
         SharedPreferences langPrefs = requireActivity().getSharedPreferences("LanguagePrefs", Context.MODE_PRIVATE);
         String currentLanguage = langPrefs.getString("language", "en");
 
-        // Set Language Switch State
         languageSwitch.setChecked(currentLanguage.equals("cy"));
 
-        // Handle Language Switching
         languageSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             String newLanguage = isChecked ? "cy" : "en";
             setLocale(newLanguage);
 
-            // Save Language Preference
             SharedPreferences.Editor langEditor = langPrefs.edit();
             langEditor.putString("language", newLanguage);
             langEditor.apply();
 
-            // Restart Fragment
             requireActivity().recreate();
         });
 
         return view;
     }
 
-    // Method to Change Locale
     private void setLocale(String langCode) {
         Locale locale = new Locale(langCode);
         Locale.setDefault(locale);
 
-        // Update configuration
         Context context = requireActivity();
         android.content.res.Resources resources = context.getResources();
         android.content.res.Configuration config = resources.getConfiguration();

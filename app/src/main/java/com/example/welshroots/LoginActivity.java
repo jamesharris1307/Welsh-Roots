@@ -24,16 +24,13 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        // Initialize Firebase Auth
         firebaseAuth = FirebaseAuth.getInstance();
 
-        // Link views
         editTextEmail = findViewById(R.id.editTextEmail);
         editTextPassword = findViewById(R.id.editTextPassword);
         Button buttonLogin = findViewById(R.id.buttonLogin);
         TextView textViewSignUp = findViewById(R.id.textViewSignUp);
 
-        // Login Button Click
         buttonLogin.setOnClickListener(v -> {
             String email = editTextEmail.getText().toString().trim();
             String password = editTextPassword.getText().toString().trim();
@@ -53,7 +50,6 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
-            // Sign in the user using Firebase Authentication
             firebaseAuth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(LoginActivity.this, task -> {
                         if (task.isSuccessful()) {
@@ -67,7 +63,6 @@ public class LoginActivity extends AppCompatActivity {
                     });
         });
 
-        // Navigate to Sign-Up Screen
         textViewSignUp.setOnClickListener(v -> {
             startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
             finish();

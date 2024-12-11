@@ -22,7 +22,7 @@ public class WelshUrbanLegends extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.content_fragment_welsh_urban_legends, container, false);
 
-        // Configure WebView for YouTube
+        // Welsh Urban Legends Youtube Video
         WebView welshUrbanLegendsYoutube1 = view.findViewById(R.id.welshUrbanLegendsVideo1);
         WebSettings webSettingsWelshUrbanLegendsVideo1 = welshUrbanLegendsYoutube1.getSettings();
         webSettingsWelshUrbanLegendsVideo1.setJavaScriptEnabled(true);
