@@ -31,10 +31,10 @@
         android:paddingEnd="10dp" />
 
     <Switch
-        android:id="@+id/modeHighContrast"
+        android:id="@+id/modeLanguage"
         android:layout_width="320dp"
         android:layout_height="48dp"
-        android:text="@string/highContrast"
+        android:text="@string/changeLanguage"
         tools:ignore="UseSwitchCompatOrMaterialXml"
         android:thumbTint="@color/greenLight"
         android:trackTint="@color/greenDark"

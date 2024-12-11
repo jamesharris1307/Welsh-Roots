@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
+import java.util.Locale;
+
 
 import com.example.welshroots.R;
 
@@ -43,7 +45,41 @@ public class SettingsFragment extends Fragment{
             }
             editor.apply();
         });
+        // Language Switch
+        @SuppressLint("UseSwitchCompatOrMaterialCode") Switch languageSwitch = view.findViewById(R.id.modeLanguage);
+        SharedPreferences langPrefs = requireActivity().getSharedPreferences("LanguagePrefs", Context.MODE_PRIVATE);
+        String currentLanguage = langPrefs.getString("language", "en");
+
+        // Set Language Switch State
+        languageSwitch.setChecked(currentLanguage.equals("cy"));
+
+        // Handle Language Switching
+        languageSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            String newLanguage = isChecked ? "cy" : "en";
+            setLocale(newLanguage);
+
+            // Save Language Preference
+            SharedPreferences.Editor langEditor = langPrefs.edit();
+            langEditor.putString("language", newLanguage);
+            langEditor.apply();
+
+            // Restart Fragment
+            requireActivity().recreate();
+        });
+
         return view;
     }
 
+    // Method to Change Locale
+    private void setLocale(String langCode) {
+        Locale locale = new Locale(langCode);
+        Locale.setDefault(locale);
+
+        // Update configuration
+        Context context = requireActivity();
+        android.content.res.Resources resources = context.getResources();
+        android.content.res.Configuration config = resources.getConfiguration();
+        config.setLocale(locale);
+        resources.updateConfiguration(config, resources.getDisplayMetrics());
+    }
 }

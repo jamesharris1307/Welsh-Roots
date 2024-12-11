@@ -15,8 +15,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.welshroots.R;
-import com.google.android.gms.maps.OnStreetViewPanoramaReadyCallback;
-import com.google.android.gms.maps.StreetViewPanorama;
 import com.google.android.gms.maps.SupportStreetViewPanoramaFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -35,11 +33,11 @@ public class MuseumNationalCardiff extends Fragment {
         View view = inflater.inflate(R.layout.fragment_content_museum_national_cardiff, container, false);
 
         // Configure WebView for YouTube
-        WebView stFagansYoutube = view.findViewById(R.id.NationalMuseumCardiffYoutube);
-        WebSettings webSettingsStFagansVideo = stFagansYoutube.getSettings();
-        webSettingsStFagansVideo.setJavaScriptEnabled(true);
-        stFagansYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + NationalMuseumCardiffVideoID);
-        stFagansYoutube.setWebViewClient(new WebViewClient());
+        WebView nationalCardiffYoutube = view.findViewById(R.id.NationalMuseumCardiffYoutube);
+        WebSettings webSettingsNationalCardiffVideo = nationalCardiffYoutube.getSettings();
+        webSettingsNationalCardiffVideo.setJavaScriptEnabled(true);
+        nationalCardiffYoutube.loadUrl("https://www.youtube-nocookie.com/embed/" + NationalMuseumCardiffVideoID);
+        nationalCardiffYoutube.setWebViewClient(new WebViewClient());
 
         // Configure WebView for YouTube
         WebView exhibitOneYoutube = view.findViewById(R.id.exhibitOneYoutube);
@@ -54,12 +52,9 @@ public class MuseumNationalCardiff extends Fragment {
         streetViewTransaction.replace(R.id.streetViewContainer, streetViewFragment);
         streetViewTransaction.commit();
 
-        streetViewFragment.getStreetViewPanoramaAsync(new OnStreetViewPanoramaReadyCallback() {
-            @Override
-            public void onStreetViewPanoramaReady(StreetViewPanorama panorama) {
-                panorama.setPosition(NationalMuseumCardiffLocation);
-            }
-        });
+        streetViewFragment.getStreetViewPanoramaAsync(panorama ->
+                panorama.setPosition(NationalMuseumCardiffLocation)
+        );
 
         // Add Map Fragment
         SupportMapFragment mapFragment = new SupportMapFragment();
@@ -69,10 +64,10 @@ public class MuseumNationalCardiff extends Fragment {
 
         mapFragment.getMapAsync(googleMap -> {
             // Add Marker
-            LatLng StFagansLocation = new LatLng(51.48576664060906, -3.1768754124607455);
-            googleMap.addMarker(new MarkerOptions().position(StFagansLocation).title("National Museum Cardiff"));
+            LatLng NationalCardiffLocation = new LatLng(51.48576664060906, -3.1768754124607455);
+            googleMap.addMarker(new MarkerOptions().position(NationalCardiffLocation).title("National Museum Cardiff"));
 
-            googleMap.moveCamera(com.google.android.gms.maps.CameraUpdateFactory.newLatLngZoom(StFagansLocation, 15));
+            googleMap.moveCamera(com.google.android.gms.maps.CameraUpdateFactory.newLatLngZoom(NationalCardiffLocation, 15));
         });
 
         return view;
