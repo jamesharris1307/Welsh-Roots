@@ -31,29 +31,30 @@ public class ExploreFragment extends Fragment {
         buttonWelshNews = rootView.findViewById(R.id.buttonWelshNews);
 
         // Set click listeners for navigation (unchanged)
-        buttonWelshHistory.setOnClickListener(v -> {
+        buttonWelshHistory.setOnClickListener(v ->
             getParentFragmentManager()
                     .beginTransaction()
                     .replace(R.id.nav_host_fragment, new WelshHistoryFragment())
                     .addToBackStack(null)
-                    .commit();
-        });
+                    .commit()
+        );
 
-        buttonWelshUrbanLegends.setOnClickListener(v -> {
+
+        buttonWelshUrbanLegends.setOnClickListener(v ->
             getParentFragmentManager()
                     .beginTransaction()
                     .replace(R.id.nav_host_fragment, new WelshUrbanLegends())
                     .addToBackStack(null)
-                    .commit();
-        });
+                    .commit()
+        );
 
-        buttonWelshNews.setOnClickListener(v -> {
+        buttonWelshNews.setOnClickListener(v ->
             getParentFragmentManager()
                     .beginTransaction()
                     .replace(R.id.nav_host_fragment, new WelshNews())
                     .addToBackStack(null)
-                    .commit();
-        });
+                    .commit()
+        );
 
         // Set up search functionality
         SearchView searchView = rootView.findViewById(R.id.searchView);

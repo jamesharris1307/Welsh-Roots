@@ -23,55 +23,43 @@ public class HomeFragment extends Fragment {
 
         // Button to St Fagans
         Button buttonMuseumStFagans = rootView.findViewById(R.id.buttonMuseumStFagans);
-        buttonMuseumStFagans.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        buttonMuseumStFagans.setOnClickListener(v ->
                 getParentFragmentManager()
                         .beginTransaction()
                         .replace(R.id.nav_host_fragment, new MuseumStFagans())
                         .addToBackStack(null)
-                        .commit();
-            }
-        });
+                        .commit()
+        );
 
         // Button to Big Pit
         Button buttonMuseumBigPit = rootView.findViewById(R.id.buttonMuseumBigPit);
-        buttonMuseumBigPit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        buttonMuseumBigPit.setOnClickListener(v ->
                 getParentFragmentManager()
                         .beginTransaction()
                         .replace(R.id.nav_host_fragment, new MuseumBigPit())
                         .addToBackStack(null)
-                        .commit();
-            }
-        });
+                        .commit()
+        );
 
         // Button to National Museum Cardiff
         Button buttonMuseumNationalCardiff = rootView.findViewById(R.id.buttonMuseumNationalCardiff);
-        buttonMuseumNationalCardiff.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        buttonMuseumNationalCardiff.setOnClickListener(v ->
                 getParentFragmentManager()
                         .beginTransaction()
                         .replace(R.id.nav_host_fragment, new MuseumNationalCardiff())
                         .addToBackStack(null)
-                        .commit();
-            }
-        });
+                        .commit()
+        );
 
         // Button to Waterfront Museum
         Button buttonMuseumWaterfront = rootView.findViewById(R.id.buttonMuseumWaterfront);
-        buttonMuseumWaterfront.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        buttonMuseumWaterfront.setOnClickListener(v ->
                 getParentFragmentManager()
                         .beginTransaction()
                         .replace(R.id.nav_host_fragment, new MuseumWaterfront())
                         .addToBackStack(null)
-                        .commit();
-            }
-        });
+                        .commit()
+        );
 
         return rootView;
     }

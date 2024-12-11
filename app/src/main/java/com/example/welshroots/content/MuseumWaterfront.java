@@ -15,8 +15,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.welshroots.R;
-import com.google.android.gms.maps.OnStreetViewPanoramaReadyCallback;
-import com.google.android.gms.maps.StreetViewPanorama;
 import com.google.android.gms.maps.SupportStreetViewPanoramaFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -46,12 +44,9 @@ public class MuseumWaterfront extends Fragment {
         streetViewTransaction.replace(R.id.streetViewContainer, streetViewFragment);
         streetViewTransaction.commit();
 
-        streetViewFragment.getStreetViewPanoramaAsync(new OnStreetViewPanoramaReadyCallback() {
-            @Override
-            public void onStreetViewPanoramaReady(StreetViewPanorama panorama) {
-                panorama.setPosition(MuseumWaterfrontLocation);
-            }
-        });
+        streetViewFragment.getStreetViewPanoramaAsync(panorama ->
+                panorama.setPosition(MuseumWaterfrontLocation)
+        );
 
         // Add Map Fragment
         SupportMapFragment mapFragment = new SupportMapFragment();

@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,7 +32,6 @@ public class AboutFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_about, container, false);
 
         // Find views
-        ImageView imageView2 = view.findViewById(R.id.imageView2);
         reviewInput = view.findViewById(R.id.reviewInput);
         Button submitReviewButton = view.findViewById(R.id.submitReviewButton);
         reviewDisplay = view.findViewById(R.id.reviewDisplay);

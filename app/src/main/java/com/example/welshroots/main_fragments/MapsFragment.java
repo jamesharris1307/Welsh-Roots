@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.welshroots.R;
@@ -35,7 +36,7 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
     }
 
     @Override
-    public void onMapReady(GoogleMap googleMap) {
+    public void onMapReady(@NonNull GoogleMap googleMap) {
 
         List<MarkerData> markerDataList = new ArrayList<>();
         markerDataList.add(new MarkerData(new LatLng(51.48722473313164, -3.2723620534115585), "St Fagans National Museum of History", R.drawable.ic_museum));
