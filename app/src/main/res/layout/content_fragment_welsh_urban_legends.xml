@@ -9,7 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!--Title of Page-->
         <TextView
             android:id="@+id/titleText"
             android:layout_width="0dp"
@@ -24,7 +23,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="75dp" />
 
-        <!--Description of Page-->
         <TextView
             android:id="@+id/descriptionText"
             android:layout_width="0dp"
@@ -38,7 +36,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="12dp" />
 
-        <!--Youtube Container (Video1)-->
         <WebView
             android:id="@+id/welshUrbanLegendsVideo1"
             android:layout_width="0dp"
@@ -48,7 +45,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!--Welsh Urban Legend #1-->
         <TextView
             android:id="@+id/welshUrbanLegends1"
             android:layout_width="0dp"
@@ -90,8 +86,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-
-        <!--Welsh Urban Legend #2-->
         <TextView
             android:id="@+id/welshUrbanLegends2"
             android:layout_width="0dp"
@@ -132,7 +126,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Welsh Urban Legend #3-->
         <TextView
             android:id="@+id/welshUrbanLegends3"
             android:layout_width="0dp"
@@ -173,7 +166,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Welsh Urban Legend #4-->
         <TextView
             android:id="@+id/welshUrbanLegends4"
             android:layout_width="0dp"
@@ -214,7 +206,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Welsh Urban Legend #5-->
         <TextView
             android:id="@+id/welshUrbanLegends5"
             android:layout_width="0dp"
@@ -256,7 +247,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Welsh Urban Legend #6-->
         <TextView
             android:id="@+id/welshUrbanLegends6"
             android:layout_width="0dp"
@@ -297,7 +287,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Welsh Urban Legend #7-->
         <TextView
             android:id="@+id/welshUrbanLegends7"
             android:layout_width="0dp"
@@ -338,7 +327,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Welsh Urban Legend #8-->
         <TextView
             android:id="@+id/welshUrbanLegends8"
             android:layout_width="0dp"
@@ -379,7 +367,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Welsh Urban Legend #9-->
         <TextView
             android:id="@+id/welshUrbanLegends9"
             android:layout_width="0dp"
@@ -420,7 +407,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Welsh Urban Legend #10-->
         <TextView
             android:id="@+id/welshUrbanLegends10"
             android:layout_width="0dp"
@@ -462,7 +448,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>

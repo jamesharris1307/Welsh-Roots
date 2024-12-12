@@ -1,5 +1,4 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="true"
@@ -40,8 +39,7 @@
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonMuseumBigPit"
@@ -54,16 +52,7 @@
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20sp"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:layout_marginVertical="15dp"
-            android:text="@string/welshPhrase"
-            android:gravity="center" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonMuseumNationalCardiff"
@@ -76,8 +65,7 @@
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonMuseumWaterfront"
@@ -90,16 +78,8 @@
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20sp"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:layout_marginVertical="15dp"
-            android:text="@string/welshPhrase"
-            android:gravity="center" />
+            android:textSize="20sp" />
 
     </LinearLayout>
+
 </ScrollView>

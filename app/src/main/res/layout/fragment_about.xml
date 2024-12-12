@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -31,7 +30,6 @@
             android:layout_marginTop="40dp"
             android:textColor="@color/white"/>
 
-        <!--Prompt User to leave a review about the app-->
         <TextView
             android:layout_width="420dp"
             android:layout_height="wrap_content"
@@ -41,7 +39,6 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp" />
 
-        <!--Input field for user reviews-->
         <EditText
             android:id="@+id/reviewInput"
             android:layout_width="320dp"
@@ -55,7 +52,6 @@
             android:inputType="textMultiLine"
             android:minHeight="100dp" />
 
-        <!--Button to submit the review-->
         <Button
             android:id="@+id/submitReviewButton"
             android:layout_width="320dp"
@@ -68,7 +64,6 @@
             android:backgroundTint="?attr/buttonBackground"
             app:cornerRadius="8dp" />
 
-        <!--Display Reviews-->
         <TextView
             android:id="@+id/reviewDisplay"
             android:layout_width="320dp"

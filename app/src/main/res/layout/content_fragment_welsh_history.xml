@@ -9,7 +9,6 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp">
 
-        <!--Title of Page-->
         <TextView
             android:id="@+id/titleText"
             android:layout_width="0dp"
@@ -24,7 +23,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="75dp" />
 
-        <!--Description of Page-->
         <TextView
             android:id="@+id/descriptionText"
             android:layout_width="0dp"
@@ -66,4 +64,5 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>

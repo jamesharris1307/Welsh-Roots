@@ -8,7 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!--Title of Page-->
         <TextView
             android:id="@+id/titleText"
             android:layout_width="0dp"
@@ -23,7 +22,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="75dp" />
 
-        <!--Youtube Container (Video)-->
         <WebView
             android:id="@+id/NationalMuseumCardiffYoutube"
             android:layout_width="0dp"
@@ -33,7 +31,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!--Exhibit One () -->
         <TextView
             android:id="@+id/exhibitOneTitle"
             android:layout_width="0dp"
@@ -48,7 +45,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!--Description of Exhibit One ()-->
         <TextView
             android:id="@+id/descriptionExhibitOneText"
             android:layout_width="0dp"
@@ -64,8 +60,6 @@
             android:layout_marginVertical="15dp"
             android:layout_marginHorizontal="10dp"/>
 
-
-        <!--Youtube Container (Exhibit One Video)-->
         <WebView
             android:id="@+id/exhibitOneYoutube"
             android:layout_width="0dp"
@@ -75,7 +69,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!--Web Link Title-->
         <TextView
             android:id="@+id/webLinkTitle"
             android:layout_width="0dp"
@@ -91,7 +84,6 @@
             android:layout_marginTop="12dp"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Web Link for Exhibit One-->
         <TextView
             android:id="@+id/webLinkExhibitOne"
             android:layout_width="0dp"
@@ -105,8 +97,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginHorizontal="10dp"/>
 
-
-        <!--Street View Container ()-->
         <FrameLayout
             android:id="@+id/streetViewContainer"
             android:layout_width="0dp"
@@ -116,7 +106,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!--Exhibit Two ()-->
         <TextView
             android:id="@+id/exhibitTwoTitle"
             android:layout_width="0dp"
@@ -131,7 +120,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!--Description of Exhibit Two ()-->
         <TextView
             android:id="@+id/descriptionExhibitTwoText"
             android:layout_width="0dp"
@@ -147,7 +135,6 @@
             android:layout_marginVertical="15dp"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Web Link Title-->
         <TextView
             android:id="@+id/webLinkTitleTwo"
             android:layout_width="0dp"
@@ -163,7 +150,6 @@
             android:layout_marginTop="12dp"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Web Link for Exhibit Two-->
         <TextView
             android:id="@+id/webLinkExhibitTwo"
             android:layout_width="0dp"
@@ -177,7 +163,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Exhibit Three ()-->
         <TextView
             android:id="@+id/exhibitThreeTitle"
             android:layout_width="0dp"
@@ -192,7 +177,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
 
-        <!--Description of Exhibit Three ()-->
         <TextView
             android:id="@+id/descriptionExhibitThreeText"
             android:layout_width="0dp"
@@ -208,7 +192,6 @@
             android:layout_marginVertical="15dp"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Web Link Title-->
         <TextView
             android:id="@+id/webLinkTitleThree"
             android:layout_width="0dp"
@@ -224,7 +207,6 @@
             android:layout_marginTop="12dp"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Web Link for Exhibit Three-->
         <TextView
             android:id="@+id/webLinkExhibitThree"
             android:layout_width="0dp"
@@ -238,7 +220,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Maps View-->
         <FrameLayout
             android:id="@+id/mapContainer"
             android:layout_width="0dp"
@@ -248,7 +229,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="15dp" />
 
-        <!--Location of -->
         <TextView
             android:id="@+id/detailsText"
             android:layout_width="0dp"
@@ -261,7 +241,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-        <!--Transport Title (Car)-->
         <TextView
             android:id="@+id/byCarTitle"
             android:layout_width="0dp"
@@ -277,7 +256,6 @@
             android:layout_marginVertical="15dp"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Transport Description (Car)-->
         <TextView
             android:id="@+id/byCarDesc"
             android:layout_width="0dp"
@@ -291,7 +269,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Credits and References (Title)-->
         <TextView
             android:id="@+id/creditsStFagansTitle"
             android:layout_width="0dp"
@@ -307,7 +284,6 @@
             android:layout_marginVertical="15dp"
             android:layout_marginHorizontal="10dp"/>
 
-        <!--Credits and References (Description)-->
         <TextView
             android:id="@+id/creditsStFagansDesc"
             android:layout_width="0dp"
@@ -322,6 +298,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginHorizontal="10dp"/>
 
-
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>

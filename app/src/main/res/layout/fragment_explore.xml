@@ -10,7 +10,6 @@
         android:gravity="center"
         android:layout_marginHorizontal="20dp">
 
-
         <TextView
             android:id="@+id/homePageText"
             android:layout_width="wrap_content"
@@ -29,7 +28,6 @@
             android:textSize="18sp"
             android:textColor="@color/grey" />
 
-        <!-- Search bar -->
         <androidx.appcompat.widget.SearchView
             android:id="@+id/searchView"
             android:layout_width="match_parent"
@@ -49,15 +47,7 @@
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20sp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/welshPhrase"
-            android:textSize="18sp"
-            android:textColor="@color/grey" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonWelshUrbanLegends"
@@ -70,15 +60,7 @@
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20sp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/welshPhrase"
-            android:textSize="18sp"
-            android:textColor="@color/grey" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonWelshNews"
@@ -92,8 +74,7 @@
             android:backgroundTint="@color/greenLight"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
 
         <FrameLayout
             android:id="@+id/child_fragment_container"
@@ -101,4 +82,5 @@
             android:layout_height="match_parent"/>
 
     </LinearLayout>
+
 </ScrollView>
