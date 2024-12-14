@@ -47,7 +47,7 @@ public class SettingsFragment extends Fragment{
         });
 
         // Switch Language
-        @SuppressLint("UseSwitchCompatOrMaterialCode") Switch languageSwitch = view.findViewById(R.id.modeLanguage);
+        Switch languageSwitch = view.findViewById(R.id.modeLanguage);
         // Retrieve Current Language
         SharedPreferences langPrefs = requireActivity().getSharedPreferences("LanguagePrefs", Context.MODE_PRIVATE);
         String currentLanguage = langPrefs.getString("language", "en");
