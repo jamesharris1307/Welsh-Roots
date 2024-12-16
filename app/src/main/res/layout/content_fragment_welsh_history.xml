@@ -23,18 +23,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="75dp" />
 
-        <TextView
-            android:id="@+id/descriptionText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/welshHistoryOverview"
-            android:textColor="?attr/paraText"
-            android:textSize="15sp"
-            android:gravity="center"
-            app:layout_constraintTop_toBottomOf="@id/titleText"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="12dp" />
 
         <TextView
             android:id="@+id/welshHistoryTitle"
@@ -42,10 +30,10 @@
             android:layout_height="wrap_content"
             android:text="@string/welshHistoryOverview"
             android:textStyle="bold"
-            android:textColor="?attr/paraText"
+            android:textColor="?attr/headingText"
             android:textSize="30sp"
             android:gravity="start"
-            app:layout_constraintTop_toBottomOf="@id/descriptionText"
+            app:layout_constraintTop_toBottomOf="@id/titleText"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginVertical="15dp" />
