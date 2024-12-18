@@ -1,10 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Hello World English -->
-    <string name="hello_world">Hello World</string>
-    <!-- App Name English -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--App Details-->
     <string name="app_name">Welsh Roots</string>
-
-    <!-- Login English -->
+    <string name="loginOrSignUp">Login or Sign Up</string>
+    <string name="submit">Submit</string>
+    <string name="continueGuest">Don\'t have an account?\n Continue as guest?</string>
+    <!--Login-->
     <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dontHaveAccount">Don\'t have an account? Sign up</string>
+    <!--Sign Up-->
+    <string name="signUp">Sign Up</string>
+    <string name="haveAccount">Already have an account? Log In</string>
+
+    <!--Home Page-->
+    <string name="home">Home</string>
+    <!--Explore Page-->
+    <string name="explore">Explore</string>
+    <string name="exploreDesc">Explore Welsh Culture and Heritage through this Content Library of Articles, Video Links and Upcoming Events</string>
+    <!--Maps Page-->
+    <string name="maps">Maps</string>
+    <string name="googleStreetView">Google Street View</string>
+    <string name="googleMapsView">Google Maps View</string>
+    <!--About Page-->
+    <string name="about">About</string>
+    <!--Settings Page-->
+    <string name="settingsIcon">Settings Icon</string>
+    <string name="settings">Settings</string>
+    <string name="darkMode">Enable Dark Mode</string>
+    <string name="highContrast">Enable High Contrast Mode</string>
+
+    <!--Welsh Phrases-->
+    <string name="welshPhrase">Welsh Phrase</string>
+
+    <!--TitleTransport-->
+    <string name="carTitle">Car</string>
+    <string name="trainTitle">Train</string>
+    <string name="busTitle">Bus</string>
+    <string name="bikeTitle">Cycle</string>
+
+    <!--St. Fagans Museum Showcase-->
+    <string name="stFagansTitlePageOne">St.Fagans National\nMuseum of History</string>
+    <string name="stFagansMusuemOneLocation">St Fagans National Museum of History, St Fagans,\nCardiff, CF5 6DU, Wales</string>
+    <!--Exhibit One (Wales is Talking about Empire)-->
+    <string name="stFagansTitleExhibitOne" tools:ignore="TypographyEllipsis">Wales is... talking about empire</string>
+    <string name="stFagansExhibitOneParagraph">Cost: Free\nDate: From 4th May 2024\n\nDiscover how colonial history has shaped Wales and its representation through an engaging exhibition that explores themes of empire, power, and marginalised voices. This educational experience, led by artist Nasia Sarwar-Skuse and arts organisation Ways of Working, invites visitors to reflect on history and its continued impact today.\n\nThis exhibition is part of the Perspectives project, a collaboration with the Arts Council of Wales and Amgueddfa Cymru. It seeks to promote cultural and ethnic diversity in Welsh heritage and aligns with the Anti-racist Wales Action Plan, fostering awareness of the legacies of colonialism and encouraging dialogue about representation in modern Wales. By exploring these installations, visitors can gain insights into how history is told, whose voices are amplified, and how Wales continues to evolve its understanding of its colonial past.</string>
+    <string name="stFagansLinkToWebsiteExhibitOne">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/</string>
+    <!--Exhibit Two (A Bespoke Welsh Woollen Coat)-->
+    <string name="stFagansTitleExhibitTwo">A Bespoke Welsh Woollen Coat</string>
+    <string name="stFagansExhibitTwoParagraph">Cost: Free\nDate: From 16th November 2024 to 27th April 2025\n\nThis exhibition, presented by Teilwr Bach in collaboration with Oasis Cardiff and supported by The National Lottery Heritage Fund, highlights the heritage and artistry of Welsh wool and traditional tailoring. Featuring bespoke coats, jackets, and shirts made from Welsh woven fabrics and vintage carthen blankets, the garments showcase the craftsmanship of Catherine Davies (Teilwr Bach), with one coat designed by Clare Johns Label. Each piece is enriched with a unique screen-printed lining pattern, crafted by local artists and inspired by Welsh mills, the weaving process, and the natural surroundings. Printed at The Printhaus Cardiff, these linings bring a deeper story to each garment. The project also has a significant community impact: refugees and asylum seekers from Oasis Cardiff learned sewing skills and repurposed fabric offcuts into practical items such as slippers and bags. These items are available for purchase at the Museum shop, with all profits supporting Oasis Cardiff’s community work. The exhibition is a celebration of slow fashion, connecting tradition, modern art, and social empowerment.</string>
+    <string name="stFagansLinkToWebsiteExhibitTwo">https://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/</string>
+    <!--DescriptionTransport-->
+    <string name="stFagansByCarDesc">St Fagans National Museum of History is located 4 miles west of Cardiff City Centre, just off the A4232.\n\nIf you are arriving by car you will need to pay on arrival. £7 per day. £30 yearly ticket. FREE for disabled blue badge holders and motorbikes. This charge is for parking only as entry to the Museum remains free.</string>
+    <string name="stFagansByTrainDesc">The nearest rail station is Waun-gron Park, located 2 miles from St Fagans. Services are operated by Transport for Wales.</string>
+    <string name="stFagansByBusDesc">Cardiff Bus 32 service. Stops in the museum car park.\nFirst Cymru 320 service. Stops in St Fagans village.</string>
+    <string name="stFagansByBikeDesc">The main cycle route to the Museum from Cardiff city centre is via the Ely Trail. The signposted section between Fairwater and the Museum is traffic-free and follows a pleasant riverside route. Why not cycle to the Museum from Waun-gron Park railway station along a two-mile section of the Ely Trail?</string>
+    <string name="stFagansCreditsTitle">Information Sourced From:</string>
+    <string name="stFagansCreditsBody">https://museum.wales/stfagans/whatson/12244/Wales-is-talking-about-empire/\nhttps://www.youtube.com/watch?v=8h1Hm-werRs\nhttps://museum.wales/stfagans/whatson/12444/A-Bespoke-Welsh-Woollen-Coat/\nhttps://www.youtube.com/watch?v=vwIEHin9KSE\nhttps://museum.wales/stfagans/visit/location/</string>
+
+    <!--Big Pit Showcase-->
+    <string name="bigPitTitle">Big Pit National\nCoal Museum</string>
+    <string name="bigPitLocation">Big Pit National Coal Museum\nPontypool NP4 9XP</string>
+    <!--Exhibit One (STREIC! 1984–1985 STRIKE!)-->
+    <string name="bigPitTitleExhibitOne">STREIC! 1984–1985 STRIKE!</string>
+    <string name="bigPitExhibitOneParagraph">Cost: Free\nDate: From 1st March 2024 to 1st March 2025\n\nHosted at the Big Pit National Coal Museum, this event marks the anniversary of a pivotal moment in Welsh history. On March 1, 1984, the National Coal Board announced plans to close 20 mines, potentially affecting 20,000 jobs. The year–long miners’ strike that followed had a profound impact on Wales, shaping its political, economic, and social landscape.To commemorate this historical event, Amgueddfa Cymru presents STREIC! 1984–1985 Strike!, featuring exhibitions at both the Big Pit National Coal Museum in Blaenafon and the National Museum Cardiff. Visitors can explore personal stories and perspectives from striking miners, their families, managers, politicians, and law enforcement.</string>
+    <string name="bigPitLinkToWebsiteExhibitOne">https://museum.wales/bigpit/whatson/12213/STREIC–1984–1985-STRIKE/</string>
+    <!--Exhibit Two (Story Time with Santa)-->
+    <string name="bigPitTitleExhibitTwo">Story Time with Santa</string>
+    <string name="bigPitExhibitTwoParagraph">Cost: £10 per Child\nDate: From 14th December 2024 to 15th December 2024\n\nExperience the magic of Christmas at the Big Pit National Coal Museum! Santa and his elves are ready to welcome you to their festive cottage for a heartwarming story session. Children will enjoy listening to a story from Santa himself, receive a special gift, and take part in fun Christmas crafts. Families are encouraged to capture the moment with photos, creating cherished holiday memories.</string>
+    <string name="bigPitLinkToWebsiteExhibitTwo">https://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
+    <!--DescriptionTransport-->
+    <string name="bigPitByCarDesc">If you are arriving by car you will need to pay on arrival. £5 per day. FREE for disabled badge holders and motorbikes. This charge is for parking only – entry to the Museum remains free.</string>
+    <string name="bigPitCreditsBody">https://museum.wales/bigpit/whatson/12213/STREIC–1984–1985-STRIKE/\nhttps://www.youtube.com/watch?v=Nt7sPVKs9co\nhttps://museum.wales/bigpit/whatson/12050/Storytime-with-Santa/</string>
+
+    <!--National Museum Cardiff Showcase-->
+    <string name="nationalMuseumCardiffTitle">National Museum Cardiff</string>
+    <string name="nationalMuseumCardiffLocation">National Museum Cardiff\nCardiff CF10 3NP</string>
+    <!--Exhibit One (Art of the Selfie)-->
+    <string name="nationalMuseumCardiffTitleExhibitOne">Art of the Selfie</string>
+    <string name="nationalMuseumCardiffExhibitOneParagraph">Cost: Free\nDate: From 16th March 2024 to 26th January 2025\n\nExplore the evolution of self-representation in art at the National Museum Cardiff’s exhibition Art of the Selfie. This thought-provoking display examines whether self-portraits can be considered the original selfies and delves into how artists from Rembrandt and Van Gogh to modern creators like Bedwyr Williams and Anya Paintsil portray themselves. The exhibition showcases iconic works, including Van Gogh’s Portrait of the Artist (1887) on loan from Musée d’Orsay, Paris, alongside pieces from renowned artists such as Rembrandt, Brenda Chamberlain, Francis Bacon, Bedwyr Williams, Anya Paintsil. This diverse collection highlights various artistic approaches to self-portraits, paralleling how selfies today reflect individuality and self-expression. Visitors are encouraged to reflect on the question: How do you see yourself?</string>
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitOne">https://museum.wales/cardiff/whatson/12181/Art-of-the-Selfie/</string>
+    <!--Exhibit Two (The Valleys)-->
+    <string name="nationalMuseumCardiffTitleExhibitTwo">The Valleys</string>
+    <string name="nationalMuseumCardiffExhibitTwoParagraph">Cost: Free\nDate: From 25th May 2024 to 5th January 2025\n\nExplore the stories and rich cultural history of south Wales in The Valleys, an exhibition celebrating the art and legacy of this remarkable region. From Ammanford to Pontypool, the south Wales Valleys have inspired artists since the 18th century, capturing their transformation through iron and coal and their significant contribution to the modern world. This exhibition features over 200 works in diverse media, including painting, photography, film, and applied arts. It profiles the unique lives and landscapes of the Valleys, presenting a vivid depiction of working-class experiences through the eyes of over 60 artists. Highlights include works by, Tina Carr and Annemarie Schöne, Robert Frank, Josef Herman, Ernest Zobole, Additionally, the exhibition introduces collier artists like Nicholas Evans, Harry Rodgers, and Illtyd David, alongside newly acquired photography pieces supported by the Art Fund. Several previously unseen works will also be displayed.</string>
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitTwo">https://museum.wales/cardiff/whatson/12263/The-Valleys/</string>
+    <!--Exhibit Three (The Fossil Swamp)-->
+    <string name="nationalMuseumCardiffTitleExhibitThree">The Fossil Swamp</string>
+    <string name="nationalMuseumCardiffExhibitThreeParagraph">Cost: Free\nDate: From 18th May 2019 to 2nd March 2025\n\nStep back 300 million years into a prehistoric tropical world in The Fossil Swamp. This immersive exhibition offers a glimpse into a time before dinosaurs or humans, when Wales was part of a vast, lush swamp teeming with life. Explore fossils that reveal how giant plants, strange creatures, and severe weather shaped these ancient wetlands. Highlights include Stigmaria, a stunning 3D fossil centerpiece from Brymbo in northeast Wales, showcasing the unique preservation of enormous prehistoric plants. Fossils that depict life millions of years before flowers and fruits evolved. Prehistoric animals vastly different from today’s wildlife. Learn about the scientists who unraveled the mysteries of these ecosystems and discover how the fossil swamp connects to today’s climate and fossil fuel challenges. The exhibition is brought to you in partnership with Brymbo Heritage Trust, Wrexham County Borough Museum, and others.</string>
+    <string name="nationalMuseumCardiffLinkToWebsiteExhibitThree">https://museum.wales/cardiff/whatson/10676/The-Fossil-Swamp/</string>
+    <!--DescriptionTransport-->
+    <string name="nationalMuseumCardiffByCarDesc">A Visitor Car Park is situated behind the Museum, off Museum Avenue. Visitors parking here will receive a ticket at the point of entry and need to pay £6.50 for the day at a pay-station located at the rear of the car park. Please note that the pay-stations only accept card payments – no cash payments are accepted. Visitors can use any credit/debit cards (except for American Express), or Apple or Android Pay. Parking is free to blue badge holders. Please use the intercom at the exit barrier to verify your blue badge permit. Disabled parking is also available at the front of the Museum, on Gorsedd Gardens Road.</string>
+    <string name="nationalMuseumCardiffCreditsBody">https://museum.wales/cardiff/whatson/12181/Art-of-the-Selfie/\nhttps://museum.wales/cardiff/whatson/12263/The-Valleys/\nhttps://museum.wales/cardiff/whatson/10676/The-Fossil-Swamp/</string>
+
+    <!--National Waterfront Museum Showcase-->
+    <string name="nationalWaterfrontTitle">National Waterfront Museum</string>
+    <string name="nationalWaterfrontLocation">National Waterfront Museum, Oystermouth Rd\nMaritime Quarter, Swansea SA1 3RD</string>
+    <!--Exhibit One (Ours To Tell)-->
+    <string name="nationalWaterfrontTitleExhibitOne">Ours To Tell</string>
+    <string name="nationalWaterfrontExhibitOneParagraph">Cost: Free\nDate: From 16th March 2024 to 21st January 2025\n\n"Ours to Tell" is a significant project focused on documenting and amplifying LGBTQ+ lives and experiences in Wales. Members of Amgueddfa Cymru\'s Youth Collective collaborated with museum staff to identify gaps in the museum\'s collections. Together, they collected life stories and objects from the LGBTQ+ community in Wales. These contributions offer a snapshot of LGBTQ+ experiences and serve as a lasting legacy, preserving these stories and artifacts for future generations. The exhibition showcases the diversity of these narratives and objects, highlighting their importance in representing this community.</string>
+    <string name="nationalWaterfrontLinkToWebsiteExhibitOne">https://museum.wales/swansea/whatson/12185/Ours-To-Tell/</string>
+    <!--Exhibit Two (Making Waves – RNLI Cymru 200)-->
+    <string name="nationalWaterfrontTitleExhibitTwo">Making Waves – RNLI Cymru 200</string>
+    <string name="nationalWaterfrontExhibitTwoParagraph">Cost: Free\nDate: From 22nd June 2024 to 1st June 2025\n\nThe "Making Waves – RNLI Cymru 200" exhibition celebrates the 200th anniversary of the Royal National Lifeboat Institution (RNLI) and its vital role in ensuring safety along Wales\' coastline. Over the years, the RNLI has saved countless lives, with rescue operations evolving significantly—from responding to large-scale shipping disasters to aiding stranded holidaymakers. This exhibition showcases the transformation of rescue techniques and the innovative equipment used, including the pioneering lifeboat designed and built at Wales\' Atlantic College. Visitors will also hear the remarkable stories of the people who utilized these life-saving tools. The event is part of a dual exhibition in Wales marking this historic milestone. The collaboration between Oriel y Parc, the RNLI, and the Pembrokeshire Coast National Park Authority features complementary displays at Oriel y Parc, National Park Discovery Centre in St Davids.</string>
+    <string name="nationalWaterfrontLinkToWebsiteExhibitTwo">https://museum.wales/swansea/whatson/12202/Making-Waves—RNLI-Cymru-200/</string>
+    <!--DescriptionTransport-->
+    <string name="nationalWaterfrontByCarDesc">The National Waterfront Museum does not have a dedicated car park.</string>
+    <string name="nationalWaterfrontCreditsBody">https://museum.wales/swansea/whatson/12185/Ours-To-Tell/\nhttps://museum.wales/swansea/whatson/12202/Making-Waves—RNLI-Cymru-200/</string>
+
+    <!--Welsh Urban Legends Fragment-->
+    <string name="urbanLegendsTitle">Welsh Urban\nLegends</string>
+    <string name="urbanLegendsDesc">{{ Explain this Page }}</string>
+    <!--Counter-->
+    <string name="urbanLegendsCounter1">#1 Devil\'s Bridge</string>
+    <string name="urbanLegendsCounter2">#2 Angelystor</string>
+    <string name="urbanLegendsCounter3">#3 The Lady of the Lake</string>
+    <string name="urbanLegendsCounter4">#4 Merlin\'s Oak</string>
+    <string name="urbanLegendsCounter5">#5 Dinas Emrys</string>
+    <string name="urbanLegendsCounter6">#6 Gelert</string>
+    <string name="urbanLegendsCounter7">#7 The Afanc</string>
+    <string name="urbanLegendsCounter8">#8 St David</string>
+    <string name="urbanLegendsCounter9">#9 Cadair Idris</string>
+    <string name="urbanLegendsCounter10">#10 Old Magw the Witch</string>
+    <!--Image Description-->
+    <string name="urbanLegendsImageDesc1">This image is of the devil\'s bridge urban legend</string>
+    <string name="urbanLegendsImageDesc2">This image is of the Angelystor</string>
+    <string name="urbanLegendsImageDesc3">This image is of the Lady of the Lake</string>
+    <string name="urbanLegendsImageDesc4">This image is of the Merlin\'s Oak</string>
+    <string name="urbanLegendsImageDesc5">This image is of the Dinas Emrys</string>
+    <string name="urbanLegendsImageDesc6">This image is of the Gelert</string>
+    <string name="urbanLegendsImageDesc7">This image is of the Afanc</string>
+    <string name="urbanLegendsImageDesc8">This image is of the St David</string>
+    <string name="urbanLegendsImageDesc9">This image is of the Cadair Idris</string>
+    <string name="urbanLegendsImageDesc10">This image is of the Old Magw the Witch</string>
+    <!--Paragraphs-->
+    <string name="urbanLegendsParagraph1">Devil\'s Bridge in Wales is linked to a popular urban legend. According to the story, the Devil built the original bridge over the steep gorge in exchange for the first soul to cross it. A clever woman tricked him by sending her dog across first, sparing any human soul from being claimed. The legend adds to the site\'s historical and cultural significance, where the current three-tiered bridges attract visitors interested in both the folklore and the scenic views.</string>
+    <string name="urbanLegendsParagraph2">Angelystor is a Welsh urban legend about a ghostly figure that appears as a warning of impending death. The story goes that Angelystor, which means "the recorder" in Welsh, is the spirit of a phantom that haunts a church in Wales. The apparition is said to manifest as an echoing voice that announces the names of those who will die soon, often heard in the dead of night. This eerie legend has been passed down through generations and is associated with the belief that the spirit foretells death to those who hear it, adding a sense of foreboding to the folklore of the region.</string>
+    <string name="urbanLegendsParagraph3">The Lady of the Lake is a well-known Welsh legend tied to Llyn y Fan Fach, a lake in the Brecon Beacons. According to the story, a young farmer saw a beautiful woman emerge from the lake, who was said to be a supernatural being. She agreed to marry him on the condition that he never struck her. They married and had children, but when he broke his promise and struck her in anger, she returned to the lake, taking their children with her. The legend is often seen as a cautionary tale about promises and respect, and the Lady of the Lake is sometimes considered a symbol of mysterious, otherworldly power in Welsh folklore.</string>
+    <string name="urbanLegendsParagraph4">Merlin\'s Oak is a Welsh legend associated with an ancient oak tree near the village of Carmarthen, believed to be the burial site of the wizard Merlin. According to the legend, Merlin was said to have been buried beneath this tree after his death. The oak was considered sacred and a symbol of his powerful presence. It was believed that anyone who stood beneath the tree could hear the voice of Merlin, offering prophecies and wisdom. Over time, the tree became a symbol of magical power and a place of mystery, representing the connection between the natural world and the legendary figure of Merlin in Welsh folklore.</string>
+    <string name="urbanLegendsParagraph5">Dinas Emrys is a site in Wales steeped in legend, particularly linked to the wizard Merlin and the prophecy of the red and white dragons. According to the story, Merlin was said to have hidden in a cave on Dinas Emrys, where he witnessed a vision of two dragons fighting: a red dragon representing the Welsh people and a white dragon symbolizing the Saxons. The red dragon ultimately triumphed, signifying the future victory of the Welsh over their enemies. This legend, which highlights themes of struggle and hope, has made Dinas Emrys a symbol of Welsh identity and resilience in folklore.</string>
+    <string name="urbanLegendsParagraph6">The legend of Gelert is a famous Welsh tale of loyalty and tragedy. It tells the story of Prince Llywelyn the Great and his beloved dog, Gelert. One day, when Llywelyn returned home, he found his infant son’s crib overturned and blood in the room. Believing Gelert had attacked the child, he killed the dog in a fit of rage. Moments later, Llywelyn discovered the child safe and unharmed, and nearby was a slain wolf, proof that Gelert had defended the baby from danger. Overcome with grief and guilt, Llywelyn buried Gelert in a place near his home, and a monument now marks the spot. The tale of Gelert serves as a powerful reminder of loyalty, sacrifice, and the consequences of hasty judgment.</string>
+    <string name="urbanLegendsParagraph7">The Afanc is a mythical creature in Welsh folklore, often described as a giant lake monster or water beast. According to legend, the Afanc dwelled in lakes and was said to be a fearsome creature that could cause great harm to those living near its waters. In some stories, it resembles a crocodile or giant beaver, while in others, it is more like a monstrous fish or amphibious beast. The most well-known tale involves the Afanc of Llyn Barfog, a lake in North Wales. The creature was said to terrorize the area until it was captured and killed by the hero, who sometimes used clever tactics or assistance from other animals to defeat it. The Afanc is often seen as a symbol of the mysterious and powerful forces of nature in Welsh mythology.</string>
+    <string name="urbanLegendsParagraph8">St. David, the patron saint of Wales, is central to several legends that highlight his piety and miraculous deeds. One well-known tale tells of how St. David, while preaching to a crowd, caused the ground beneath him to rise up and form a hill, allowing everyone present to see and hear him clearly. This miraculous event is said to have occurred in Glyn Rhosyn (modern-day St. David’s, Pembrokeshire). Another legend describes how he blessed a group of his followers, and they were able to overcome their enemies with his guidance. St. David\'s life was marked by acts of kindness, discipline, and a deep devotion to God, and he is remembered for founding the monastic community at Glyn Rhosyn, which became a pilgrimage site. His legacy is celebrated annually on St. David\’s Day, March 1st, as a symbol of Welsh identity and religious devotion.</string>
+    <string name="urbanLegendsParagraph9">Cadair Idris, located in Snowdonia, Wales, is not only known for its stunning natural beauty but also for its rich mythology. The mountain is named after Idris, a legendary giant, poet, and astronomer who was said to have lived in the area. According to folklore, Cadair Idris was his seat of power, and the mountain is believed to be a place where the boundary between the human world and the supernatural is thin. One of the most famous legends associated with the mountain is that those who sleep at its summit will either go mad or experience vivid and prophetic dreams. This idea adds to the mountain\’s reputation as a mystical and awe-inspiring place, drawing adventurers and seekers of the extraordinary. The peak is also home to Llyn Cau, a glacial lake said to be where Idris\’ spirit resides, adding further to the mountain\’s mystical allure.</string>
+    <string name="urbanLegendsParagraph10">Old Magw the Witch is a figure from Welsh folklore known for her mystical and somewhat sinister presence. She is often depicted as an old, powerful witch who lived in remote areas, such as the mountains or dense woods of Wales. Tales about her usually highlight her connection to nature, magical practices, and the use of spells or potions. Some stories say that she had the power to predict the future, heal ailments, or bring misfortune to those who crossed her. In other versions, Old Magw is a protector of the land, wielding her magic to maintain balance and defend her territory from those who would exploit it. Her legend embodies themes of mystery, the power of the natural world, and the fine line between good and evil in Welsh mythology.</string>
+
+    <!--Welsh News and Events Page-->
+    <string name="welshEventsTitle">Welsh News\nand\nUpcoming Events</string>
+    <string name="welshEventsDesc">{{ Explain this Page }}</string>
+    <string name="welshTraditionsText">Welsh Traditions</string>
+    <!--Titles-->
+    <string name="welshEvent1">St. Dwynwen’s Day - 25th January</string>
+    <string name="welshEvent2">St. David’s Day - 1st March </string>
+    <string name="welshEvent3">Calan Mai - 1st May</string>
+    <string name="welshEvent4">Heuldro\'s Haf - 21st June</string>
+    <string name="welshEvent5">Nos Calan Gaeaf - 31st October </string>
+    <string name="welshEvent6">Mari Lwyd - Mid Winter</string>
+    <!--Paragraphs-->
+    <string name="welshEventsParagraph1">St. Dwynwen\’s Day, celebrated on January 25th, is the Welsh equivalent of Valentine’s Day, dedicated to St. Dwynwen, the patron saint of lovers. The day has roots in the 5th century and is steeped in a romantic legend about Dwynwen, a Welsh princess who, after a heartbreak, prayed to God for all lovers to find happiness. Her prayers were answered, and she was granted the ability to help others in love. Today, St. Dwynwen\’s Day is marked by expressions of love and affection, with couples exchanging gifts and cards, and traditional Welsh foods and festivities. The day serves as a celebration of romance and the enduring power of love in Welsh culture.</string>
+    <string name="welshEventsParagraph2">St. David\’s Day, celebrated on March 1st, is the national day of Wales, honoring St. David, the patron saint of the country. St. David, known as Dewi Sant in Welsh, was a 6th-century monk and founder of Glyn Rhosyn (now St. David\’s) Cathedral in Pembrokeshire. He is remembered for his piety, teachings, and for spreading Christianity throughout Wales. The day is marked by celebrations that include wearing daffodils or leeks—symbols of Wales—attending parades, concerts, and community events, and enjoying traditional Welsh food like cawl and Welsh cakes. St. David\’s Day is a time for Welsh people to express pride in their heritage and culture.</string>
+    <string name="welshEventsParagraph3">Calan Mai, or May Day, is a traditional Welsh celebration held on May 1st, marking the arrival of spring and the celebration of fertility and growth. It has ancient roots, linked to the Celtic festival of Beltane, which was observed to honor the changing of the seasons and the blossoming of new life. In Wales, Calan Mai was associated with customs like dancing around the maypole, singing, and festive gatherings. People would also bring greenery into their homes to welcome the season and ward off evil spirits. The day symbolized renewal and the hope for a prosperous harvest. Today, while some of the traditional customs have faded, Calan Mai remains a celebration of the vitality of spring and the coming of warmer days.</string>
+    <string name="welshEventsParagraph4">Heuldro\'s Haf, also known as Haf\’s Festival or Summer\'s Embrace, is a Welsh celebration that marks the start of the summer season. This festival is rooted in ancient Celtic traditions, which acknowledged the importance of the summer solstice and the sun\’s life-giving power. It was a time for communities to come together, celebrate the warmth and fertility of the earth, and give thanks for the abundance that summer promised. Traditional activities included feasting, music, dancing, and rituals that were believed to enhance growth, fertility, and prosperity. Heuldro\'s Haf served as an opportunity to foster a sense of connection with nature and the cycles of the year, reinforcing the community\'s bond with the land and each other. Today, this day continues to be a celebration of nature’s power and a welcome to the season of growth and abundance.</string>
+    <string name="welshEventsParagraph5">Nos Calan Gaeaf, or All Hallows’ Eve, is the Welsh celebration that takes place on October 31st and marks the beginning of the winter season. It is deeply rooted in ancient Celtic traditions, particularly the festival of Samhain, which was considered the time when the boundary between the living and the dead was thinnest. This belief meant that spirits of the deceased could return to the mortal world, leading to customs aimed at warding off harmful spirits and protecting communities. People would light bonfires, wear costumes, and carve lanterns from turnips to create a protective barrier against the supernatural. Nos Calan Gaeaf also involved rituals and games that were believed to foretell the future. Over time, this festival evolved and contributed to the modern Halloween traditions seen today. In Wales, it remains a time to reflect on the changing seasons and celebrate the cycle of life and death.</string>
+    <string name="welshEventsParagraph6">Mari Lwyd is a traditional Welsh celebration that takes place during the winter months, usually around New Year\'s Eve or early January. The event centers around a horse’s skull, known as the Mari Lwyd, which is decorated with a white sheet and bells, with a person hidden inside to carry and animate it. The Mari Lwyd is paraded from house to house, where it engages in a battle of wits, known as pwnco, with the householders through a series of rhyming exchanges. The goal is to outwit each other in poetry, with the Mari Lwyd attempting to gain entry to the house. If the house owners lose the verbal sparring, they must provide food and drink for the group. This tradition is rooted in ancient Celtic customs and is thought to have originated as a way to ensure good fortune and prosperity for the coming year. The Mari Lwyd also symbolizes the rebirth and renewal associated with the winter solstice and the arrival of the brighter days of spring.</string>
+    <!--Credits-->
+    <string name="welshNewsCreditsTitle">Information Sourced From:</string>
+    <string name="welshNewsCreditsDesc">https://www.nationaltrust.org.uk/visit/wales/welsh-myths-and-folklore</string>
+
+    <!--Welsh History Page-->
+    <string name="welshHistoryTitle">Welsh History</string>
+    <string name="welshHistoryParagraph">Welsh history is a rich and complex tapestry, woven from ancient legends, fierce resistance, and a strong sense of cultural identity. Its origins trace back thousands of years to the early Celtic tribes that inhabited the rugged landscape of what is now modern Wales. The story of Wales is one of resilience, myth, and determination, and it has left an indelible mark on the cultural and political landscape of the British Isles. The earliest evidence of human settlement in Wales dates back to the Paleolithic period, with Stone Age tools found across the country. By the Iron Age, Wales was home to a number of Celtic tribes known for their warrior culture, most notably the tribes of the Ordovices and the Deceangli. These tribes were part of the wider Celtic world, sharing language, customs, and religious practices with their counterparts across the British Isles and continental Europe. The Romans invaded Wales in 43 AD, and it became part of the Roman Empire for nearly 350 years. During this period, the Romans built roads, forts, and towns, and left behind a legacy that still impacts the region today. The Roman presence brought new ideas, technology, and an influx of trade, but it also marked the beginning of conflict as native Celtic tribes resisted Roman rule. The Roman influence faded in the early 5th century as the empire declined, leaving Wales to develop its own unique identity separate from the emerging kingdoms of England. Following the Roman withdrawal, Wales was divided into several smaller kingdoms, including Gwynedd, Powys, and Deheubarth.\n\nThese kingdoms engaged in both conflict and cooperation, forming alliances and battling for dominance. This period saw the emergence of legendary figures such as King Arthur, who is thought to have led the Celtic Britons against the Anglo-Saxon invaders. Although historical evidence for King Arthur remains debated, his legendary status is a testament to the enduring spirit of the Welsh people. In the 11th and 12th centuries, Wales faced significant challenges from outside forces. The Norman Conquest of England led to increased pressure on Welsh borders as Norman lords sought to expand their territory. This period was marked by resistance from Welsh princes like Gruffudd ap Llywelyn, who briefly unified the nation and posed a serious challenge to English power. However, the Norman advances would eventually take hold, leading to a fractured Wales with many areas falling under the control of Norman barons.\n\nThe 13th century was particularly pivotal in Welsh history, with the rise of Prince Llywelyn ap Gruffudd, known as Llywelyn the Last. His efforts to maintain an independent Wales brought him into direct conflict with King Edward I of England. Edward\’s military campaigns, including the construction of formidable castles such as Caernarfon, Harlech, and Conwy, demonstrated English intent to subdue Wales. Despite his determined resistance, Llywelyn was defeated and killed in 1282, leading to the annexation of Wales and its incorporation into the English crown through the Statute of Rhuddlan in 1284. The late Middle Ages and early modern period in Wales saw the rise of notable figures such as Owain Glyndŵr, who led a successful revolt against English rule in the early 15th century and briefly declared himself Prince of Wales. His uprising was ultimately quashed, but Glyndŵr became a symbol of Welsh defiance and national pride, inspiring future generations.\n\nWelsh history also played a vital role in the cultural and intellectual developments of the early modern period. The printing press, the Bible translated into Welsh by William Morgan, and the growth of Welsh literature enriched the culture and solidified the Welsh language as an essential part of national identity. Wales\' journey into the modern era was marked by industrialization in the 19th century, where the coal and slate industries transformed it into a global economic force. The industrial revolution changed the demographics, leading to the growth of towns and cities, and fostering a new working class that would shape social and political movements. The creation of the National Assembly for Wales in 1999 marked a new chapter, with Wales regaining some self-governing powers and reaffirming its commitment to cultural and political autonomy. Today, Wales continues to celebrate its history through its language, music, and festivals. From the legends of King Arthur and the resistance of Welsh princes to the modern-day passion for rugby and song, Welsh history remains a source of pride and inspiration, a testament to the resilience and enduring spirit of the Welsh people.</string>
+    <string name="welshHistoryOverview">Overview of Welsh History</string>
+
+    <!--Change Language in App-->
+    <string name="changeLanguage">Change Language to Welsh</string>
+
+    <!--Other-->
+    <string name="linkToExhibit">Link to Exhibit</string>
+    <string name="displayReviews">No Reviews at the Moment</string>
+    <string name="reviewInput" tools:ignore="TypographyEllipsis">Write your review here...</string>
+    <string name="reviewSubmit">Submit Review</string>
+
+    <string name="welshNewsTitle">Welsh News and Upcoming Events</string>
+
+    <string name="aboutPara">The Welsh Roots app is a digital platform designed to explore the rich culture and heritage of Wales. Focused on showcasing the country\'s history, the app contains detailed information on four major museums: the National Waterfront Museum, Big Pit Welsh Mining Museum, St Fagans National Museum of Welsh History, and Cardiff National Museum. Users can immerse themselves in virtual tours of three of these museums, navigating the external and internal spaces through video content and Google Street View, providing a realistic and interactive experience. In addition to the museum\'s content, the app offers a library of cultural content covering various aspects of Welsh heritage, including folklore, legends, and significant historical events. The topics vary from famous Welsh stories such as the legend of Gelert the dog to the impact of the industrial revolution on Wales. The app also keeps users connected to current events and cultural celebrations, including information on festivals, exhibitions, and important collections. Users can learn about key events such as St David\'s Day and the National Eisteddfod, together with their importance and historical dates. Gwreiddiau Cymru aims to be a comprehensive resource for anyone who wants to learn more about the culture, history and traditions of Wales, offering an interesting way to explore the nation\'s heritage.</string>
+    <string name="aboutTitle">About Welsh Roots</string>
+
+
 </resources>

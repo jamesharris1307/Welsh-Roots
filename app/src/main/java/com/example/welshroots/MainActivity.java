@@ -1,24 +1,42 @@
 package com.example.welshroots;
 
+// Imports
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
+import android.widget.Button;
+import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+
+        // Login Button
+        Button buttonLogin = findViewById(R.id.buttonLogin);
+        buttonLogin.setOnClickListener(v -> {
+            // Navigate to LoginActivity
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(intent);
+        });
+
+        // Sign Up Button
+        Button buttonSignUp = findViewById(R.id.buttonSignUp);
+        buttonSignUp.setOnClickListener(v -> {
+            // Navigate to SignUpActivity
+            Intent intent = new Intent(MainActivity.this, SignUpActivity.class);
+            startActivity(intent);
+        });
+
+        // Guest Button
+        TextView continueGuest = findViewById(R.id.continueGuest);
+        continueGuest.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, DashboardActivity.class));
+            finish();
         });
     }
 }
+
+

@@ -1,8 +1,38 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.WelshRoots" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!--<item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!--Background Colour-->
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/statusBar</item>
+        <!-- App Background -->
+        <item name="appBackground">@color/appBackground</item>
+        <!-- Button -->
+        <item name="buttonBackground">@color/buttonBackground</item>
+        <!-- Banner -->
+        <item name="bannerBackground">@color/bannerBackground</item>
+        <!-- Nav Bar -->
+        <item name="navBarBackground">@color/navBarBackground</item>
+
+        <!--Text Colour-->
+        <!--Button Text-->
+        <item name="buttonText">@color/black</item>
+        <!--Banner Text-->
+        <item name="bannerText">@color/black</item>
+        <!--Paragraph Text-->
+        <item name="paraText">@color/paraText</item>
+        <!--Icon Text-->
+        <item name="iconText">@color/iconText</item>
+        <!--Heading Text-->
+        <item name="headingText">@color/headingText</item>
+
+        <!-- Edge Effect -->
+        <item name="android:colorEdgeEffect">@color/greenLight</item>
+
+        <!--Icons-->
+        <item name="icons">@color/icons</item>
+        <item name="navIconBackground">@color/navIconBackground</item>
+
     </style>
 
     <style name="Theme.WelshRoots" parent="Base.Theme.WelshRoots" />

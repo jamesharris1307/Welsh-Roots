@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomAttributes">
+        <!--Backgrounds-->
+        <attr name="buttonBackground" format="color"/>
+        <attr name="bannerBackground" format="color"/>
+        <attr name="navBarBackground" format="color"/>
+        <attr name="appBackground" format="color"/>
+
+        <!--Texts-->
+        <attr name="buttonText" format="color"/>
+        <attr name="bannerText" format="color"/>
+        <attr name="paraText" format="color"/>
+        <attr name="iconText" format="color"/>
+
+        <!--Icons-->
+        <attr name="icons" format="color"/>
+        <attr name="navIconBackground" format="color"/>
+        <attr name="headingText" format="color"/>
+    </declare-styleable>
+</resources>

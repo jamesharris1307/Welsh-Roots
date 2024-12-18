@@ -1,0 +1,440 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:layout_marginBottom="100dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsTitle"
+            android:textStyle="bold"
+            android:textColor="?attr/paraText"
+            android:textSize="40sp"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="75dp" />
+
+        <WebView
+            android:id="@+id/welshUrbanLegendsVideo1"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            app:layout_constraintTop_toBottomOf="@id/titleText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter1"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsVideo1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc1"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_devils_bridge_image"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:paddingTop="200dp" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph1"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter2"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc2"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_yew_tree_image"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph2"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter3"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc3"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_lady_of_the_lake"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph3"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter4"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc4"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_merlins_oak"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph4"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter5"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc5"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_dinas_emrys"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:paddingBottom="150dp"/>
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph5"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter6"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc6"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_gelert_image"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph6"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter7"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc7"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_afanc_image"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph7"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter8"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc8"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_st_david_image"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph8"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter9"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc9"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_cadair_idris_image"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph9"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/welshUrbanLegends10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsCounter10"
+            android:textStyle="bold"
+            android:textColor="?attr/headingText"
+            android:textSize="30sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsParagraph9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp" />
+
+        <ImageView
+            android:id="@+id/welshUrbanLegendsImage10"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/urbanLegendsImageDesc10"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegends10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="15dp"
+            android:src="@drawable/content_witch_art_image"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:paddingTop="120dp"/>
+
+        <TextView
+            android:id="@+id/welshUrbanLegendsParagraph10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/urbanLegendsParagraph10"
+            android:lineSpacingExtra="2dp"
+            android:textColor="?attr/paraText"
+            android:textSize="15sp"
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@id/welshUrbanLegendsImage10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

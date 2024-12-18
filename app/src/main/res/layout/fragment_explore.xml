@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/appBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp">
+
+        <TextView
+            android:id="@+id/homePageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explore"
+            android:textSize="24sp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textColor="?attr/paraText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exploreDesc"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/grey" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:queryHint="Search content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"/>
+
+        <Button
+            android:id="@+id/buttonWelshHistoryContent"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/welshHistoryTitle"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"
+            android:text="@string/welshHistoryTitle"
+            android:backgroundTint="@color/greenLight"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonWelshUrbanLegends"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/urbanLegendsTitle"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="35dp"
+            android:text="@string/urbanLegendsTitle"
+            android:backgroundTint="@color/greenLight"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonWelshNews"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/welshNewsTitle"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="100dp"
+            android:text="@string/welshNewsTitle"
+            android:backgroundTint="@color/greenLight"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <FrameLayout
+            android:id="@+id/child_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</ScrollView>

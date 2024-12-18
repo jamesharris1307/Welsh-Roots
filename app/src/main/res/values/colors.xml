@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+
+    <!--Both Modes-->
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#6A7276</color>
+    <color name="black">#FF000000</color>
+    <color name="greenLight">#FF00FF6A</color>
+    <color name="greenDark">#FF007A33</color>
+
+    <!--Light Mode-->
+    <!--Status Bar-->
+    <color name="statusBar">#FFFFFFFF</color>
+    <!--Banner-->
+    <color name="bannerBackground">#FFFFFFFF</color>
+    <!--Buttons-->
+    <color name="buttonBackground">#FF007A33</color>
+    <!--Nav Bar-->
+    <color name="navBarBackground">#FFFFFFFF</color>
+    <!--App Background-->
+    <color name="appBackground">#4DF0FFF0</color>
+    <!--Settings Buttons-->
+    <color name="settingsButton">#1A6A7276</color>
+
+    <!--Text-->
+    <color name="paraText">#FF000000</color>
+    <color name="iconText">#FF000000</color>
+    <color name="headingText">#FF000000</color>
+
+    <!--Icons-->
+    <color name="icons">#FF000000</color>
+    <color name="navIconBackground">#FFFFFFFF</color>
+
+    <!--Dark Mode-->
+    <!--Status Bar-->
+    <color name="statusBarDark">#121212</color>
+    <!--Banner-->
+    <color name="bannerBackgroundDark">#121212</color>
+    <!--Buttons-->
+    <color name="buttonBackgroundDark">#FF007A33</color>
+    <!--Nav Bar-->
+    <color name="navBarBackgroundDark">#121212</color>
+    <!--App Background-->
+    <color name="appBackgroundDark">#1D1D1D</color>
+
+    <!--Text-->
+    <color name="paraTextDark">#FFFFFFFF</color>
+    <color name="iconTextDark">#FFFFFFFF</color>
+    <color name="headingTextDark">#FF00FF6A</color>
+
+    <!--Icons-->
+    <color name="iconsDark">#FFFFFFFF</color>
+    <color name="navIconBackgroundDark">#121212</color>
+
+
 </resources>
