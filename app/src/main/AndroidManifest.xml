@@ -24,7 +24,7 @@
             android:value="AIzaSyDK72n5XW9ExezBawshODGg9FAZQqAr3jw" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".WelcomeActivity"
             android:theme="@style/Theme.WelshRoots"
             android:exported="true">
             <intent-filter>

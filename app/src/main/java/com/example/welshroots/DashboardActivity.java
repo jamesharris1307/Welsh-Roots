@@ -24,6 +24,7 @@ public class DashboardActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences("ThemePrefs", MODE_PRIVATE);
         int currentMode = prefs.getInt("theme", AppCompatDelegate.MODE_NIGHT_NO);
         AppCompatDelegate.setDefaultNightMode(currentMode); // Apply the theme
+
         // Set View
         setContentView(R.layout.activity_dashboard);
         // Bottom Navigation Widget
