@@ -21,7 +21,7 @@ import com.google.android.gms.maps.SupportStreetViewPanoramaFragment;
 
 public class MuseumBigPit extends Fragment {
 
-    // Declare Variables
+    // Variables
     private static final String BigPitVideoID = "NgigITMSLIg";
     private static final String ExhibitOneVideoID = "Nt7sPVKs9co";
     private static final LatLng BigPitLocation = new LatLng(51.77259753456756, -3.1045423622336243);
